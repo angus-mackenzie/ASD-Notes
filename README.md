@@ -190,3 +190,117 @@ It seems obvious that a team needs people with different skills
     * Ability and interest to work hard
 ### Estimation and Metrics
 #### Milestones and Deliverables
+* Activity - Task that takes time
+    * Duration - length of time needed for an activity
+    * Due date - date for completion of the activity
+    * Precursor - activity which precedes others that depends on it
+* Milestone
+    * Completion of an activity
+    * Recognisable end-product of a task
+        * Hand over system for testing
+    * Requires a formal, measurable output
+* Deliverable
+    * A project result that is delivered to customer
+* Milestone vs Deliverable
+    * Deliverable is a measurable and tangible outcome of the project. They are developed by project team members in alignment with the goals of the project.
+    * Milestones on the other hand are checkpoints throughout the life of the project. They identify when on or multiple groups of activities have been completed thus implying that a notable point has been reached in the project.
+#### Why Software Metrics?
+* To plan and manage a software development project
+    * Need to estimate the resources required for each of its constituent activities
+        * Subjective perceptions of the activity
+        * Based upon measurements of size and complexity
+            * Activity itself
+            * Artefact that is produced
+    * Software metric measures some aspect of software development
+        * Project level - cost or duration
+        * application level - size or complexity
+#### Software Metrics Characteristics
+* Process Metrics
+    * Process metrics measure some aspect of the development process
+        * Project cost to date
+        * amount of time spent so far on the project
+        * (These change all the time)
+* Product Metrics
+    * Product metrics measure some aspect of the software product.
+        * Analysis model
+            * number of classes in an analysis class diagram
+        * test plans
+        * program code
+* Result Metrics
+    * Measure outcomes
+        * Current cost of a project 
+    * Also known as control metrics
+        * used to determine how management control should be exercised
+            * Measurement of the current level of progress in the project is used to decide whether action is necessary to bring the project back onto schedule.
+* Predictor Metrics
+    * Quantify estimates for project resource requirements
+        * Class size
+            * A crude measure might be a simple count of attributes and operations.
+            * Predictor because it can be used to predict the time that it will take to produce code.
+    * Also measure of some aspect of a software product that is used to predict another aspect of the product or project progress.
+        * Predict that the system will be difficult to maintain
+        * Predict very low levels of reuse
+        * Change the design to improve the system
+#### Are Software Metrics Worth Anything?
+* Useful for prediction and resource estimation
+    * Otherwise use of software metrics is rather limited
+* Validity of predictor metrics is based on 3 assumptions
+    * You can measure something useful
+    * That measure actually predicts something worthwhile
+    * The relationship is real and can be expressed in a model or a formula.
+* Size metrics can be used to estimate the resource requirement for a project provided that appropriate historical data is available to derive and validate the relationship.
+#### Metrics for Object Oriented Development
+* Ability of a package to absorb change is partly dependent on ratio of abstract classes to all classes.
+    * 0 - has concrete classes and is difficult to change
+    * 1 - has no concrete classes at all (easy to change)
+* Application size
+    * Number of use cases
+    * Number of domain classes
+* Class size
+    * Number of attributes
+    * Number of operations
+    * size of operations
+### Scheduling
+#### Project Scheduling
+* Split the work in a project into seprate tasks
+    * Minimize tasks dependencies where one tasks wait for another to complete
+* Estimate the calendar time needed to complete each task
+    * Split up if much longer than 1 week
+    * Make tasks concurrent to make optimal use of workforce
+* Estimate the effort required
+    * Who will work on the tasks
+    * Resources needed to complete each task
+* Mostly needs project manager's intuition and experience. 
+![Project Schedule Process](img/projectscheduleprocess.png)
+
+#### Critical Path or Network Analysis
+* Related to PERT Charts
+* Minimum overall duration of the project according to the estimates depends on the critical path(s)
+* Any delay of a task on the critical path delays the whole project.
+#### What is Network Analysis?
+* Project Tasks
+    * Often interdependent
+    * But need to be done in parallel for teamwork to be effective
+* Task networks are graphical depictions of task dependence
+* Network analysis is a project planning method that
+    * Determines the critical path
+    * Establishes "most likely' time estimates
+    * Calculates boundaries to stop project slippage.
+#### Terminology
+* Earliest Start/Finish
+    * Earliest a task can begin/end if all preceeding tasks are completed in the shortest time
+* Latest Start/Finish
+    * Latest a task can begin/end without delaying the minimum project completion time
+* Critical Path
+    * Chain that determines overall project duration
+    * Can be multiple critical paths (not just one)
+* Slack (Float)
+* The amount of surplus time or leeway allowed while still maintaining the critical path
+
+#### Network Analysis
+Tasks are shown as boxes
+sequences constraints are lines connecting the boxes
+![Network Analysis](img/networkanalysis.png)
+* Step 1 - Label Tasks in order and indicate dependencies.
+//To Do
+Break these steps down into an easy to read document
