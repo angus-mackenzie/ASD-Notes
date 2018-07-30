@@ -304,3 +304,78 @@ sequences constraints are lines connecting the boxes
 * Step 1 - Label Tasks in order and indicate dependencies.
 //To Do
 Break these steps down into an easy to read document
+
+## Lecture 4
+### Gantt Charts
+* Horizontal Bar Chats
+    * Horizontal axis represents project time span
+    * vertical axis represents project tasks
+* Capture
+    * Task completion
+    * Simple dependencies
+    * Milestones and Deliverables
+* Can't handle complex task dependencies
+* Supported by automated scheduling tools
+    * Microsoft project 
+* Possible options:
+    * Teamgantt
+    * Microsoft project
+* Visualize entire project
+### Risk
+#### Managing Risks
+* Why?
+    * Projects have a high level of uncertainty
+    * Better to anticipate problems in advance
+* How?
+    * Identify specific risks to the project
+    * Analyze the risks
+    * Rank them in a particular order
+    * Plan for monitoring, mitigation, management
+    * Revisit continually during project
+#### Boehm's Top Ten Risk Items +2
+* Being blindsided by the competition
+* Outside interruptions
+  1. Personnel shortfalls - failure to recruit or retain key staff
+  2. unrealistic schedules and budgets
+  3. Developing the wrong functions
+  4. Developing the wrong user interfaces
+  5. Gold-plating
+  6. Continuing stream of requirements changes
+  7. Shortfalls in externally-performed tasks
+  8. Shortfalls in externally-furnished components
+  9. Real-time performance shortfalls
+  10. Straining computer science capabilities
+#### Risk Matrix
+* Sort risk by a combination of:
+    * Probability (high, medium, low)
+    * Impact - catastrophic (project failure), critical (massive delay), marginal, negligible
+![Risk Matrix](img/riskmatrix.png)
+#### 3M's
+* Mitigation
+    * How can we void or reduce the risk?
+        * Avoid the riskL change requirements
+        * Transferring the risk: e.g.: buy insurance
+    * Or assume the risk and accept and control it
+* Monitoring
+    * What factors can we track that will enable us to determine if the risk is becoming more or less likely?
+* Management
+* What contingency plans do we have if the risk becomes a reality
+### Conclusion
+#### Planning vs. Management
+* Planning
+    * Pre and Post
+    * Network analysis, resourcing, risks, schedule
+* Management
+    * During
+    * Controlling resources and timescales
+![Planning vs Management](img/planningvsmanagement.png)
+#### Tips on Project Control
+* Remember to update planning documents
+    * Show progress in Gantt chart
+    * Reassess risks
+### Resources
+* Bennett, McRobb & Farmer, Object-Oriented Systems Analysis and Design: Using UML, McGraw-Hill. Chapter 22: Managing Object-Oriented Projects.
+    * Available [here](highered.mcgrawhill.com/sites/0077125363/student_view0/online_chapters.html)
+* Sommerville, Software Engineering, Pearson
+    * Chapter 22: Project management: Risk management, Managing people, Teamwork 
+    * Chapter 23: Project planning, Software pricing, Plan-driven development, Project scheduling, Agile planning, Estimationtechniques
