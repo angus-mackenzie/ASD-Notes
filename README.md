@@ -360,6 +360,16 @@ Break these steps down into an easy to read document
     * What factors can we track that will enable us to determine if the risk is becoming more or less likely?
 * Management
 * What contingency plans do we have if the risk becomes a reality
+### Questions
+1. Which of the following statements best describes how one goes about identifying the critical path:
+    * a) Find those milestones where the earliest start time is equal to the latest start time <--- Answer
+    * b) Find those milestones where the earliest start time is less than the latest start time
+    * c) Find those milestones where the earliest start time is greater than the latest start time
+    * d) Find those milestones with some scheduling flexibility
+    * e) None of the above
+2. What does the term GANTT stand for>
+    * nothing
+3. Which of the following statements best explains what is meant by slack time in Critical Path Analysis?
 ### Conclusion
 #### Planning vs. Management
 * Planning
