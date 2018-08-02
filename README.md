@@ -28,12 +28,12 @@ JonJon Clark - clrjon005@myuct.ac.za
 11. Validation/Verification
 ### Guest Lectures Thursdays
 ### What is version/source control?
-• Version control systems are a category of software tools that
+* Version control systems are a category of software tools that
 help a software team manage changes to source code over
 time.
-• keeps track of every modification to the code in a special kind
+* keeps track of every modification to the code in a special kind
 of database
-• If a mistake is made, developers can turn back the clock and
+* If a mistake is made, developers can turn back the clock and
 compare earlier versions of the code to help fix the mistake
 while minimizing disruption to all team members
 ### source Control
@@ -73,7 +73,7 @@ There is no technique that fixes the inherent complexity of software design and 
 * The data that are input and output
 * The content that is presented to users as a consequence of using the software
 * The performance, constraints, interfaces and reliability that bound the system
-### Defining SCope
+### Defining Scope
 * Scope is defined using one of two techniques
     * A narrative description of software scope is developed after communication with stakeholders
     * A set of use-cases is developed. A use-case is a scenario-based description of the user's interaction with the software from the user's point of view.
