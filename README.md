@@ -389,3 +389,20 @@ Break these steps down into an easy to read document
 * Sommerville, Software Engineering, Pearson
     * Chapter 22: Project management: Risk management, Managing people, Teamwork 
     * Chapter 23: Project planning, Software pricing, Plan-driven development, Project scheduling, Agile planning, Estimationtechniques
+
+## Lecture 5
+Software Engineering Methods
+### Problems
+#### Observations
+* Most common problem in software systems is not the construction, but the estimation.
+* Software projects fail to meet cost and schedule, because those targets are wrong.
+    * Costing software is difficult
+* Know little about accurate estimations so targets are unreasonable
+    * Made by people least able to make them
+        * e.g.: marketers, managers and customers.
+* Communication is hard when ideas are abstract or conceptual
+
+#### Software Engineering Triangle
+* Time
+* Scope
+* Cost
