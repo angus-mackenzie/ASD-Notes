@@ -406,3 +406,78 @@ Software Engineering Methods
 * Time
 * Scope
 * Cost
+
+![Software Engineering Triangle](img/softwaretriangle.png)
+
+#### Think Big, Act Small
+Just say no (to large projects)
+* Secret to project success: enforce limits on size and complexity
+    * Size and complexity trump all other success factors
+* Break large projects down into a sequence of smaller ones, prioritized on direct business value.
+    * Use stable, full-time, cross-functional teams that follow a disciplined agile approach.
+* Quick solution is to just say no to large projects.
+    * More sensibly: adopt a small project strategy.
+        * Deliver software at lower cost and with fewer defects.
+* Projects too often get too big to succeed.
+    * Constantly being called on to do more for less
+    * But the real key to success is doing less for less
+        * Splitting large projects into a sequence of small ones.
+#### Wasted Effort
+More than 45% of features are never used, while another 19% are used rarely
+* Almost 2/3 of the features are never or rarely used
+* Stop Developing these features and double productivity
+#### You Ain't Gonna Need It (YAGNI)
+* Cry to prevent speculative development and Gold Plating (aka Bells and Whistles)
+> I am sure Im going to need some additional functionality later, so ill write it now
+* Better is to build only what you need now
+* Speculative development adds complexity to code prematurely
+#### Economies of Adding Features
+Profitable Project: Returns outpace costs
+
+![Profitable project](img/profitableproject.png)
+
+Ultimately Unprofitable project: features become a drag
+
+![Unprofitable Project](img/unprofitableproject.png)
+
+However, **The cost curve under most software processes is exponential**
+* Fred Brooks attributes the exponential rise in costs to the cost of communication
+    * Customer and developer must understand each other perfectly.
+* New Projects have success because the cost curve is still flat
+* Cost start increasing
+    * Quickly overcome any additional value added from new features.
+
+![Cost Curve](img/unprofitableprojectcostcurve.png)
+
+#### The Crunch
+* Crunch is the side effect of other problems and the cause of burnout.
+
+#### Software Entropy, Rot & Geriatrics
+* Entropy is a measure of disorder in a physical system
+* Software entropy: measure of code complexity
+    * Tends to increase over time
+    * Speculatie development adds complexity at the start
+    * Bug fixes and enhancement increase complexity and degrade structure
+        * Most software applications grow at annual rates of 5% - 10%.
+* Entropy makes it hard to 
+    * Make changes and fixes
+    * Understand the code
+* Cure for entropy is
+    * YAGNI at the start and
+    * Refactoring as you go along
+#### Yak Shaving
+Official jargon for computer science
+1. You want to generate documentation based on your git logs
+2. You try to add a git hook only to discover the library you have is incompatible and therefoe won't work with your web server
+3. You start to update your web server, but realize that the version you need isn't supported by the patch level of your OS, so you start to update your OS
+4. The operating system upgrade has a known issue with the disk array the machine uses for backups.
+5. etc...
+
+Compromise if necessary
+Explore alternate yaks
+
+#### So we have
+* Undefined system
+* Fixed resources
+* Fixed time
+* high quality
