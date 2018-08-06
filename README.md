@@ -471,3 +471,59 @@ value the items on the left more.
 * The best way to get user feedback is to give a product even if it is only work in progress
 * Prototypes are better than a document
 * Effort spent getting the product back to a working state is a missed opportunit to be doing valuable work
+* Prototype solutions to risky problems helps to increase the chance of having a working product.
+* Prototypes: an inexpensive way to try out ideas so that as many issues as possible are understood before the real implementation
+* Two main classes of prototypes
+    * The true prototype
+        * Test implementation to udnerstand a problem before it is implemented for real
+    * "tracer bullets"
+        * prototype that is intended to gradually turn into the final solution
+**Continuous Integration**
+* An important discipline is to continuously integrate changes
+    * Frequent integration helps to ensure tha modules will fit together
+    * Also that the product continues to work with all the changes
+* Developer have the bad habit of checking out a number of files and not checking them in again until their work is dones
+    * Developers should integrate their work daily
+    * This gradual introduction of changes ensures that integration problems or regresions are caught early
+**Performance**
+* *Don't neglect performance!*
+    * Performance is a topic that generates passionate discussions in software development
+    * Some people feel that code clarity is more important and that you should get the code clarity right first and then otpimize the 1% to 3% of code that needs it
+    * Others feel that you should code for performance first, because if you don't, your code will always be slow
+
+## Extreme Programming
+### Principles
+| Principle             | Description |
+| --------------------- | ----------- |
+| Incremental planning  |             |
+| Small releases        |             |
+| Simple Design         |             |
+| Pair programming      |             |
+| Collective ownership  |             |
+| Continous integration |             |
+| Sustainable pace      |             |
+| On-site customer      |             |
+
+### System Metaphor in Extreme Programming
+* System metaphor is a mental model that everyone ...
+* Metaphor is something you start using when your mother asks what you are working on and you try to explain her the details.
+* Use your common sense or find the person on your team who is good at explaining techical things to customers in a way that is easy to understand.
+
+### Pair programming in XP
+* Programmers work in pairs, sit together to write every line of code
+    * 2 programmers
+* Productivity is similar to that of two people working independently
+* Common ownership of code
+    * Individuals are not help responsible for problems with the code.
+* Collective responsibility for the system
+    * Team has collective responsibility for resolving problems
+* Spreads knowledge across teh team
+
+## Testing
+### Test-first development
+* Writing tests before code clarifies the requirements to be implemented
+* Tests are programs rather than data
+    * Executed automatically
+    * Usually 
+### Customer Involvement
+* Role of the customer in testing is to help develop
