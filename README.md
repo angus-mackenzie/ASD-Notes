@@ -38,10 +38,10 @@ compare earlier versions of the code to help fix the mistake
 while minimizing disruption to all team members
 ### source Control
 Managing a codebase with lots of simultaneous contributors
-|Distributed|Centralized|
-|---|---|
-|Mercurial (hg),git| CVS, Subversion|
-|Work in local repository, sync changes later | Repository exists on a client server, work on clients|
+| Distributed                                  | Centralized                                           |
+| -------------------------------------------- | ----------------------------------------------------- |
+| Mercurial (hg),git                           | CVS, Subversion                                       |
+| Work in local repository, sync changes later | Repository exists on a client server, work on clients |
 ### Web-based hosting service for version control using Git
 * Bitbucket
 * Github
