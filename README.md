@@ -406,3 +406,68 @@ Software Engineering Methods
 * Time
 * Scope
 * Cost
+
+
+## Lecture 7
+Agile Development Methodologies
+## Principles of Agile Methods
+### Agile Manifesto
+We are uncovering better ways of developing software by doing it and helping others do it.
+Through this work we have come to value:
+* Individuals and interactions over processes and tools
+* Working software over comprehensive documentation
+* Customer collaboration over contract negotiation
+* Responding to change over following a plan
+
+That is, while there is value in the items on the right, we
+value the items on the left more. 
+
+> If you can dodge a wrench you can dodge a requirement
+
+## Fixed Timescale
+
+
+### Recording User Stories
+
+### Incremental Design
+* As opposed to Fred Brooks *No Silver Bullet* Agile does not follow a top-down design method.
+    * Top-down design says: time in design is worth it to save cos of reowrking the design many times.
+* Agile design is always the same size as the system.
+    * "You can't possibly anticipate the problems and alternatives that will arise once you start coding"
+* If a new feature comes along that requires major changes then that is thetrade-off for the flexibility it allows.
+    * perhaps this feature wa not even known at the beginning anyway!
+    * Or it might have gone away if we knew of it at the start!
+
+## Agile Development Cycle
+* The cycle is Analyse, Develop, Test; Analyse Develop, Test
+    * Doing each step for each feature, one feature at a time
+> ADT
+
+* Advantages of this approach include;
+    * Reduced risk
+    * Increased value: delivering some benefits early
+    * More flexibility/agility
+    * Better cost management
+* Each feature must be fully developed, to the extent it can be shipped
+* Develop features in priority order
+
+### How Frequent is Frequent enough?
+* There is no right or wrong answer
+    * Decide what's appropriate; stick to a regular release cycle
+        * Allows you to plan
+
+### Done Means Done
+* Features developed in an iteration, should be 100% complete by the end of the iteration
+    * Ideally, each iteration results in a release
+* In Agile development, *Done!* means shippable
+
+### Working Product at All Times
+* Meaning 1
+    * A software product should always be ina working state
+        * Not always functionally complete, just that it works and has high quality
+* Meaning 2
+    * The emphasis is on producing a working product and shipping it
+    * Not on producing documentation that might lead to a product
+* The best way to get user feedback is to give a product even if it is only work in progress
+* Prototypes are better than a document
+* Effort spent getting the product back to a working state is a missed opportunit to be doing valuable work
