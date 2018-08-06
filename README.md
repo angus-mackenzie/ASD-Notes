@@ -3,6 +3,7 @@
 ## Lecture 1
 ### Advanced Software Development
 JonJon Clark - clrjon005@myuct.ac.za
+
 **Topics**
 * Requirements Gathering
 * Software Design
@@ -456,7 +457,7 @@ However, **The cost curve under most software processes is exponential**
 * Entropy is a measure of disorder in a physical system
 * Software entropy: measure of code complexity
     * Tends to increase over time
-    * Speculatie development adds complexity at the start
+    * Speculative development adds complexity at the start
     * Bug fixes and enhancement increase complexity and degrade structure
         * Most software applications grow at annual rates of 5% - 10%.
 * Entropy makes it hard to 
@@ -468,7 +469,7 @@ However, **The cost curve under most software processes is exponential**
 #### Yak Shaving
 Official jargon for computer science
 1. You want to generate documentation based on your git logs
-2. You try to add a git hook only to discover the library you have is incompatible and therefoe won't work with your web server
+2. You try to add a git hook only to discover the library you have is incompatible and therefore won't work with your web server
 3. You start to update your web server, but realize that the version you need isn't supported by the patch level of your OS, so you start to update your OS
 4. The operating system upgrade has a known issue with the disk array the machine uses for backups.
 5. etc...
@@ -674,11 +675,67 @@ Flexible functionality, but fixed time and resources for Iterative
 
 ![Reduce risk](img/riskreduction.png)
 
+#### Conclusion
+* Consider only iterative technologies
+* Agile technologies
+    * Small time cycles
+    * Many prototypes
+    * Meet user requirements
+    * Timescale is adopted by the development team
+
+Alternative to the SE Constraint Triangle?
+
+![Method Included](img/methodTraingle.png)
+
+#### Benefits of Iterative Development
+* Early reduction of risk: technical, requirements, objectives, usability, etc
+* Early visible progress
+* Early feedback
+    * User engagement, and adaptation
+    * Better meets the real needs
+* Managed Complexity: no very long and complex steps
+* Get a robust architecture
+    * Architecture can be assessed and improved early
+* Handle evolving requirements
+    * Users provide feedback to operational systems
+    * responding to feedback is an incremental change
+* Allow for changes: system can adapt to problems
+* Learn and apply lessons within the development process
+## Lecture 6
+Agile is a set of values and principles.
+
+TO DO
+12 Agile Principles: 
 
 ## Lecture 7
+### Principles of Agile Methods
+#### What is Agile Software Development?
+* Put the software being developed first
+* Acknowledge that user requirements change
+* It is agile because it can respond quickly to the users changing needs
+* Advocates frequent and regular, software released
+    * Users can respond quickly to these releases, changing requirements
+> Thats not what we meant!
 Agile Development Methodologies
-## Principles of Agile Methods
-### Agile Manifesto
+#### Principles of Agile Methods
+| Principle            | Description                                                                                                                                                                           |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Customer Involvement | Customers should be closely involved throughout the development process. Their role is to provide and prioritize new system requirements and to evaluate the iterations of the system |
+| Incremental Delivery | The software is developed in increments with the customer specifying the requirements to be included in each increment.                                                               |
+| People not process   | The skills of the development team should be recognized and exploited. Team members should be left to develop their own ways of working without prescriptive processes.               |
+| Embrace Change       | Expect the system requirements to change and so design the system to accommodate these changes                                                                                        |
+| Maintain Simplicity  | Focus on simplicity in both the software being developed and in the development process. Wherever possible, actively work to eliminate complexity from the system.                    |
+#### Teams Must Be Empowered
+* The project team must have sole responsibility to deliver the product
+* ANy interference with the project team is disruptive and reduces their motivation to deliver
+* The team must together
+    * Establish and clarify the requirements
+    * Prioritise them together
+    * Agree to the tasks required to deliver them
+    * estimate the effort involved
+* It ensures the buy-in and commitment from the entire project team from the outset
+* When challenges arise, the team feels a real sense of ownership
+#### Agile Manifesto
 We are uncovering better ways of developing software by doing it and helping others do it.
 Through this work we have come to value:
 * Individuals and interactions over processes and tools
@@ -690,18 +747,94 @@ That is, while there is value in the items on the right, we
 value the items on the left more. 
 
 > If you can dodge a wrench you can dodge a requirement
+#### Pareto's Law - 80/20 Rule
+* Typically 80% of your results may actually come from only 20% of your efforts!
+    * Try to apply the 80/20 rule, and focus on the important 20% of effort that gets the majority of the results.
+* The difficult question is can you see initially which 20% is the important 20%?
+    * The 20% that will deliver 80% of the results
+    * In very many cases, the answer is NO
 
-## Fixed Timescale
+### Fixed Timescale
+#### Time Waits for No-one
+* In Agile Development, requirements evolve, but timescales are fixed
+* Contrast to traditional development
+    * Capture all known requirements
+    * Changes are subject to change control
+    * Users are told it's much more expensive to change or add requirements during or after the software is built
+        * It becomes imperative to include everything they can think of, everything they ever dreamed of
+* Normally
+    * Users may actually use only 20% or less of the product
+    * Many projects start with a bloated scope
+        * No-one is sure at the outset which 20% they will use
+    * It is impossible to think of everything, things change, and things are understood differently.
+* Agile development assumes that requirements emerge and evolve
+    * However much analysis and design you do, you cannot really know what you want until you see and use the software
+    * In the time spent analysing and reviewing requirements and designing a solution, external conditions could change
+#### Fixed Budget
+* What does business expect from development teams?
+    * Deliver and agreed business requirements
+    * On time and within budget
+    * To an acceptable quality
+        * In agile development, it is the scope that is variable, not the cost and timescale
+* For this to work, it's imperative to start development with the core, highest priority features
+    * Delivered in the earliest iterations
+* As a result
+    * Business has a fixed budget
+    * Based on affordable resources and
+    * Can make plans based on a certain launch date
+### Bare Requirements
+#### Agile Requirements are Barely Sufficient
+* Capture requirements at a high level and on a piecemeal basis
+    * Just in time for reach feature to be developed
+    * Barely sufficient
+        * The minimum to enable development and testing
+            * Minimise the time spent on anything not part of product
+* Understand enough to determine the scope and for high level budgetary estimates
+* Captured in collaborative workshops so that all team members understand the requirements
+    * Allows everyone to contribute, challenge and understand what's needed and why
+#### User Stories
+* Most agile teams represent each requirement as a user story
+    * Similar to Use Cases but lightweight and simpler
+    * A simple statement about what a user wants to do with a feature
+* Should focus on the who, what and why of a feature, **now how**
+    * on a job site, two high-level User Stories might be:
+        * As a job seeker, I want to search for a job, so I can advance my career
+        * As a recruiter, I want to post a job vacancy, so I can find a new team member
+* The general form can be
+    * As a [user role], I want to [goal], so I can [reason]
+* At the start of a project, capture an initial list of User Stories up-front
+    * useful for estimating and planning
+* Defer capturing the details until the story is prioritised and due to be developed
+* Users often tell stories
+    * About the failings of their current system
+    * How they see things working better in future
+    * Capture these stories as User Stories, as they are told
+* In traditional development projects, these stories are captured in a lengthy analysis process and available in a lengthy document
+    * Not user friendly
+#### Recording User Stories
+* Written on postcard size cards in 3 parts
+    * Heading
+        * Name/description of the user story, reference numbers, estimated size, etc
+    * Conversation (on the front of the card)
+        * Information about the user story + what system is meant to do
+            * A sketch or diagram of the feature
+            * Notes about how it should function
+    * Confirmation (on the back of the card)
+        * Test cases to help identify scenarios that users, developer and/pr analysts may not have thought of
+* Writing User Stories on a card ensures requirements are broken into small manageable pieces of functionality
 
-
-### Recording User Stories
-
-### Incremental Design
+#### Agile Requirements are Barely Sufficient
+* Cards can be supported by documentation, but keep it to the bare minimum to allow a feature to be developed, and always in very small units.
+* Requirements should be broken into tasks of no more than 16 hours or preferably 8 hours, so progress can be measured daily
+* All items are deliverables not activities or tasks
+    * You can see a deliverable to judge it quality and completeness
+    * A task you cannot
+#### Incremental Design
 * As opposed to Fred Brooks *No Silver Bullet* Agile does not follow a top-down design method.
-    * Top-down design says: time in design is worth it to save cos of reowrking the design many times.
+    * Top-down design says: time in design is worth it to save cos of re-working the design many times.
 * Agile design is always the same size as the system.
     * "You can't possibly anticipate the problems and alternatives that will arise once you start coding"
-* If a new feature comes along that requires major changes then that is thetrade-off for the flexibility it allows.
+* If a new feature comes along that requires major changes then that is the trade-off for the flexibility it allows.
     * perhaps this feature wa not even known at the beginning anyway!
     * Or it might have gone away if we knew of it at the start!
 
@@ -719,78 +852,163 @@ value the items on the left more.
 * Develop features in priority order
 
 ### How Frequent is Frequent enough?
+* Competitors won't wait
+* Speed-to-market - a significant competitive edge
+* The value of first-mover advantage is enormous
+    * Research shows 80% of first to market end up market leaders
 * There is no right or wrong answer
     * Decide what's appropriate; stick to a regular release cycle
         * Allows you to plan
+        * Allows your infrastructure and ops team to plan
+        * Allows your business colleagues to plan
+        * Allows launch events, marketing campaigns, etc to be planned
+* BUT - Frequent releases of buggy software can really irritate customers
 
 ### Done Means Done
 * Features developed in an iteration, should be 100% complete by the end of the iteration
     * Ideally, each iteration results in a release
 * In Agile development, *Done!* means shippable
+    * In practice a feature may rely on other features being completed before the product could really be shipped
+        * But the feature on its own merits should be shippable
+* Completing each feature before moving onto the next ensures the system is not in a state where multiple features are 90% complete or untested, as in traditional developments
 
 ### Working Product at All Times
 * Meaning 1
-    * A software product should always be ina working state
+    * A software product should always be in a working state
         * Not always functionally complete, just that it works and has high quality
 * Meaning 2
     * The emphasis is on producing a working product and shipping it
     * Not on producing documentation that might lead to a product
 * The best way to get user feedback is to give a product even if it is only work in progress
 * Prototypes are better than a document
-* Effort spent getting the product back to a working state is a missed opportunit to be doing valuable work
+* Effort spent getting the product back to a working state is a missed opportunity to be doing valuable work
+
+
+**Prototypes**
 * Prototype solutions to risky problems helps to increase the chance of having a working product.
 * Prototypes: an inexpensive way to try out ideas so that as many issues as possible are understood before the real implementation
 * Two main classes of prototypes
     * The true prototype
-        * Test implementation to udnerstand a problem before it is implemented for real
+        * Test implementation to understand a problem before it is implemented for real
     * "tracer bullets"
         * prototype that is intended to gradually turn into the final solution
+  
 **Continuous Integration**
 * An important discipline is to continuously integrate changes
     * Frequent integration helps to ensure tha modules will fit together
     * Also that the product continues to work with all the changes
-* Developer have the bad habit of checking out a number of files and not checking them in again until their work is dones
+* Developer have the bad habit of checking out a number of files and not checking them in again until their work is done
     * Developers should integrate their work daily
-    * This gradual introduction of changes ensures that integration problems or regresions are caught early
+    * This gradual introduction of changes ensures that integration problems or regressions are caught early
+  
+**Nightly Builds**
+* Software should be completely rebuilt from scratch daily
+    * The result of the build will be an installable product image
+* The build should include as many automated tests as possible to catch integration problems early.
+    * If the build or tests fail, fix the problems first thing
+    * Don't let anyone integrate any additional work until after the build succeeds again
+    * There is a risk of multiple bad changes accumulating that will jeopardize the quality of the product
 **Performance**
 * *Don't neglect performance!*
     * Performance is a topic that generates passionate discussions in software development
-    * Some people feel that code clarity is more important and that you should get the code clarity right first and then otpimize the 1% to 3% of code that needs it
+    * Some people feel that code clarity is more important and that you should get the code clarity right first and then optimize the 1% to 3% of code that needs it
     * Others feel that you should code for performance first, because if you don't, your code will always be slow
 
 ## Extreme Programming
 ### Principles
-| Principle             | Description |
-| --------------------- | ----------- |
-| Incremental planning  |             |
-| Small releases        |             |
-| Simple Design         |             |
-| Pair programming      |             |
-| Collective ownership  |             |
-| Continous integration |             |
-| Sustainable pace      |             |
-| On-site customer      |             |
+| Principle              | Description                                                                                                                                                                                                                                                                                    |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Incremental planning   | Requirements are recorded on story cards and the stories to be included in a release are determined by the time available and their relative priority. The developers break these stories into development ‘Tasks’.                                                                          |
+| Small releases         | The minimal useful set of functionality that provides business value is developed first. Releases of the system are frequent and incrementally add functionality to the first release.                                                                                                         |
+| Simple Design          | Enough design is carried out to meet the current requirements and no more.                                                                                                                                                                                                                     |
+| Test-First Development | An automated unit test framework is used to write tests for a new piece of functionality before that functionality itself is implemented                                                                                                                                                       |
+| Refactoring            | All developers are expected to refactor the code continuously as soon as possible code improvements are found. This keeps the code simple and maintainable                                                                                                                                     |
+| Pair programming       | Developers work in pairs, checking each other’s work and providing the support to always do a good job.                                                                                                                                                                                       |  |
+| Collective ownership   | The pairs of developers work on all areas of the system, so no islands of expertise develop and all the developers take responsibility for all of the code: anyone can change anything.                                                                                                        |
+| Continuous integration | As soon as the work on a task is complete, it is integrated into the whole system. After any such integration, all the unit tests in the system must pass.                                                                                                                                     |
+| Sustainable pace       | Large amounts of overtime are not acceptable as the net effect is often to reduce code quality & medium term productivity                                                                                                                                                                      |
+| On-site customer       | A representative of the end-user of the system (the customer) should be available full time for the use of the XP team. In an extreme programming process, the customer is a member of the development team and is responsible for bringing system requirements to the team for implementation |
 
-### System Metaphor in Extreme Programming
-* System metaphor is a mental model that everyone ...
+#### System Metaphor in Extreme Programming
+* System metaphor is a mental model that everyone shares about the system and it shapes the architecture of the system.
+    * Frequently misunderstood and neglected part of XP
+    * Difficult to find such a metaphor
 * Metaphor is something you start using when your mother asks what you are working on and you try to explain her the details.
-* Use your common sense or find the person on your team who is good at explaining techical things to customers in a way that is easy to understand.
+* Use your common sense or find the person on your team who is good at explaining technical things to customers in a way that is easy to understand.
 
-### Pair programming in XP
+#### XP Planning Game 
+##### Stages
+* Release Planning: Requirements for long-term release (months)
+    * Customers and Developers
+* Iteration Planning: Next increment (1-4 weeks work for the team)
+    * Only developers
+| Phases of   | Release Planning                                                                       | Iteration Planning                                                 |
+| ----------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Exploration | Customer provides high-value requirements written as user stories                      | Requirement translated into different tasks recorded on task cards |
+| Commitment  | Developers commit to the functionality and date for next release                       | Task assigned to programmers and time to complete estimated        |
+| Steering    | Plan can be adjusted, New requirements added, Existing requirements changed or removed | Tasks are performed and the result is matched with the user story  |
+
+##### Release Planning
+* Customer or user is part of XP team and is responsible for making decisions on requirements
+    * User requirements are expressed as scenarios or user stories
+* Team read and discuss the stories, and rank them in order of
+    * Value to customer
+    * Risk
+    * Amount of time they think it will take to implement the story; measured as velocity
+* Choose scope: customer selects stories with the features to be implemented in the next release based on these estimates
+##### Iteration Planning
+* Stories to be implemented in an iteration are chosen
+* Development team break them down into implementation tasks
+    * Written on task cards
+    * These tasks are the basis of schedule estimates
+* Programmers then accept tasks and the load is balanced between the team members
+##### Iteration Steering
+![Iteration Steering](img/iterationsteering.png)
+
+#### Pair programming in XP
 * Programmers work in pairs, sit together to write every line of code
-    * 2 programmers
+    * 2 programmers + 1 Computer = atomic unit of XP code development
+    * One person at the keyboard, other supporting
+    * Pairs are created dynamically
+    * Egoless development
+* Informal review process: each line of code is looked at by at least two people
 * Productivity is similar to that of two people working independently
 * Common ownership of code
     * Individuals are not help responsible for problems with the code.
 * Collective responsibility for the system
     * Team has collective responsibility for resolving problems
-* Spreads knowledge across teh team
+* Spreads knowledge across the team
+    * Reduces risk if someone leaves
+* Motivates refactoring as the whole team will benefit from it
 
-## Testing
+### Testing
+#### Testing in Agile Development
+* Testing in Agile Development
+    * Testing the software continuously throughout development
+* Agile development does not have a separate test phase
+* Developers write automated repeatable unit tests
+    * Testing done as part of the build
+    * Ensures all features are working each time as build is produced
+        * Builds should be regular, at least daily
+    * Integration is done as you go too
+* These actions keep the software in a releasible condition throughout the development
+    * Can be shipped whenever appropriate
+### Testing in XP
+* The XP agile methodology recommends test driven development
+    * Writing tests before writing code
+* Testing can still be done by professional testers
+    * In agile development testing is more quality assurance than purely testing
+* Testing is central to XP and XP has developed an approach where the program is tested after every change has been made
+* XP testing features:
+    * Test-first development
+    * Incremental test development from scenarios
+    * User involvement in test development and validation
+    * Automated test harnesses are used to run all component test each time that a new release is built.
 ### Test-first development
 * Writing tests before code clarifies the requirements to be implemented
 * Tests are programs rather than data
     * Executed automatically
-    * Usually 
+    * Usually with a testing framework such as **junit**
+* All previous and new tests are run automatically when new functionality is added, thus checking that the new functionality has not introduced errors
 ### Customer Involvement
 * Role of the customer in testing is to help develop
