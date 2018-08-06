@@ -28,20 +28,20 @@ JonJon Clark - clrjon005@myuct.ac.za
 11. Validation/Verification
 ### Guest Lectures Thursdays
 ### What is version/source control?
-• Version control systems are a category of software tools that
+* Version control systems are a category of software tools that
 help a software team manage changes to source code over
 time.
-• keeps track of every modification to the code in a special kind
+* keeps track of every modification to the code in a special kind
 of database
-• If a mistake is made, developers can turn back the clock and
+* If a mistake is made, developers can turn back the clock and
 compare earlier versions of the code to help fix the mistake
 while minimizing disruption to all team members
 ### source Control
 Managing a codebase with lots of simultaneous contributors
-|Distributed|Centralized|
-|---|---|
-|Mercurial (hg),git| CVS, Subversion|
-|Work in local repository, sync changes later | Repository exists on a client server, work on clients|
+| Distributed                                  | Centralized                                           |
+| -------------------------------------------- | ----------------------------------------------------- |
+| Mercurial (hg),git                           | CVS, Subversion                                       |
+| Work in local repository, sync changes later | Repository exists on a client server, work on clients |
 ### Web-based hosting service for version control using Git
 * Bitbucket
 * Github
@@ -73,7 +73,7 @@ There is no technique that fixes the inherent complexity of software design and 
 * The data that are input and output
 * The content that is presented to users as a consequence of using the software
 * The performance, constraints, interfaces and reliability that bound the system
-### Defining SCope
+### Defining Scope
 * Scope is defined using one of two techniques
     * A narrative description of software scope is developed after communication with stakeholders
     * A set of use-cases is developed. A use-case is a scenario-based description of the user's interaction with the software from the user's point of view.
@@ -407,6 +407,7 @@ Software Engineering Methods
 * Scope
 * Cost
 
+<<<<<<< HEAD
 ![Software Engineering Triangle](img/softwaretriangle.png)
 
 #### Think Big, Act Small
@@ -481,3 +482,125 @@ Explore alternate yaks
 * Fixed resources
 * Fixed time
 * high quality
+=======
+
+## Lecture 7
+Agile Development Methodologies
+## Principles of Agile Methods
+### Agile Manifesto
+We are uncovering better ways of developing software by doing it and helping others do it.
+Through this work we have come to value:
+* Individuals and interactions over processes and tools
+* Working software over comprehensive documentation
+* Customer collaboration over contract negotiation
+* Responding to change over following a plan
+
+That is, while there is value in the items on the right, we
+value the items on the left more. 
+
+> If you can dodge a wrench you can dodge a requirement
+
+## Fixed Timescale
+
+
+### Recording User Stories
+
+### Incremental Design
+* As opposed to Fred Brooks *No Silver Bullet* Agile does not follow a top-down design method.
+    * Top-down design says: time in design is worth it to save cos of reowrking the design many times.
+* Agile design is always the same size as the system.
+    * "You can't possibly anticipate the problems and alternatives that will arise once you start coding"
+* If a new feature comes along that requires major changes then that is thetrade-off for the flexibility it allows.
+    * perhaps this feature wa not even known at the beginning anyway!
+    * Or it might have gone away if we knew of it at the start!
+
+## Agile Development Cycle
+* The cycle is Analyse, Develop, Test; Analyse Develop, Test
+    * Doing each step for each feature, one feature at a time
+> ADT
+
+* Advantages of this approach include;
+    * Reduced risk
+    * Increased value: delivering some benefits early
+    * More flexibility/agility
+    * Better cost management
+* Each feature must be fully developed, to the extent it can be shipped
+* Develop features in priority order
+
+### How Frequent is Frequent enough?
+* There is no right or wrong answer
+    * Decide what's appropriate; stick to a regular release cycle
+        * Allows you to plan
+
+### Done Means Done
+* Features developed in an iteration, should be 100% complete by the end of the iteration
+    * Ideally, each iteration results in a release
+* In Agile development, *Done!* means shippable
+
+### Working Product at All Times
+* Meaning 1
+    * A software product should always be ina working state
+        * Not always functionally complete, just that it works and has high quality
+* Meaning 2
+    * The emphasis is on producing a working product and shipping it
+    * Not on producing documentation that might lead to a product
+* The best way to get user feedback is to give a product even if it is only work in progress
+* Prototypes are better than a document
+* Effort spent getting the product back to a working state is a missed opportunit to be doing valuable work
+* Prototype solutions to risky problems helps to increase the chance of having a working product.
+* Prototypes: an inexpensive way to try out ideas so that as many issues as possible are understood before the real implementation
+* Two main classes of prototypes
+    * The true prototype
+        * Test implementation to udnerstand a problem before it is implemented for real
+    * "tracer bullets"
+        * prototype that is intended to gradually turn into the final solution
+**Continuous Integration**
+* An important discipline is to continuously integrate changes
+    * Frequent integration helps to ensure tha modules will fit together
+    * Also that the product continues to work with all the changes
+* Developer have the bad habit of checking out a number of files and not checking them in again until their work is dones
+    * Developers should integrate their work daily
+    * This gradual introduction of changes ensures that integration problems or regresions are caught early
+**Performance**
+* *Don't neglect performance!*
+    * Performance is a topic that generates passionate discussions in software development
+    * Some people feel that code clarity is more important and that you should get the code clarity right first and then otpimize the 1% to 3% of code that needs it
+    * Others feel that you should code for performance first, because if you don't, your code will always be slow
+
+## Extreme Programming
+### Principles
+| Principle             | Description |
+| --------------------- | ----------- |
+| Incremental planning  |             |
+| Small releases        |             |
+| Simple Design         |             |
+| Pair programming      |             |
+| Collective ownership  |             |
+| Continous integration |             |
+| Sustainable pace      |             |
+| On-site customer      |             |
+
+### System Metaphor in Extreme Programming
+* System metaphor is a mental model that everyone ...
+* Metaphor is something you start using when your mother asks what you are working on and you try to explain her the details.
+* Use your common sense or find the person on your team who is good at explaining techical things to customers in a way that is easy to understand.
+
+### Pair programming in XP
+* Programmers work in pairs, sit together to write every line of code
+    * 2 programmers
+* Productivity is similar to that of two people working independently
+* Common ownership of code
+    * Individuals are not help responsible for problems with the code.
+* Collective responsibility for the system
+    * Team has collective responsibility for resolving problems
+* Spreads knowledge across teh team
+
+## Testing
+### Test-first development
+* Writing tests before code clarifies the requirements to be implemented
+* Tests are programs rather than data
+    * Executed automatically
+    * Usually 
+### Customer Involvement
+* Role of the customer in testing is to help develop
+>>>>>>> c0128be509aec96be7162a398eb6e01bd22ca053
