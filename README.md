@@ -1069,3 +1069,20 @@ value the items on the left more.
     * Your development environment must provide rapid responses to small changes
     * Your designs must consist of highly cohesive, loosely coupled components
         * This makes evolution and maintenance of the system easier
+##### Unit Tests
+* Implication: developers need to learn how to write effective unit tests
+* Experience is that good unit tests
+    * Run fast
+        * Have short setups, run times and break downs
+    * Run in isolation
+        * You should be able to reorder them
+    * Use data to make them easy to read and understand
+    * Use real data when they need to 
+        * Copied of production data
+    * Represent one step towards your overall goal
+
+* Most programmers don't read the written documentation for a system
+    * Instead they prefer to work with the code
+* When trying to understand a class or operation most programmers will look for sample code that invokes it
+* Unit tests provide a working specification of the functional code
+* Unit tests become a significant portion of the technical documentation
