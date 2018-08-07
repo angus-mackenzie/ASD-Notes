@@ -942,7 +942,7 @@ value the items on the left more.
     * Customers and Developers
 * Iteration Planning: Next increment (1-4 weeks work for the team)
     * Only developers
-| Phases of   | Release Planning                                                                       | Iteration Planning                                                 |
+| Phases of   | Release Planning     |                                                                  | Iteration Planning                                                 |
 | --- | --- | --- |
 | Exploration | Customer provides high-value requirements written as user stories                      | Requirement translated into different tasks recorded on task cards |
 | Commitment  | Developers commit to the functionality and date for next release                       | Task assigned to programmers and time to complete estimated        |
