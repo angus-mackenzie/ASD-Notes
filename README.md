@@ -718,7 +718,7 @@ TO DO
 > Thats not what we meant!
 Agile Development Methodologies
 #### Principles of Agile Methods
-| Principle            | Description      |
+| Principle            | Description   |
 | --- | --- |
 | Customer Involvement | Customers should be closely involved throughout the development process. Their role is to provide and prioritize new system requirements and to evaluate the iterations of the system |
 | Incremental Delivery | The software is developed in increments with the customer specifying the requirements to be included in each increment.                                                               |
@@ -916,7 +916,7 @@ value the items on the left more.
 
 ## Extreme Programming
 ### Principles
-| Principle              | Description|
+| Principle              | Description |
 | --- | --- |
 | Incremental planning   | Requirements are recorded on story cards and the stories to be included in a release are determined by the time available and their relative priority. The developers break these stories into development ‘Tasks’.                                                                          |
 | Small releases         | The minimal useful set of functionality that provides business value is developed first. Releases of the system are frequent and incrementally add functionality to the first release.                                                                                                         |
@@ -1005,11 +1005,85 @@ value the items on the left more.
     * Incremental test development from scenarios
     * User involvement in test development and validation
     * Automated test harnesses are used to run all component test each time that a new release is built.
-### Test-first development
+#### Test-first development
 * Writing tests before code clarifies the requirements to be implemented
 * Tests are programs rather than data
     * Executed automatically
     * Usually with a testing framework such as **junit**
 * All previous and new tests are run automatically when new functionality is added, thus checking that the new functionality has not introduced errors
 ### Customer Involvement
-* Role of the customer in testing is to help develop
+* Role of the customer in testing is to help develop acceptance tests for the stories implemented in the next release of the system
+* All new code is therefore validated to ensure that it is what the customer needs
+* Customers have limited time available
+    * Cannot work full-time with the development team
+    * May feel that providing requirements was enough of a contribution
+    * May be reluctant to get involved in the testing process
+#### XP Testing Difficulties
+* Programmers prefer programming to testing
+    * Somtimes they take shortcuts when writing tests
+        * For example, they may write incomplete tests that do not check for all possible exceptiosn that may occur
+* Some tests can be very difficult to write incrementally
+    * In a complex user interface, it is often difficult to write unit tests for the code that implements the 'diaply logic' and workflow between screens
+* It is difficult to judge the completeness of a set of tests
+    * You may have a lot of system tests but your test set may not provide complete coverage
+* What are XP/Agile Programmers testing for?
+    * They don't have a detailed spec to test against, so how can they possibly test it?
+* Agile testing therefore calls for more judgement from a tester
+    * Not just a case of following a test script
+    * "testathon" - collaboartive programmer brainstrom to write software tests
+
+![Testathon](img/testathon.png)
+
+#### Test First Development
+1. Quickly add test for new feature
+    * Just enough code to fail
+2. Run your tests
+    * The complete test suite or
+    * (for speed) a subset, to ensure that new test does in fact fail
+3. Update the functional code to make it pass the new tests
+4. Run the tests again
+    * If they fail update the functional code and retest
+5. Once the tests pass start over
+    * Possibly refactoring any deuplication out of the design
+![Test First Development](img/testfirstdevelopment.png)
+
+#### Test Driven Development
+* TDD can be described as 
+    * TDD = TFD + Refactoring
+* TDD turns traditional development around
+    * Instead of writing functional code first and then your testing code an afterthought
+    * You first write your test code before your functional code
+* Also you do so invery small steps
+    * One test and a small bit of code at a time
+* With TDD a developer refuses to write a new function unless there is a test that fails because that function isn't present
+    * Refuse to add even a single line of code until a test exists for it
+* Once the test is in place do the work required to ensure that the test suite now passes
+* Once your code works, refactor it to ensure that it remains of high quality
+* The diagram show how you perform test driven development:
+![Test Driven Development](img/testdrivendevelopment.png)
+##### The Rules
+1. Write new code **only** when an automated test fails
+2. Eliminate any duplication
+* Generates complex individual and group behaviour. Some technical implications are:
+    * You design organically, with the running code providing feedback between decisions
+    * You write your ownt ests because you can't wait 20 times per day for someone else to write a test
+    * Your development environment must provide rapid responses to small changes
+    * Your designs must consist of highly cohesive, loosely coupled components
+        * This makes evolution and maintenance of the system easier
+##### Unit Tests
+* Implication: developers need to learn how to write effective unit tests
+* Experience is that good unit tests
+    * Run fast
+        * Have short setups, run times and break downs
+    * Run in isolation
+        * You should be able to reorder them
+    * Use data to make them easy to read and understand
+    * Use real data when they need to 
+        * Copied of production data
+    * Represent one step towards your overall goal
+
+* Most programmers don't read the written documentation for a system
+    * Instead they prefer to work with the code
+* When trying to understand a class or operation most programmers will look for sample code that invokes it
+* Unit tests provide a working specification of the functional code
+* Unit tests become a significant portion of the technical documentation
