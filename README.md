@@ -40,7 +40,7 @@ while minimizing disruption to all team members
 ### source Control
 Managing a codebase with lots of simultaneous contributors
 | Distributed                                  | Centralized                                           |
-| -------------------------------------------- | ----------------------------------------------------- |
+| --- | --- |
 | Mercurial (hg),git                           | CVS, Subversion                                       |
 | Work in local repository, sync changes later | Repository exists on a client server, work on clients |
 ### Web-based hosting service for version control using Git
@@ -718,8 +718,8 @@ TO DO
 > Thats not what we meant!
 Agile Development Methodologies
 #### Principles of Agile Methods
-| Principle            | Description                                                                                                                                                                           |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Principle            | Description      |
+| --- | --- |
 | Customer Involvement | Customers should be closely involved throughout the development process. Their role is to provide and prioritize new system requirements and to evaluate the iterations of the system |
 | Incremental Delivery | The software is developed in increments with the customer specifying the requirements to be included in each increment.                                                               |
 | People not process   | The skills of the development team should be recognized and exploited. Team members should be left to develop their own ways of working without prescriptive processes.               |
@@ -916,8 +916,8 @@ value the items on the left more.
 
 ## Extreme Programming
 ### Principles
-| Principle              | Description                                                                                                                                                                                                                                                                                    |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Principle              | Description|
+| --- | --- |
 | Incremental planning   | Requirements are recorded on story cards and the stories to be included in a release are determined by the time available and their relative priority. The developers break these stories into development ‘Tasks’.                                                                          |
 | Small releases         | The minimal useful set of functionality that provides business value is developed first. Releases of the system are frequent and incrementally add functionality to the first release.                                                                                                         |
 | Simple Design          | Enough design is carried out to meet the current requirements and no more.                                                                                                                                                                                                                     |
@@ -943,7 +943,7 @@ value the items on the left more.
 * Iteration Planning: Next increment (1-4 weeks work for the team)
     * Only developers
 | Phases of   | Release Planning                                                                       | Iteration Planning                                                 |
-| ----------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| --- | --- | --- |
 | Exploration | Customer provides high-value requirements written as user stories                      | Requirement translated into different tasks recorded on task cards |
 | Commitment  | Developers commit to the functionality and date for next release                       | Task assigned to programmers and time to complete estimated        |
 | Steering    | Plan can be adjusted, New requirements added, Existing requirements changed or removed | Tasks are performed and the result is matched with the user story  |
