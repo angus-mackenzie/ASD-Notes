@@ -1086,3 +1086,6 @@ value the items on the left more.
 * When trying to understand a class or operation most programmers will look for sample code that invokes it
 * Unit tests provide a working specification of the functional code
 * Unit tests become a significant portion of the technical documentation
+
+## Lecture 8
+### SCRUM
