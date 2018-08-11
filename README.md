@@ -129,6 +129,37 @@
             - [Test Driven Development](#test-driven-development)
                 - [The Rules](#the-rules)
                 - [Unit Tests](#unit-tests)
+    - [Lecture 8](#lecture-8)
+        - [Introduction](#introduction)
+            - [Waterfall v Scrum](#waterfall-v-scrum)
+        - [Scrum Outline](#scrum-outline)
+            - [Scrum Skeleton](#scrum-skeleton)
+            - [Scrum Roles](#scrum-roles)
+                - [Product Owner](#product-owner)
+                - [Product Owner & Product Backlog](#product-owner--product-backlog)
+                - [Scrum Team](#scrum-team)
+                - [Scrum Master](#scrum-master)
+        - [Scrum Flow](#scrum-flow)
+            - [Scrum Rules](#scrum-rules)
+                - [Sprints](#sprints)
+        - [Scrum Meetings](#scrum-meetings)
+            - [Sprint Planning](#sprint-planning)
+                - [Time Boxed](#time-boxed)
+            - [Daily Scrum](#daily-scrum)
+                - [Meeting](#meeting)
+                - [Time Boxed](#time-boxed)
+                - [Sprint](#sprint)
+                - [Backlog](#backlog)
+                - [Non-viable](#non-viable)
+                - [Review Meeting](#review-meeting)
+            - [Sprint Review](#sprint-review)
+                - [Meeting](#meeting)
+                - [Retrospective](#retrospective)
+        - [Process Artefacts](#process-artefacts)
+            - [Process Overview](#process-overview)
+            - [Scrum's Artefacts](#scrums-artefacts)
+            - [Product Backlog](#product-backlog)
+            - [Sprint Backlog](#sprint-backlog)
 # Lectures
 ## Lecture 1
 ### Advanced Software Development
@@ -1214,7 +1245,7 @@ value the items on the left more.
 * TDD turns traditional development around
     * Instead of writing functional code first and then your testing code an afterthought
     * You first write your test code before your functional code
-* Also you do so invery small steps
+* Also you do so in very small steps
     * One test and a small bit of code at a time
 * With TDD a developer refuses to write a new function unless there is a test that fails because that function isn't present
     * Refuse to add even a single line of code until a test exists for it
@@ -1227,7 +1258,7 @@ value the items on the left more.
 2. Eliminate any duplication
 * Generates complex individual and group behaviour. Some technical implications are:
     * You design organically, with the running code providing feedback between decisions
-    * You write your ownt ests because you can't wait 20 times per day for someone else to write a test
+    * You write your own tests because you can't wait 20 times per day for someone else to write a test
     * Your development environment must provide rapid responses to small changes
     * Your designs must consist of highly cohesive, loosely coupled components
         * This makes evolution and maintenance of the system easier
@@ -1248,6 +1279,9 @@ value the items on the left more.
 * When trying to understand a class or operation most programmers will look for sample code that invokes it
 * Unit tests provide a working specification of the functional code
 * Unit tests become a significant portion of the technical documentation
+##### Conclusion
+* Test-driven development is a development technique where ou must first write a test that fails before you write new functional code
+### Refactoring
 
 ## Lecture 8
 ### Introduction
