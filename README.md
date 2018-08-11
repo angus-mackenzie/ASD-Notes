@@ -1,4 +1,134 @@
-# CSC3003S Notes
+# CSC3003S Notes <!--omit in toc-->
+- [CSC3003S Notes ](#csc3003s-notes)
+- [Lectures](#lectures)
+    - [Lecture 1](#lecture-1)
+        - [Advanced Software Development](#advanced-software-development)
+        - [The Process of Software Engineering](#the-process-of-software-engineering)
+        - [Topics](#topics)
+        - [Guest Lectures Thursdays](#guest-lectures-thursdays)
+        - [What is version/source control?](#what-is-versionsource-control)
+        - [source Control](#source-control)
+        - [Web-based hosting service for version control using Git](#web-based-hosting-service-for-version-control-using-git)
+    - [Lecture 2](#lecture-2)
+        - [Advance Software Design: Project Management](#advance-software-design-project-management)
+        - [No Silver Bullet](#no-silver-bullet)
+        - [Project Management Tools](#project-management-tools)
+        - [Scope of a Project](#scope-of-a-project)
+        - [Defining Scope](#defining-scope)
+        - [Determining Feasibility](#determining-feasibility)
+        - [Project Planning Goals - Aka scope](#project-planning-goals---aka-scope)
+        - [Project Planning Deliverables](#project-planning-deliverables)
+        - [Project Planning Schedule](#project-planning-schedule)
+        - [Project Planning Supporting Plans](#project-planning-supporting-plans)
+        - [The Range of Management Activities](#the-range-of-management-activities)
+        - [People](#people)
+            - [Roles and Responsibilities](#roles-and-responsibilities)
+                - [Essential Roles in Small Software development teams](#essential-roles-in-small-software-development-teams)
+            - [Choosing People](#choosing-people)
+            - [Managing with different Personality Types](#managing-with-different-personality-types)
+            - [Management and Team Success](#management-and-team-success)
+        - [Estimation and Metrics](#estimation-and-metrics)
+            - [Milestones and Deliverables](#milestones-and-deliverables)
+            - [Why Software Metrics?](#why-software-metrics)
+            - [Software Metrics Characteristics](#software-metrics-characteristics)
+            - [Are Software Metrics Worth Anything?](#are-software-metrics-worth-anything)
+            - [Metrics for Object Oriented Development](#metrics-for-object-oriented-development)
+        - [Scheduling](#scheduling)
+            - [Project Scheduling](#project-scheduling)
+            - [Critical Path or Network Analysis](#critical-path-or-network-analysis)
+            - [What is Network Analysis?](#what-is-network-analysis)
+            - [Terminology](#terminology)
+            - [Network Analysis](#network-analysis)
+    - [Lecture 4](#lecture-4)
+        - [Gantt Charts](#gantt-charts)
+        - [Risk](#risk)
+            - [Managing Risks](#managing-risks)
+            - [Boehm's Top Ten Risk Items +2](#boehms-top-ten-risk-items-2)
+            - [Risk Matrix](#risk-matrix)
+            - [3M's](#3ms)
+        - [Questions](#questions)
+        - [Conclusion](#conclusion)
+            - [Planning vs. Management](#planning-vs-management)
+            - [Tips on Project Control](#tips-on-project-control)
+        - [Resources](#resources)
+    - [Lecture 5](#lecture-5)
+        - [Problems](#problems)
+            - [Observations](#observations)
+            - [Software Engineering Triangle](#software-engineering-triangle)
+            - [Think Big, Act Small](#think-big-act-small)
+            - [Wasted Effort](#wasted-effort)
+            - [You Ain't Gonna Need It (YAGNI)](#you-aint-gonna-need-it-yagni)
+            - [Economies of Adding Features](#economies-of-adding-features)
+            - [The Crunch](#the-crunch)
+            - [Software Entropy, Rot & Geriatrics](#software-entropy-rot--geriatrics)
+            - [Yak Shaving](#yak-shaving)
+            - [So we have](#so-we-have)
+        - [Traditional SE Methods](#traditional-se-methods)
+            - [Naive Approach](#naive-approach)
+            - [Traditional Methods](#traditional-methods)
+            - [Waterfall Method](#waterfall-method)
+            - [Waterfall Concepts](#waterfall-concepts)
+            - [Change and the Waterfall Method](#change-and-the-waterfall-method)
+            - [Change and Feasibility](#change-and-feasibility)
+        - [Modern Alternatives](#modern-alternatives)
+            - [Alternative Ideas](#alternative-ideas)
+                - [Prototyping](#prototyping)
+                - [Rapid Application Development](#rapid-application-development)
+        - [Iterative SE Methods](#iterative-se-methods)
+            - [Iterative Process - The Big Difference](#iterative-process---the-big-difference)
+            - [Examples of Iterative SE](#examples-of-iterative-se)
+        - [Unified Process](#unified-process)
+            - [Iterative Development and the Unified Process](#iterative-development-and-the-unified-process)
+            - [Iterative Development](#iterative-development)
+            - [Central Unified Process Ideas](#central-unified-process-ideas)
+            - [Unified Process phases](#unified-process-phases)
+            - [Artefacts](#artefacts)
+        - [Comparison and Conclusion](#comparison-and-conclusion)
+            - [Process Comparison](#process-comparison)
+            - [Process Models](#process-models)
+            - [Reduce Risk](#reduce-risk)
+            - [Conclusion](#conclusion)
+            - [Benefits of Iterative Development](#benefits-of-iterative-development)
+    - [Lecture 6](#lecture-6)
+    - [Lecture 7](#lecture-7)
+        - [Principles of Agile Methods](#principles-of-agile-methods)
+            - [What is Agile Software Development?](#what-is-agile-software-development)
+            - [Principles of Agile Methods](#principles-of-agile-methods)
+            - [Teams Must Be Empowered](#teams-must-be-empowered)
+            - [Agile Manifesto](#agile-manifesto)
+            - [Pareto's Law - 80/20 Rule](#paretos-law---8020-rule)
+        - [Fixed Timescale](#fixed-timescale)
+            - [Time Waits for No-one](#time-waits-for-no-one)
+            - [Fixed Budget](#fixed-budget)
+        - [Bare Requirements](#bare-requirements)
+            - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
+            - [User Stories](#user-stories)
+            - [Recording User Stories](#recording-user-stories)
+            - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
+            - [Incremental Design](#incremental-design)
+    - [Agile Development Cycle](#agile-development-cycle)
+        - [How Frequent is Frequent enough?](#how-frequent-is-frequent-enough)
+        - [Done Means Done](#done-means-done)
+        - [Working Product at All Times](#working-product-at-all-times)
+    - [Extreme Programming](#extreme-programming)
+        - [Principles](#principles)
+            - [System Metaphor in Extreme Programming](#system-metaphor-in-extreme-programming)
+            - [XP Planning Game](#xp-planning-game)
+                - [Stages](#stages)
+                - [Release Planning](#release-planning)
+                - [Iteration Planning](#iteration-planning)
+                - [Iteration Steering](#iteration-steering)
+            - [Pair programming in XP](#pair-programming-in-xp)
+        - [Testing](#testing)
+            - [Testing in Agile Development](#testing-in-agile-development)
+        - [Testing in XP](#testing-in-xp)
+            - [Test-first development](#test-first-development)
+        - [Customer Involvement](#customer-involvement)
+            - [XP Testing Difficulties](#xp-testing-difficulties)
+            - [Test First Development](#test-first-development)
+            - [Test Driven Development](#test-driven-development)
+                - [The Rules](#the-rules)
+                - [Unit Tests](#unit-tests)
 # Lectures
 ## Lecture 1
 ### Advanced Software Development
@@ -302,10 +432,32 @@ It seems obvious that a team needs people with different skills
 Tasks are shown as boxes
 sequences constraints are lines connecting the boxes
 ![Network Analysis](img/networkanalysis.png)
-* Step 1 - Label Tasks in order and indicate dependencies.
-//To Do
-Break these steps down into an easy to read document
 
+The following steps are better illustrated in the [this](docs/networkanalysis.pdf) document.
+* Step 1
+    * Label Tasks in order and indicate dependencies.
+* Step 2
+    * From the estimated time for each activity
+    * Carry out a "forward pass"
+    * Fill in Earliest Start, Earliest Finish
+* Step 3
+    * Carry out "backward pass"
+    * Fill in latest start, latest finish
+* Step 4
+    * Fill in total float
+        * Time by which an activity may be delayed without affecting the final completion date
+* Step 5
+    * Fill in Free Float
+        * Amount of time an activity can expand without affecting the start or finish of any other activity
+    * FF = ES (next) - EF (current)
+* Critical Path
+    * This path is the manager's primary concern
+
+Here is an example:
+![Network Analysis](img/networkanalysisexample.png)
+
+TO DO
+* Finish Example
 ## Lecture 4
 ### Gantt Charts
 * Horizontal Bar Chats
@@ -322,6 +474,12 @@ Break these steps down into an easy to read document
     * Teamgantt
     * Microsoft project
 * Visualize entire project
+
+Before Project
+![Gant1](img/gantt1.png
+
+During project
+![Gant2](img/gantt2.png)
 ### Risk
 #### Managing Risks
 * Why?
@@ -361,6 +519,9 @@ Break these steps down into an easy to read document
     * What factors can we track that will enable us to determine if the risk is becoming more or less likely?
 * Management
 * What contingency plans do we have if the risk becomes a reality
+
+[Example of risk](docs/examplesofrisks.pdf)
+
 ### Questions
 1. Which of the following statements best describes how one goes about identifying the critical path:
     * a) Find those milestones where the earliest start time is equal to the latest start time <--- Answer
@@ -368,7 +529,7 @@ Break these steps down into an easy to read document
     * c) Find those milestones where the earliest start time is greater than the latest start time
     * d) Find those milestones with some scheduling flexibility
     * e) None of the above
-2. What does the term GANTT stand for>
+2. What does the term GANTT stand for
     * nothing
 3. Which of the following statements best explains what is meant by slack time in Critical Path Analysis?
 ### Conclusion
@@ -389,7 +550,7 @@ Break these steps down into an easy to read document
     * Available [here](highered.mcgrawhill.com/sites/0077125363/student_view0/online_chapters.html)
 * Sommerville, Software Engineering, Pearson
     * Chapter 22: Project management: Risk management, Managing people, Teamwork 
-    * Chapter 23: Project planning, Software pricing, Plan-driven development, Project scheduling, Agile planning, Estimationtechniques
+    * Chapter 23: Project planning, Software pricing, Plan-driven development, Project scheduling, Agile planning, Estimation techniques
 
 ## Lecture 5
 Software Engineering Methods
