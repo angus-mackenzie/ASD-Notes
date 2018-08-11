@@ -40,7 +40,7 @@ while minimizing disruption to all team members
 ### source Control
 Managing a codebase with lots of simultaneous contributors
 | Distributed                                  | Centralized                                           |
-| --- | --- |
+| -------------------------------------------- | ----------------------------------------------------- |
 | Mercurial (hg),git                           | CVS, Subversion                                       |
 | Work in local repository, sync changes later | Repository exists on a client server, work on clients |
 ### Web-based hosting service for version control using Git
@@ -718,8 +718,8 @@ TO DO
 > Thats not what we meant!
 Agile Development Methodologies
 #### Principles of Agile Methods
-| Principle            | Description   |
-| --- | --- |
+| Principle            | Description                                                                                                                                                                           |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Customer Involvement | Customers should be closely involved throughout the development process. Their role is to provide and prioritize new system requirements and to evaluate the iterations of the system |
 | Incremental Delivery | The software is developed in increments with the customer specifying the requirements to be included in each increment.                                                               |
 | People not process   | The skills of the development team should be recognized and exploited. Team members should be left to develop their own ways of working without prescriptive processes.               |
@@ -916,8 +916,8 @@ value the items on the left more.
 
 ## Extreme Programming
 ### Principles
-| Principle              | Description |
-| --- | --- |
+| Principle              | Description                                                                                                                                                                                                                                                                                    |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Incremental planning   | Requirements are recorded on story cards and the stories to be included in a release are determined by the time available and their relative priority. The developers break these stories into development ‘Tasks’.                                                                          |
 | Small releases         | The minimal useful set of functionality that provides business value is developed first. Releases of the system are frequent and incrementally add functionality to the first release.                                                                                                         |
 | Simple Design          | Enough design is carried out to meet the current requirements and no more.                                                                                                                                                                                                                     |
@@ -943,8 +943,8 @@ value the items on the left more.
 * Iteration Planning: Next increment (1-4 weeks work for the team)
     * Only developers
 
-| Phases of   | Release Planning | Iteration Planning |
-| --- | --- | --- |
+| Phases of   | Release Planning                                                                       | Iteration Planning                                                 |
+| ----------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | Exploration | Customer provides high-value requirements written as user stories                      | Requirement translated into different tasks recorded on task cards |
 | Commitment  | Developers commit to the functionality and date for next release                       | Task assigned to programmers and time to complete estimated        |
 | Steering    | Plan can be adjusted, New requirements added, Existing requirements changed or removed | Tasks are performed and the result is matched with the user story  |
@@ -1089,4 +1089,145 @@ value the items on the left more.
 * Unit tests become a significant portion of the technical documentation
 
 ## Lecture 8
-### SCRUM
+### Introduction
+<Include spec here>
+#### What is Scrum?
+* Not an acronym
+* Very little to do with rugby
+* Scrum is a **project management process**
+* It is a lightweight development process to
+    * Manage and control software and product development
+* Embraces iterative and incremental practices
+* Not "artefcat-driven"
+    * No large requirements documents, analysis specifications, design documents
+    * Requires very few artefacts
+    * It does require descripline
+* Concetrating on achieving results
+#### Warning
+* No silver bullet
+    * That is, it ain't a technique that compensates for lack of training or experience
+* Scrum is not a panacea for all known development ills
+    * A hot topic in the software and ames industry
+> Panacea - solution to everything
+#### Why Scrum?
+ < inesert photo>
+
+#### Waterfall v Scrum
+Add photos
+Don't use this
+
+### Scrum Outline
+#### Scrum Skeleton
+* The lower circle represents an iteration of development that occur one after another
+    * Output of each iteration is an increment of product
+* The upper circle represents
+
+
+* Product features are broken down
+
+* The heart of Scrum lies in the iteration
+* The team
+    * Takes a look at the requirements
+    * Considers the available technology
+    * Evaluates its own skills and capabilities
+    * Determine how to build the functionality, modifiying
+#### Scrum Roles
+* There are only three SCRUM roles
+1. Product Owner
+2. Team
+3. ScrumMaster
+* All involved are Players or Spectators
+    * Players - committed, accountable, responsible
+    * Spectators - interested, consults, informed (management)
+##### Product Owner
+* Represent the interests of everyone with a stake in the project and its resulting system
+    * Achieves initial and ongoing funding
+    * creates
+        * The project's in
+##### Product Owner & Product Backlog
+
+##### Scrum Team
+* Typically will be ten or fewer
+    * Larger teams can work well if they understand how to organise and manage themselves
+* Responsible for developing functionality
+* Are self-managing, self-organising
+##### Scrum Master
+* Responsible for the Scrum process
+    * Teaching Scrum to everyone involved in the project
+    * implementing SCrum so that it fits within an organization's culture and still delivers the expected benefits
+### Scrum Flow
+#### Scrum Rules
+* ScrumMaster ensures everyone on a project follows the rules
+* Hold the process together so everyone knows how to play
+    * If rules aren't enforced, people waste time figuring out what to do 
+    * If the rules are disputed, time is lost while everyone waits for resolution
+* The rules have worked in thousands of successful projects
+* To change rules, use Sprint retrospective meeting:
+    * Changes should originate from the Team, not management
+
+* Any project starts with a vision
+    * In XP terms the "System Metaphor"
+    * Leads to the logical architecture
+* The Product Owner
+##### Sprints
+* Work is done in Sprints
+    * Iteration of 30 consecutve calendar days
+    * Initiated with a Sprint planning meeting
+        * The product owner and team
+
+![Sprints]()
+
+### Scrum Meetings
+#### Sprint Planning
+People planing for the 30 day sprint
+Who do we give them to, and how do we give them to people
+##### Time Boxed
+* Sprint
+#### Daily Scrum
+##### Meeting
+* Time boxed to 15 minutes
+    * No matter how many team members
+* Held in the same place at the same time every work day
+    * Best is first thing in the day so members think of what htye did the day before and what they plan to do today
+* All team
+* Why daily?
+* ScrumMaster goes round the room until everyone has reported
+* Each team member responds to only **3 questions**?
+1. What have you done since the Daily Scrum?
+2. What will you do on th eproject between now and the next Daily Scrum meeting?
+3. What stands in the way of you rmeeting your commitments to this sprint and this project?
+* Purpose
+    * Syncronize the work all the team members daily
+    * Schedule any meetings needed to help progress
+* Team members should not digress into issues,
+##### Time Boxed
+##### Sprint
+##### Backlog
+##### Non-viable
+##### Review Meeting
+
+#### Sprint Review
+##### Meeting
+##### Retrospective
+
+### Process Artefacts
+#### Process Overview
+Burndown Chart
+#### Scrum's Artefacts
+* Srum has few artefacts
+    * Produt backlog
+    * Sprint backlog
+    * Burndown charts
+* Can be managed using an Excel spreadsheet
+    * More advanced / complicated tools exits
+        * Expensive
+        * Web-based - no good for the project manager who traverls
+        * Still under development
+#### Product Backlog
+* Prioritised list of first cut refinements
+* The product Owner is free to
+    * Adjust the order in which Product Backlog items are developed
+    * Add new items
+* The brings in the oncept of agility and change
+#### Sprint Backlog
+...
