@@ -927,18 +927,7 @@ Alternative to the SE Constraint Triangle?
 ## Lecture 6
 Agile is a set of values and principles.
 
-TO DO
-12 Agile Principles: 
-1. Active user involvement is imperative
-2. The team must be empowered to make decisions
-3. Requirements evolve but the timescale is fixed
-4. Capture requirements at a high level, lightweight and visual
-5. Develop small, incremental releases and iterate
-6. FOcus on frequent delivery of product
-7. Complete each feature before moving on to the next
-8. Apply 80/20 rule
-9. Testing is integrated throughout the project lifecycle - test early and often
-10. A collaborative & cooperative approach betwen all steakholders is essential
+[Agile Manifesto](docs/Agile-Manifesto.pdf)
 
 ## Lecture 7
 ### Principles of Agile Methods
