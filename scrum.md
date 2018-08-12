@@ -108,40 +108,87 @@ Scrum Functionality of Project
 * The rules have worked in thousands of successful projects
 * To change rules, use Sprint retrospective meeting:
     * Changes should originate from the Team, not management
-
+    * Changes should be entertained if and only if the ScrumMaster is convinced everyone involved understands how Scrum works
+    * No rule changes until the ScrumMaster determines this stage has been reached
 * Any project starts with a vision
     * In XP terms the "System Metaphor"
     * Leads to the logical architecture
-* The Product Owner
+* The Product Owner produces the Product Backlog
+    * List of functional and non-functional requirements when turned into functionality deliver the most vision
+    * Prioritised with the items most likely to generate value as top priority and divided into proposed released
 ##### Sprints
 * Work is done in Sprints
-    * Iteration of 30 consecutve calendar days
+    * Iteration of 30 consecutive calendar days
     * Initiated with a Sprint planning meeting
-        * The product owner and team
+        * The product owner and team collaborate about what will be done for the next Sprint
+            * Selecting from the highest priority Product Backlog
+            * Product Owner tells the Team what is desired
+            * Team tells the Product Owner how much it believes it can turn into functionality over the next sprint
+        * Cannot last longer than eight hours
+            * Prevent hand-wringing about what is possible
+    * Goal is to get to work, not to think about working
 
-![Sprints]()
-
+![Sprints](img/generalScrumFlow.png)
 ### Scrum Meetings
 #### Sprint Planning
 People planing for the 30 day sprint
 Who do we give them to, and how do we give them to people
+
+![Sprint Planning](img/sprintplanningmeeting.png)
+
 ##### Time Boxed
-* Sprint
+* Sprint planning meeting is time-boxed to 8 hours
+    * Consist of two segments time-boxed to 4 hours each
+        * The first segment is for selecting product backlog
+        * the second is for preparing a sprint backlog
+##### Meeting
+* The goal of the first segment is for the Team to select those Product Backlog items that it believes it can commit to turning into an increment of potentially shippable product functionality
+* The team will demonstrate this functionality to the Product Owner and stakeholders at the Sprint review meeting at the end of the Sprint
+* The team can make suggestions, but the decision of what Product Backlog can constitute the Sprint is the responsibility of the Product Owner
+* The team is responsible for determining how much of the Product Backlog that the Product Owner wants worked on the Team will attempt to do during the sprint
+
+**First Four Hours** - Deciding what to do
+* Product owner presents the highest priority Product Backlog to the Team
+* Team questions the content, purpose, meaning and intentions of the product backlog
+* Team selects as much Product Backlog as it believes it can turn into a completed increment of shippable product functionality by the end of the Sprint
+* Time-boxing the segment to 4 hours means this is all of the time available for analysing the Product Backlog
+* Further analysis must be performed during the Sprint
+* Large-grained, high-priority Product Backlog with imprecise estimates might not be thoroughly understood during this part of the Sprint planning meeting
+    * Might result in the Team not being able to complete all of the Product Backlog that it selects
+
+**Second four hours** - planning the Sprint
+* Team is responsible for managing its own work
+    * Needs a tentative plane to start the Sprint
+    * Chosen tasks are placed in a Sprint Backlog
+    * Tasks in the Sprint Backlog emerge as Sprint evolves
+* Product Owner is available to answer questions from the team
+* Team work out how to turn the selected backlog into an increment of potentially shippable product functionality
+    * Everyone else only observes or answers questions for more information
+* Output of the 2nd segment is a list: the Sprint Backlog
+    * Tasks, task estimates and assignments
+* Task list might not be complete
+    * It must be complete enough to have commitment of all Team Members
+    * Carries them through the first part of the sprint
+    * while the team devises more tasks in the Sprint Backlog
 #### Daily Scrum
 ##### Meeting
 * Time boxed to 15 minutes
     * No matter how many team members
 * Held in the same place at the same time every work day
-    * Best is first thing in the day so members think of what htye did the day before and what they plan to do today
-* All team
+    * Best is first thing in the day so members think of what they did the day before and what they plan to do today
+* All Team members are required to attend
+    * If a team member can't attend, the absent member must either attend by telephone or by having another Team member report on the absent member's status
 * Why daily?
+    * Scrum creates daily visibility of issues
+* Team members must be prompt
+    * Master starts the meeting at the appointed time, regardless of who is present
 * ScrumMaster goes round the room until everyone has reported
 * Each team member responds to only **3 questions**?
 1. What have you done since the Daily Scrum?
-2. What will you do on th eproject between now and the next Daily Scrum meeting?
-3. What stands in the way of you rmeeting your commitments to this sprint and this project?
+2. What will you do on the project between now and the next Daily Scrum meeting?
+3. What stands in the way of your meeting your commitments to this sprint and this project?
 * Purpose
-    * Syncronize the work all the team members daily
+    * Synchronize the work all the team members daily
     * Schedule any meetings needed to help progress
 * Team members should not digress into issues,
 ##### Time Boxed
