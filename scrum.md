@@ -190,23 +190,75 @@ Who do we give them to, and how do we give them to people
 * Purpose
     * Synchronize the work all the team members daily
     * Schedule any meetings needed to help progress
-* Team members should not digress into issues,
+* Team members should not digress into issues, designs, discussion of problems or gossip
+* The ScrumMaster is responsible for moving the reporting along briskly, from person to person
+* In the Scrum only one person talks at a time
+    * The one who is reporting their status
+    * Everyone else listens - no side conversations
+* If a Team member reports something of interest to other members or needs assistance, any Team member can arrange a meeting afterwards for interested parties
 ##### Time Boxed
+* Time boxed to 30 days 
+    * Time needed for a team to build something of significant interest to the Product Owner and stakeholders and bring it to a state where it is potentially shippable
+    * The maximum time to do work without artefacts and documentation to support thought processes
+    * maximum time that most stakeholders will wait
+        * Without losing interest in the team's progress
+        * Without losing their belief that the team is doing something meaningful 
 ##### Sprint
+* During the sprint
+    * The team can seek outside advice, help, information and support
+    * No one can provide advice, instructions, commentary, or direction to the Team
+    * The Team is self-managing
+* The team has committed to the Product Backlog
+    * No one is allowed to change the Product Backlog during the Sprint
+    * The Product Backlog is frozen until the end of the Sprint
 ##### Backlog
+* If the team feels unable to complete all the committed Product Backlog
+    * Can consult with the Product Owner on which items to remove
+        * If so many items require removal that the Sprint has lost its value, the ScrumMaster can terminate the Sprint, as previously sated.
+* If the Team determines that it can address more product Backlog
+    * Can consult the Product Owner on which additional items to be added
 ##### Non-viable
+* If the sprint proves not to be viable, the SM can terminate the Sprint and initiate a new S planning meeting
+    * The SM can make this change if requested by the Team or Product Owner.
+    * THe Sprint can prove to be not viable:
+        * If the tech proves unworkable
+        * If the business conditions change so that the Sprint will not be of value to the business
+        * If the team is interfered with during the Sprint by anyone outside the team
+##### Team Responsibility During a Sprint
+* The team members have two administrative responsibilities during the SPrint
+    * Attend the daily Scrum meeting
+    * Keep the Sprint Backlog up-to-date and available in a public folder, server - visible to all
+        * New tasks must be added to the Sprint Backlog as they are conceived, and the running, day-to-day estimated hours remaining for each task must be kept up-tp-date
 ##### Review Meeting
-
-#### Sprint Review
-##### Meeting
+* Time-boxed to 4 hours
+    * Team should not spend more than 1 hour preping for Sprint review
+    * The purpose is for the Team to present to the Product Owner and stakeholders functionality that is done
+    * Done usually means that the functionality is completely engineered and could be potentially shipped or implemented
+        * If "done" has another meaning, make sure tha tht product owner and stakeholders understand it
+* Sprint review is spent with Team members presenting functionality, answering stakeholder questions, and noting changes that are desired
+* At the end of the presentations, the stakeholders are polled to get their impressions, any desired changes, and the priority of these changes
+* The Product Owner discusses with the stakeholders and the Team potential rearrangement of the Product Backlog based on the feedback
+* Stakeholders are free to voice any comments, observations, or criticisms regarding the increment of potentially shippable product functionality between presentations
+* Stakeholders can identify functionality that wasn't delivered or was not up to their expectations and request that such functionality be placed in the Product Backlog for prioritization
+* Stakeholders can identify any new functionality that occurs to them as they view the presentation and request that the functionality be added to the Product Backlog for prioritization
+* At the end of the Sprint review, the SM announces the place and date of the next Sprint review to the Product Owner and all stakeholders
 ##### Retrospective
+* Sprint retrospective meeting is time-boxed to 3 hours
+* attended only by the Team, SM and Product Owner (optional)
+* Start the meeting by having all team members answer two questions:
+> What went well during the last Sprint?
+> What could be improved in the next Sprint?
+* SM writes down the Team's answer in summary form
+* Team prioritizes in which order it wants to talk about potential improvements
+* SM is not at this meeting to provide answers but to facilitate the Team's search for better ways for the Scrum process to work for it
+* Actionable items that can be added to the next Sprint should be devised as high-priority non-functional product backlog
 
 ### Process Artefacts
 #### Process Overview
 Burndown Chart
 #### Scrum's Artefacts
-* Srum has few artefacts
-    * Produt backlog
+* Scrum has few artefacts
+    * Product backlog
     * Sprint backlog
     * Burndown charts
 * Can be managed using an Excel spreadsheet
@@ -219,6 +271,72 @@ Burndown Chart
 * The product Owner is free to
     * Adjust the order in which Product Backlog items are developed
     * Add new items
-* The brings in the oncept of agility and change
+* The brings in the concept of agility and change
 #### Sprint Backlog
-...
+* List of things that will be "done" during the Sprint
+* Each item hs an estimate of how long it should take to complete, usually measured in hours
+* During the Sprint's 30 day period, the Project Team must update the Sprint Backlog
+* Keeping the Sprint Backlog updated is key
+    * Not only does it allow us to work out how fast a team can work (their velocity), it is an early warning indicator
+
+![Backlog Example](img/backlog.png)
+#### Burndown Charts
+* These are used to identify the rate that work is being completed
+* Graphical representation of the sprint backlog
+* It illustrates the work done
+* Demonstrate a steady drive to zero hours remaining:
+    * It represents a pace of work that should be sustainable
+    * However, some work takes longer than others
+    * Some are even shorter
+    * May not be a perfect straight line
+* Initially in a sprint there is no work done so that chart is as follows:
+
+![Burn Down Beginning](img/burndownchart1.png)
+
+Ideally it should look as follows:
+
+![Burn Down During](img/burndownchart2.png)
+
+Although, if work is done too slowly it can look as follows:
+
+![Burn Down Slow](img/burndownchart3.png)
+
+Alternatively, it can be too fast - which would look as follows:
+
+![Burn Down Fast](img/burndownchart4.png)
+
+### Possible Problems
+* Sprints are not always the same length
+    * On a well executed Scrum project the team establishes a natural rhythm
+    * Each sprint must be the same length
+#### Loss of Rhythm
+* If sprints are sometimes two weeks and sometimes four weeks then the natural rhythm is never established
+    * Sprints then begin to feel like arbitrary units of time with endpoints selected more by outside forces rather than designed to enhance overall productivity of the team
+* When the sprint duration is allowed to vary teams have a harder time selecting the right amount of work for the sprint backlog, which results in less commitment to completing all of the items in the sprint
+
+#### Specialized Job Roles
+* A project team has specialized job roles such as architect, designer, DBA or tester
+    * Scrum teams need to have a "we're all in this together" attitude
+        * This can be undermined if a team has specialized job descriptions or roles
+    * It is simplistic to think that everyone can be a DBA and everyone can write server-side J2EE or .Net code
+* A successful Scrum team does not need to be comprised entirely of generalist
+    * However, each specialist must accept general responsibility for the system as a whole
+#### Scrum is for SM
+* The daily Scrum feels like a status update from the team members to the SM
+    * It feels as though it exists solely for the SM
+    * Sm takes notes about who committed to what work and why some other task wasn't completed
+    * These daily meetings feel like status meetings
+* Two main purposes of the daily scrum
+    * To provide a coordination mechanism for everyone on the project
+        * Everyone hears where everyone else is
+    * Each team member makes commitments in front of his peers
+    * If the commitment is not fulfilled it is not the SM's to rebuke the team member
+        * They should feel bad enough
+#### SM Assigns work
+* Work is assigned by the SM rather than signed up for by developers
+    * Self-organisation is one of the underlying principles of Scrum
+    * When a SM assigns work it undermines the responsibility developers assume when they are allowed to self-organise around the achievement of a goal
+    * Even an occasional assignment from a SM can do a lot of damage
+    * Teams need to feel completely in control of their own work
+#### Chickens & Pigs
+I really didn't like this metaphor, so I included it in another PDF -> [here](docs/pigs&chickens.pdf)
