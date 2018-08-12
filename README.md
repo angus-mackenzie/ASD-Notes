@@ -129,6 +129,8 @@
             - [Test Driven Development](#test-driven-development)
                 - [The Rules](#the-rules)
                 - [Unit Tests](#unit-tests)
+                - [Conclusion](#conclusion)
+        - [Refactoring](#refactoring)
     - [Lecture 8](#lecture-8)
         - [Introduction](#introduction)
             - [Waterfall v Scrum](#waterfall-v-scrum)
