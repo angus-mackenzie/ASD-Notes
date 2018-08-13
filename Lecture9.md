@@ -62,4 +62,9 @@
 * Be prepared to change direction in response to questions
 * Allow and encourage the client to try things (if you are prepared for this and it is safe)
 * Be prepared to show code or data or documentation
-* Be prepared to answer questiosn
+* Be prepared to answer questions
+#### Something Bad Happens
+* Stay calm
+* Don't make effusive apologies if anything goes wrong
+    * Fix the problems quitely
+    * Be able to restart the 
