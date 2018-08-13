@@ -216,7 +216,7 @@ JonJon Clark - clrjon005@myuct.ac.za
 ### The Process of Software Engineering
 **Definition**
 * The establishment and use of effective engineering principles in order to obtain software that is reliable and works efficiently on real machines.
-* The application of a sytematic, disciplined, quanitifiable approach to the development, operation, and maintenance of software.
+* The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software.
 ### Topics
 1. Review O-O & UML
 2. Project Management
@@ -368,7 +368,7 @@ It seems obvious that a team needs people with different skills
 1. Course developer - prep and coordination of training.
 2. Database designer - essential to the process, mainly due to the specific nature of its knowledge
 3. Implementer - programs sub-systems and components that support
-4. Integrator (lead programmer) - responsible for maintaining the implementer' awareness of the project context, for identifying the tasks to be undertaken and for appointing th eperson responsible for each one. Also responsible for the initial definition of the critical dates of the project and for developing a plan for the integration of the sub-systems, to allow the project manager to inform th eclient when each feature is expected to be available.
+4. Integrator (lead programmer) - responsible for maintaining the implementer' awareness of the project context, for identifying the tasks to be undertaken and for appointing th eperson responsible for each one. Also responsible for the initial definition of the critical dates of the project and for developing a plan for the integration of the sub-systems, to allow the project manager to inform theclient when each feature is expected to be available.
 5. Process Engineer - mainly concerned with the management of the dev process, its adaptation to org context and monitoring its implementation, in order to identify and implement process improvements.
 6. Project Manager - Assume a global overview of the project through a detailed interaction with the internal and external participants. Must create the conditions for the project to achieve success, by ensuring timeliness and fulfilment of all commitments. Requires: basic knowledge in management; knowledge about the client’s business domain; project management methodologies and negotiation skills.
 7. Project reviewer -  This role cannot be considered critical, however, due toresponsibilities related to the verification and approval of several artefacts produced by other participants, and possible conflict of interests, this person cannot have another role within the project
