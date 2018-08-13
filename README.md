@@ -201,6 +201,19 @@
             - [Scrum is for SM](#scrum-is-for-sm)
             - [SM Assigns work](#sm-assigns-work)
             - [Chickens & Pigs](#chickens--pigs)
+    - [Lecture 9](#lecture-9)
+        - [Demos and Prototypes](#demos-and-prototypes)
+            - [What is a Software Prototype?](#what-is-a-software-prototype)
+            - [Why Prototype?](#why-prototype)
+            - [Prototype Requires Compromises](#prototype-requires-compromises)
+            - [Throw-Away Prototype](#throw-away-prototype)
+            - [Evolutionary Prototypes](#evolutionary-prototypes)
+            - [How to Beat Murphy!](#how-to-beat-murphy)
+            - [How to make sure the system works](#how-to-make-sure-the-system-works)
+            - [Preparing for the Demo](#preparing-for-the-demo)
+            - [Before the demo](#before-the-demo)
+            - [During the Demo](#during-the-demo)
+            - [Something Bad Happens](#something-bad-happens)
 # Lectures
 ## Lecture 1
 ### Advanced Software Development
@@ -216,7 +229,7 @@ JonJon Clark - clrjon005@myuct.ac.za
 ### The Process of Software Engineering
 **Definition**
 * The establishment and use of effective engineering principles in order to obtain software that is reliable and works efficiently on real machines.
-* The application of a sytematic, disciplined, quanitifiable approach to the development, operation, and maintenance of software.
+* The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software.
 ### Topics
 1. Review O-O & UML
 2. Project Management
@@ -241,9 +254,10 @@ compare earlier versions of the code to help fix the mistake
 while minimizing disruption to all team members
 ### source Control
 Managing a codebase with lots of simultaneous contributors
-| Distributed                                  | Centralized                                           |
+
+| Distributed| Centralized|
 | --- | --- |
-| Mercurial (hg),git                           | CVS, Subversion                                       |
+| Mercurial (hg),git | CVS, Subversion|
 | Work in local repository, sync changes later | Repository exists on a client server, work on clients |
 ### Web-based hosting service for version control using Git
 * Bitbucket
@@ -368,7 +382,7 @@ It seems obvious that a team needs people with different skills
 1. Course developer - prep and coordination of training.
 2. Database designer - essential to the process, mainly due to the specific nature of its knowledge
 3. Implementer - programs sub-systems and components that support
-4. Integrator (lead programmer) - responsible for maintaining the implementer' awareness of the project context, for identifying the tasks to be undertaken and for appointing th eperson responsible for each one. Also responsible for the initial definition of the critical dates of the project and for developing a plan for the integration of the sub-systems, to allow the project manager to inform th eclient when each feature is expected to be available.
+4. Integrator (lead programmer) - responsible for maintaining the implementer' awareness of the project context, for identifying the tasks to be undertaken and for appointing th eperson responsible for each one. Also responsible for the initial definition of the critical dates of the project and for developing a plan for the integration of the sub-systems, to allow the project manager to inform theclient when each feature is expected to be available.
 5. Process Engineer - mainly concerned with the management of the dev process, its adaptation to org context and monitoring its implementation, in order to identify and implement process improvements.
 6. Project Manager - Assume a global overview of the project through a detailed interaction with the internal and external participants. Must create the conditions for the project to achieve success, by ensuring timeliness and fulfilment of all commitments. Requires: basic knowledge in management; knowledge about the client’s business domain; project management methodologies and negotiation skills.
 7. Project reviewer -  This role cannot be considered critical, however, due toresponsibilities related to the verification and approval of several artefacts produced by other participants, and possible conflict of interests, this person cannot have another role within the project
@@ -1895,3 +1909,83 @@ Alternatively, it can be too fast - which would look as follows:
     * Teams need to feel completely in control of their own work
 #### Chickens & Pigs
 I really didn't like this metaphor, so I included it in another PDF -> [here](docs/pigs&chickens.pdf)
+## Lecture 9
+### Demos and Prototypes
+#### What is a Software Prototype?
+* It depends
+* Helps to investigate
+    * Technical issues
+    * Work flow, task design
+    * Screen layouts, information display
+    * Difficult, controversial critical areas
+    * Match between emgineering and customer specification
+* Demonstration of proof of concept
+* More concrete than a narrative
+#### Why Prototype?
+* Enable evaluation and feedback (central to design methodology)
+* Improves communication with a team
+* Testing ideas out - encourages reflection
+* Answer questions!
+* Explore alternatives 
+#### Prototype Requires Compromises
+* Slow response, sketchy icons, fake data, limited functionality, limited parameters
+* Horizontal Prototype
+    * Wide range of functions, very little detail on each e.g.: testing user interface before backend is developed
+* Vertical Prototype
+    * Provide a lot of detail
+#### Throw-Away Prototype
+* Address high-risk issues
+    * Uncertainty in requirements
+    * User interface design
+    * Alternative implementation strategies
+    * Technology platform
+* Only enough effort to help address specific issues
+    * Focus only on the issue, ignore all others
+    * No unit tests
+    * Too much effort will make you hesitant to throw it away
+* Great for trying alternative ideas
+#### Evolutionary Prototypes
+* Intended to be early, not necessarily release-able version of the actual software ... will evolve into the final product
+* Quality is important (unit test are back)
+* Can be put to limited use
+* Implementing and validating well-understood requirements -> providing opportunity for change and reorienting if necessary
+* Potential Weakness
+    * Customers/tester may be hesitant to criticize the underlying problems in something that seems heavily invested/developed
+
+![Different Prototypes](img/evolutionaryPrototypes.png)
+
+#### How to Beat Murphy!
+1. Make sure your system works
+2. Make sure your system works
+3. Also, practice and rehearse the demo
+#### How to make sure the system works
+* No last minute code changes
+* Demo stable version with fewer features rather than an untested version with more
+* Rehearse the entire demo
+* No, really resist the temptation to tweak the demo
+* Test any peripherals
+#### Preparing for the Demo
+* List (and test) the tasks you will demonstrate
+* Plan what to say
+    * Very short overview of the system
+    * Explain what the demo will show
+* Plan what to say during each test, work out the steps involved
+* Ensure that each team member participants and can demonstrate contribution to knowledge
+* Rehearse and time the demo
+* Think of possible questions - prepare answers
+#### Before the demo
+* Arrive Early
+* Make sure the system works
+#### During the Demo
+* Be prepared to change direction in response to questions
+* Allow and encourage the client to try things (if you are prepared for this and it is safe)
+* Be prepared to show code or data or documentation
+* Be prepared to answer questions
+#### Something Bad Happens
+* Stay calm
+* Don't make effusive apologies if anything goes wrong
+    * Fix the problems quietly
+    * Be able to restart the system without recompilation
+    * Or have a backup system ready
+    * Let one person go on explaining the system
+* Don't argue with or contradict team members
