@@ -132,7 +132,7 @@ We generally use the first notation
 * At a finer grained level, any solution that implements the standard Java Message Service API can be used or replaced in a system
 
 ![DB UML](img/dbuml.png)
-
+    
 ### Architecture Description
 
 ### Guidelines
