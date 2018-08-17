@@ -66,6 +66,8 @@ The fundamental concepts or properties of a system in its environmnet embodied i
     * Enterprise architecture emphasizes principles
 ## Lecture 11
 ### UML Views
+#### Why so Many Views and Diagrams
+* Because so many different stakeholders are interested in the overall design == architecture
 #### Process View (Component-and-Connector View)
 * This view deals with concurrency and distrivution, system integrity, and fault tolerance
 * It explains which components interact, and how they do so
