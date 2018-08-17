@@ -34,9 +34,38 @@ I missed this lecture sadly, but here is a summary of the slides
     * Patterns
     * Responsibilities
 > An architecture is the set of significant decisions about the organization of a software system, the selection of the structural elements and their interfaces by which the system is composed, together with their behaviour as specified in the collaborations among those elements, the composition of these structural and behavioural elements into progressively larger subsystems, and the architectural style that guides this organization—these elements and their interfaces, their collaborations, and their composition - Booch, Rumbaugh and Jacobson, *The UML User Guide*, 1999
-* 
+
+> The software architecture of a program or computing system is the structure or structures of the system which comprise software components, the externally visible properties of those components, and the relationships among them. Archtiecture is concerned with the public of interfaces; private details of elements - details having to do solely with internal implmentation - are not architectural.
+
+> By *externally visible* properties, we are referring to those assumptions other components can make of a component, such as its  provided servcies, performance characteristics, fault handling, shared resource usage, and so on. The intent of this definition is that a software architecture must abstract away some information from the system ( otherwise there is no point looking at the architecture, we are simply viewing the entire system) and yet provide enough information to be a basic analysis, decision making and hence - risk reduction.
+
+- Bass, Clements, and Kazman. *Software Architecture in Practice*, 2003.
+#### Architecture Description
+International Standard: ISO/IEC/IEEE 42010:2011 - or as I like to say **IS**O/IEC/I**EEE420**10:2011.
+* Recommended practice for architecural description or software-intensive systems
+
+![Architecture](img/architecture.png)
+
+Core of Architecture Description
+* The relations between content items when applying the Standard
+* Produces an AD to express an Architecture for some System of Interest
+
+![Architeecture 2](img/architecture2.png)
+
+##### ISO/IEC/IEEE 42010 Definition: Architecture
+The fundamental concepts or properties of a system in its environmnet embodied in its elements, relationships, and in the principles of its design and evolution.
+* In the standard architecture is abstract - not an artefact.
+    * Architecture description: artefacts to express & document architectures
+* What is fundamental to a system may take several forms:
+    * Elements - the consitutents that make up the system
+    * relationship - both internal and external to the system; and
+    * principles of its design and evolution
+* Different architecture communities place varying emphases
+    * Software architecture: focused on software components as elements and their interconnections as a key relationship
+    * System architecture emphasizes sub-system structures and relationships such as allocation
+    * Enterprise architecture emphasizes principles
+## Lecture 11
 ### UML Views
-## Lecture 10
 #### Process View (Component-and-Connector View)
 * This view deals with concurrency and distrivution, system integrity, and fault tolerance
 * It explains which components interact, and how they do so
