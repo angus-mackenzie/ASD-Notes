@@ -67,11 +67,39 @@ The fundamental concepts or properties of a system in its environmnet embodied i
 ## Lecture 11
 ### UML Views
 #### Why so Many Views and Diagrams
-* Because so many different stakeholders are interested in the overall design == architecture
+* Because so many different stakeholders are interested in the overall design == architecture.
+* Viewpoints of the different stakeholders may lead to different views of the same system
+    * These views have to be communicated and represented and then integrated
+    * Together they form the complete architectural description of the software
+* Architectural representation has two objectives
+    * To be able to accommodate different views based on the requirements
+    * Integrating of these different views to form the complete architectural representation
+#### RUP "4+1" View of Architectures
+* "4+1" view model of Kruchten together with UML diagrams to use:
+    * Larman: Can also have Data View, Security View, etc
+
+![4+1](img/4+1.png)
+
+#### Logical View (Module View)
+* The logical view is concerned about the output(s) of the system and how it will affect the end users
+* The logical view splits the system into a set of abstractions, or modules
+* The decomposition serves two purposes:
+    * It enables functional analysis
+    * It helps an identification of common mechanisms and design elements that are common across the system
+* Communication diagram:
+
+![Communication Diagram](img/communication.png)
+#### Development View (Allocation View)
+* This view describes the static organization of the software in its development environment
+* It deals with modules, work allocation, costs andp planning
+* It also involves monitoring of project progress, software resuse and security.
+* Component & Package Diagram:
+
+![Development View](img/component.png)
 #### Process View (Component-and-Connector View)
 * This view deals with concurrency and distrivution, system integrity, and fault tolerance
 * It explains which components interact, and how they do so
-* THe dynamic connections between different components at runtime
+* The dynamic connections between different components at runtime
 * Activity diagram
 #### Physical View (Deployment View)
 * This view describes how the software maps onto the hardware
