@@ -1001,12 +1001,12 @@ Agile Development Methodologies
 | Maintain Simplicity  | Focus on simplicity in both the software being developed and in the development process. Wherever possible, actively work to eliminate complexity from the system.                    |
 #### Teams Must Be Empowered
 * The project team must have sole responsibility to deliver the product
-* ANy interference with the project team is disruptive and reduces their motivation to deliver
+* Any interference with the project team is disruptive and reduces their motivation to deliver
 * The team must together
     * Establish and clarify the requirements
     * Prioritise them together
     * Agree to the tasks required to deliver them
-    * estimate the effort involved
+    * Estimate the effort involved
 * It ensures the buy-in and commitment from the entire project team from the outset
 * When challenges arise, the team feels a real sense of ownership
 #### Agile Manifesto
@@ -1070,7 +1070,7 @@ value the items on the left more.
 * Most agile teams represent each requirement as a user story
     * Similar to Use Cases but lightweight and simpler
     * A simple statement about what a user wants to do with a feature
-* Should focus on the who, what and why of a feature, **now how**
+* Should focus on the who, what and why of a feature, **know how**
     * on a job site, two high-level User Stories might be:
         * As a job seeker, I want to search for a job, so I can advance my career
         * As a recruiter, I want to post a job vacancy, so I can find a new team member
@@ -1101,15 +1101,15 @@ value the items on the left more.
 * Cards can be supported by documentation, but keep it to the bare minimum to allow a feature to be developed, and always in very small units.
 * Requirements should be broken into tasks of no more than 16 hours or preferably 8 hours, so progress can be measured daily
 * All items are deliverables not activities or tasks
-    * You can see a deliverable to judge it quality and completeness
+    * You can see a deliverable to judge it in quality and completeness
     * A task you cannot
 #### Incremental Design
 * As opposed to Fred Brooks *No Silver Bullet* Agile does not follow a top-down design method.
-    * Top-down design says: time in design is worth it to save cos of re-working the design many times.
+    * Top-down design says: time in design is worth it to save cost of re-working the design many times.
 * Agile design is always the same size as the system.
     * "You can't possibly anticipate the problems and alternatives that will arise once you start coding"
 * If a new feature comes along that requires major changes then that is the trade-off for the flexibility it allows.
-    * perhaps this feature wa not even known at the beginning anyway!
+    * Perhaps this feature wa not even known at the beginning anyway!
     * Or it might have gone away if we knew of it at the start!
 
 ## Agile Development Cycle
@@ -1164,8 +1164,8 @@ value the items on the left more.
 * Two main classes of prototypes
     * The true prototype
         * Test implementation to understand a problem before it is implemented for real
-    * "tracer bullets"
-        * prototype that is intended to gradually turn into the final solution
+    * "Tracer bullets"
+        * Prototype that is intended to gradually turn into the final solution
   
 **Continuous Integration**
 * An important discipline is to continuously integrate changes
@@ -1500,7 +1500,7 @@ Refactored Classses Video Rental
 3. Requirements evolve but the timescale is fixed
 4. Capture requirements at a high level, lightweight and visual
 5. Develop small, incremental releases and iterate
-6. FOcus on frequent delivery of product
+6. Focus on frequent delivery of product
 7. Complete each feature before moving on to the next
 8. Apply 80/20 rule
 9. Testing is integrated throughout the project lifecycle - test early and often
@@ -1588,7 +1588,7 @@ Refactored Classses Video Rental
 13. Code standard - adopt some coding standard that is consistently adhered to
 ##### TDD
 * Programming technique ensuring that code is thoroughly unit tested if a test fails then progress has been made: you know what to fix
-    * Clear measure of suxxess when the test no longer fails
+    * Clear measure of success when the test no longer fails
 * TDD increases confidence that the system meets the requirements
 * Side effect of TDD is you achieve 100% coverage test
     * Every single line of code is tested
@@ -1604,7 +1604,7 @@ Refactored Classses Video Rental
 * Designed to increase productivity
 * Mature: from 1995 (feck, then I am mature)
 * Scaleable
-    * Can be used oon projects of any size
+    * Can be used on projects of any size
 * Scrum is a **project management process**
 * It is a lightweight development process to
     * Manage and control software and product development
