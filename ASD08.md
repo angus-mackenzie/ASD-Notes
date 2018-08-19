@@ -1,4 +1,27 @@
 # Architecture & Patterns <!-- omit in toc -->
+- [Architecture Centred Approach](#architecture-centred-approach)
+    - [Requirements and Analysis leads to design](#requirements-and-analysis-leads-to-design)
+    - [What is Software Architecture Then](#what-is-software-architecture-then)
+    - [Architecture is the Important Stuff](#architecture-is-the-important-stuff)
+- [Introducing Patterns](#introducing-patterns)
+    - [Patterns are Encapsulated Experience](#patterns-are-encapsulated-experience)
+    - [Patterns applied to Software Development](#patterns-applied-to-software-development)
+    - [Original Idea is from (real) Architecture](#original-idea-is-from-real-architecture)
+    - [Real v Software Architecture](#real-v-software-architecture)
+    - [Aims of Software Patterns](#aims-of-software-patterns)
+    - [Benefits of All Design Patterns](#benefits-of-all-design-patterns)
+    - [Definition: Architectural Patterns](#definition-architectural-patterns)
+- [Key Architecture Patterns](#key-architecture-patterns)
+    - [Model-View-Controller (MVC) Pattern](#model-view-controller-mvc-pattern)
+    - [Layered Architecture Pattern](#layered-architecture-pattern)
+    - [Repository Pattern](#repository-pattern)
+    - [Client-Server Pattern](#client-server-pattern)
+    - [Pipe and Filter Pattern](#pipe-and-filter-pattern)
+    - [Key Aim of these Patterns](#key-aim-of-these-patterns)
+- [Layered Architecture](#layered-architecture)
+- [Patterns and Concurrency](#patterns-and-concurrency)
+- [Conclusion](#conclusion)
+- [Resources](#resources)
 # Architecture Centred Approach
 * We place an emphasis on design
     * Design pervades engineering activities
