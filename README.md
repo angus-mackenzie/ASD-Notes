@@ -4,14 +4,15 @@ Advanced Software Development (ASD) notes made for the course CSC3003S at UCT.
 This is a collection of notes I have made for my third year computer science course at the University of Cape Town. I generally summarized the slides, and added content that I deemed valuable or interesting. 
 
 ## Sections
-1. [Introduction](IntroductionSlides.md)
-2. [Background](BackgroundSlides.md) <- not completed
-3. [Project Management](ProjectManagement.md)
-4. [Project Management Methods](MethodsLecture.md)
-5. [Agile Development Methodologies](AgileSlides.md)
-6. [Scrum](ScrumLecture.md)
-7. [Prototypes](PrototypesLecture.md)
-8. [UML For Architecture](UML4ArchitectureLecture.md)
+1. [Introduction](ASD00.md)
+2. [Background](ASD01.md) <- not completed
+3. [Project Management](ASD02.md)
+4. [Project Management Methods](ASD03.md)
+5. [Agile Development Methodologies](ASD04.md)
+6. [Scrum](ASD05.md)
+7. [Prototypes](ASD06.md)
+8. [UML For Architecture](ASD07.md)
+9. [Architecture & Patterns](ASD08.md)
 
 The general topics covered during this period of the course were:
 1. O-O & UML
