@@ -1,12 +1,52 @@
-## Lecture 8
-### Introduction
-#### What is Scrum?
+# Scrum  <!-- omit in toc -->
+- [Introduction](#introduction)
+    - [What is Scrum?](#what-is-scrum)
+    - [Warning](#warning)
+    - [Why Scrum?](#why-scrum)
+    - [Waterfall v Scrum](#waterfall-v-scrum)
+- [Scrum Outline](#scrum-outline)
+    - [Scrum Skeleton](#scrum-skeleton)
+    - [Scrum Roles](#scrum-roles)
+        - [Product Owner](#product-owner)
+        - [Product Owner & Product Backlog](#product-owner--product-backlog)
+        - [Scrum Team](#scrum-team)
+        - [Scrum Master](#scrum-master)
+- [Scrum Flow](#scrum-flow)
+    - [Scrum Rules](#scrum-rules)
+        - [Sprints](#sprints)
+- [Scrum Meetings](#scrum-meetings)
+    - [Sprint Planning](#sprint-planning)
+        - [Time Boxed](#time-boxed)
+        - [Meeting](#meeting)
+    - [Daily Scrum](#daily-scrum)
+        - [Meeting](#meeting)
+        - [Time Boxed](#time-boxed)
+        - [Sprint](#sprint)
+        - [Backlog](#backlog)
+        - [Non-viable](#non-viable)
+        - [Team Responsibility During a Sprint](#team-responsibility-during-a-sprint)
+        - [Review Meeting](#review-meeting)
+        - [Retrospective](#retrospective)
+- [Process Artefacts](#process-artefacts)
+    - [Process Overview](#process-overview)
+    - [Scrum's Artefacts](#scrums-artefacts)
+    - [Product Backlog](#product-backlog)
+    - [Sprint Backlog](#sprint-backlog)
+    - [Burndown Charts](#burndown-charts)
+- [Possible Problems](#possible-problems)
+    - [Loss of Rhythm](#loss-of-rhythm)
+    - [Specialized Job Roles](#specialized-job-roles)
+    - [Scrum is for SM](#scrum-is-for-sm)
+    - [SM Assigns work](#sm-assigns-work)
+    - [Chickens & Pigs](#chickens--pigs)
+# Introduction
+## What is Scrum?
 * Not an acronym
 * Very little to do with rugby
 * Simple to implement
 * Designed to increase productivity
 * Mature: from 1995 (feck, then I am mature)
-* Scaleable
+* Scalable
     * Can be used oon projects of any size
 * Scrum is a **project management process**
 * It is a lightweight development process to
@@ -17,16 +57,16 @@
     * Requires very few artefacts
     * It does require discipline
 * Concentrating on achieving results
-#### Warning
+## Warning
 * No silver bullet
     * That is, it ain't a technique that compensates for lack of training or experience
 * Scrum is not a panacea for all known development ills
-    * A hot topic in the software and ames industry
+    * A hot topic in the software and games industry
 > Panacea - solution to everything
-#### Why Scrum?
+## Why Scrum?
 ![Scrum](img/scrum.png)
 
-#### Waterfall v Scrum
+## Waterfall v Scrum
 > Don't use waterfall
 
 Waterfall Sample Project
@@ -45,8 +85,8 @@ Scrum Functionality of Project
 ![Scrum Example Functionality](img/scrumfunc.png)
 
 
-### Scrum Outline
-#### Scrum Skeleton
+# Scrum Outline
+## Scrum Skeleton
 ![Scrum Skeleton](img/scrumskeleton.png)
 * The lower circle represents an iteration of development that occur one after another
     * Output of each iteration is an increment of product
@@ -67,7 +107,7 @@ Scrum Functionality of Project
     * Evaluates its own skills and capabilities
     * Determine how to build the functionality, modifying its approach daily as it encounters new complexities, difficulties and surprises
 * This creative process is the heart of the Scrum's productivity
-#### Scrum Roles
+## Scrum Roles
 * There are only three SCRUM roles
 1. Product Owner
 2. Team
@@ -75,18 +115,18 @@ Scrum Functionality of Project
 * All involved are Players or Spectators
     * Players - committed, accountable, responsible
     * Spectators - interested, consults, informed (management)
-##### Product Owner
+### Product Owner
 * Represent the interests of everyone with a stake in the project and its resulting system
     * Achieves initial and ongoing funding
     * creates
         * The project's initial overall requirements
         * Return on investment (ROI) objectives
         * release plans
-##### Product Owner & Product Backlog
+### Product Owner & Product Backlog
 * List of requirements is called the Product Backlog
 * Product Owner uses the Product Backlog to ensure the most valuable functionality is produced first and built upon
     * Achieved by frequently prioritizing the product backlog to queue up the most valuable requirements for the next iteration
-##### Scrum Team
+### Scrum Team
 * Typically will be ten or fewer
     * Larger teams can work well if they understand how to organise and manage themselves
 * Responsible for developing functionality
@@ -94,13 +134,13 @@ Scrum Functionality of Project
 * Responsible for deciding how to turn Product-Backlog into an increment of functionality within an iteration
 * Managing their own work to do so
 * Members are collectively responsible for the success of each iteration and the project as a whole
-##### Scrum Master
+### Scrum Master
 * Responsible for the Scrum process
     * Teaching Scrum to everyone involved in the project
     * implementing Scrum so that it fits within an organization's culture and still delivers the expected benefits
     * ensuring that everyone follows Scrum rules and practices
-### Scrum Flow
-#### Scrum Rules
+# Scrum Flow
+## Scrum Rules
 * ScrumMaster ensures everyone on a project follows the rules
 * Hold the process together so everyone knows how to play
     * If rules aren't enforced, people waste time figuring out what to do 
@@ -116,7 +156,7 @@ Scrum Functionality of Project
 * The Product Owner produces the Product Backlog
     * List of functional and non-functional requirements when turned into functionality deliver the most vision
     * Prioritised with the items most likely to generate value as top priority and divided into proposed released
-##### Sprints
+### Sprints
 * Work is done in Sprints
     * Iteration of 30 consecutive calendar days
     * Initiated with a Sprint planning meeting
@@ -129,19 +169,19 @@ Scrum Functionality of Project
     * Goal is to get to work, not to think about working
 
 ![Sprints](img/generalScrumFlow.png)
-### Scrum Meetings
-#### Sprint Planning
+# Scrum Meetings
+## Sprint Planning
 People planing for the 30 day sprint
 Who do we give them to, and how do we give them to people
 
 ![Sprint Planning](img/sprintplanningmeeting.png)
 
-##### Time Boxed
+### Time Boxed
 * Sprint planning meeting is time-boxed to 8 hours
     * Consist of two segments time-boxed to 4 hours each
         * The first segment is for selecting product backlog
         * the second is for preparing a sprint backlog
-##### Meeting
+### Meeting
 * The goal of the first segment is for the Team to select those Product Backlog items that it believes it can commit to turning into an increment of potentially shippable product functionality
 * The team will demonstrate this functionality to the Product Owner and stakeholders at the Sprint review meeting at the end of the Sprint
 * The team can make suggestions, but the decision of what Product Backlog can constitute the Sprint is the responsibility of the Product Owner
@@ -170,8 +210,8 @@ Who do we give them to, and how do we give them to people
     * It must be complete enough to have commitment of all Team Members
     * Carries them through the first part of the sprint
     * while the team devises more tasks in the Sprint Backlog
-#### Daily Scrum
-##### Meeting
+## Daily Scrum
+### Meeting
 * Time boxed to 15 minutes
     * No matter how many team members
 * Held in the same place at the same time every work day
@@ -196,14 +236,14 @@ Who do we give them to, and how do we give them to people
     * The one who is reporting their status
     * Everyone else listens - no side conversations
 * If a Team member reports something of interest to other members or needs assistance, any Team member can arrange a meeting afterwards for interested parties
-##### Time Boxed
+### Time Boxed
 * Time boxed to 30 days 
     * Time needed for a team to build something of significant interest to the Product Owner and stakeholders and bring it to a state where it is potentially shippable
     * The maximum time to do work without artefacts and documentation to support thought processes
     * maximum time that most stakeholders will wait
         * Without losing interest in the team's progress
         * Without losing their belief that the team is doing something meaningful 
-##### Sprint
+### Sprint
 * During the sprint
     * The team can seek outside advice, help, information and support
     * No one can provide advice, instructions, commentary, or direction to the Team
@@ -211,25 +251,25 @@ Who do we give them to, and how do we give them to people
 * The team has committed to the Product Backlog
     * No one is allowed to change the Product Backlog during the Sprint
     * The Product Backlog is frozen until the end of the Sprint
-##### Backlog
+### Backlog
 * If the team feels unable to complete all the committed Product Backlog
     * Can consult with the Product Owner on which items to remove
         * If so many items require removal that the Sprint has lost its value, the ScrumMaster can terminate the Sprint, as previously sated.
 * If the Team determines that it can address more product Backlog
     * Can consult the Product Owner on which additional items to be added
-##### Non-viable
+### Non-viable
 * If the sprint proves not to be viable, the SM can terminate the Sprint and initiate a new S planning meeting
     * The SM can make this change if requested by the Team or Product Owner.
     * THe Sprint can prove to be not viable:
         * If the tech proves unworkable
         * If the business conditions change so that the Sprint will not be of value to the business
         * If the team is interfered with during the Sprint by anyone outside the team
-##### Team Responsibility During a Sprint
+### Team Responsibility During a Sprint
 * The team members have two administrative responsibilities during the SPrint
     * Attend the daily Scrum meeting
     * Keep the Sprint Backlog up-to-date and available in a public folder, server - visible to all
         * New tasks must be added to the Sprint Backlog as they are conceived, and the running, day-to-day estimated hours remaining for each task must be kept up-tp-date
-##### Review Meeting
+### Review Meeting
 * Time-boxed to 4 hours
     * Team should not spend more than 1 hour preping for Sprint review
     * The purpose is for the Team to present to the Product Owner and stakeholders functionality that is done
@@ -242,7 +282,7 @@ Who do we give them to, and how do we give them to people
 * Stakeholders can identify functionality that wasn't delivered or was not up to their expectations and request that such functionality be placed in the Product Backlog for prioritization
 * Stakeholders can identify any new functionality that occurs to them as they view the presentation and request that the functionality be added to the Product Backlog for prioritization
 * At the end of the Sprint review, the SM announces the place and date of the next Sprint review to the Product Owner and all stakeholders
-##### Retrospective
+### Retrospective
 * Sprint retrospective meeting is time-boxed to 3 hours
 * attended only by the Team, SM and Product Owner (optional)
 * Start the meeting by having all team members answer two questions:
@@ -253,10 +293,10 @@ Who do we give them to, and how do we give them to people
 * SM is not at this meeting to provide answers but to facilitate the Team's search for better ways for the Scrum process to work for it
 * Actionable items that can be added to the next Sprint should be devised as high-priority non-functional product backlog
 
-### Process Artefacts
-#### Process Overview
+# Process Artefacts
+## Process Overview
 Burndown Chart
-#### Scrum's Artefacts
+## Scrum's Artefacts
 * Scrum has few artefacts
     * Product backlog
     * Sprint backlog
@@ -264,15 +304,15 @@ Burndown Chart
 * Can be managed using an Excel spreadsheet
     * More advanced / complicated tools exits
         * Expensive
-        * Web-based - no good for the project manager who traverls
+        * Web-based - no good for the project manager who travels
         * Still under development
-#### Product Backlog
+## Product Backlog
 * Prioritised list of first cut refinements
 * The product Owner is free to
     * Adjust the order in which Product Backlog items are developed
     * Add new items
 * The brings in the concept of agility and change
-#### Sprint Backlog
+## Sprint Backlog
 * List of things that will be "done" during the Sprint
 * Each item hs an estimate of how long it should take to complete, usually measured in hours
 * During the Sprint's 30 day period, the Project Team must update the Sprint Backlog
@@ -280,7 +320,7 @@ Burndown Chart
     * Not only does it allow us to work out how fast a team can work (their velocity), it is an early warning indicator
 
 ![Backlog Example](img/backlog.png)
-#### Burndown Charts
+## Burndown Charts
 * These are used to identify the rate that work is being completed
 * Graphical representation of the sprint backlog
 * It illustrates the work done
@@ -305,23 +345,23 @@ Alternatively, it can be too fast - which would look as follows:
 
 ![Burn Down Fast](img/burndownchart4.png)
 
-### Possible Problems
+# Possible Problems
 * Sprints are not always the same length
     * On a well executed Scrum project the team establishes a natural rhythm
     * Each sprint must be the same length
-#### Loss of Rhythm
+## Loss of Rhythm
 * If sprints are sometimes two weeks and sometimes four weeks then the natural rhythm is never established
     * Sprints then begin to feel like arbitrary units of time with endpoints selected more by outside forces rather than designed to enhance overall productivity of the team
 * When the sprint duration is allowed to vary teams have a harder time selecting the right amount of work for the sprint backlog, which results in less commitment to completing all of the items in the sprint
 
-#### Specialized Job Roles
+## Specialized Job Roles
 * A project team has specialized job roles such as architect, designer, DBA or tester
     * Scrum teams need to have a "we're all in this together" attitude
         * This can be undermined if a team has specialized job descriptions or roles
     * It is simplistic to think that everyone can be a DBA and everyone can write server-side J2EE or .Net code
 * A successful Scrum team does not need to be comprised entirely of generalist
     * However, each specialist must accept general responsibility for the system as a whole
-#### Scrum is for SM
+## Scrum is for SM
 * The daily Scrum feels like a status update from the team members to the SM
     * It feels as though it exists solely for the SM
     * Sm takes notes about who committed to what work and why some other task wasn't completed
@@ -332,11 +372,11 @@ Alternatively, it can be too fast - which would look as follows:
     * Each team member makes commitments in front of his peers
     * If the commitment is not fulfilled it is not the SM's to rebuke the team member
         * They should feel bad enough
-#### SM Assigns work
+## SM Assigns work
 * Work is assigned by the SM rather than signed up for by developers
     * Self-organisation is one of the underlying principles of Scrum
     * When a SM assigns work it undermines the responsibility developers assume when they are allowed to self-organise around the achievement of a goal
     * Even an occasional assignment from a SM can do a lot of damage
     * Teams need to feel completely in control of their own work
-#### Chickens & Pigs
+## Chickens & Pigs
 I really didn't like this metaphor, so I included it in another PDF -> [here](docs/pigs&chickens.pdf)
