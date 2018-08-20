@@ -19,7 +19,19 @@
     - [Pipe and Filter Pattern](#pipe-and-filter-pattern)
     - [Key Aim of these Patterns](#key-aim-of-these-patterns)
 - [Layered Architecture](#layered-architecture)
+    - [Advice: Multi-Tier Layered Architectures](#advice-multi-tier-layered-architectures)
+    - [Layered Architecture](#layered-architecture)
+    - [Simple Logical Architecture](#simple-logical-architecture)
+    - [Advice: An Application Coordination Layer](#advice-an-application-coordination-layer)
+    - [Model-View Separation Principle](#model-view-separation-principle)
+    - [More Benefits of Layered Architecture](#more-benefits-of-layered-architecture)
+    - [Reference Architectures](#reference-architectures)
+    - [OSI Model for Distributed Systems](#osi-model-for-distributed-systems)
+    - [Internet Stack (TCP/IP Model)](#internet-stack-tcpip-model)
+    - [Layering Considered Harmful (?)](#layering-considered-harmful)
+    - [Basic Web 2.0 Reference Architecture Diagram](#basic-web-20-reference-architecture-diagram)
 - [Patterns and Concurrency](#patterns-and-concurrency)
+    - [Parallel Agent and Repository](#parallel-agent-and-repository)
 - [Conclusion](#conclusion)
 - [Resources](#resources)
 # Architecture Centred Approach
@@ -147,7 +159,83 @@ An *architectural pattern* is a set of architectural design decisions that are a
     * Degree to which communication takes place between the modules
 * Minimize coupling while maximising cohesion
 # Layered Architecture
+## Advice: Multi-Tier Layered Architectures
+* Separate presentation and application logic, and other areas of concern
+![Add other photo]()
+## Layered Architecture
+* Logical architecture organised into layers
+    * Layer - very coarse-grained grouping of classes (or packages or subsystems) with cohesive responsibility for a major aspect of the system
+* Relationship between layers
+    * "higher" layers call services of "lower" layers
+    * Strict Layered Architecture (SLA) - layer uses only layer directory below
+    * Relaxed - can use several lower layers
+
+![Example of multi layer application]()s
+## Simple Logical Architecture
+* In the UML, the logical partitioning is illustrated with package diagrams
+![Logical Example]()
+
+## Advice: An Application Coordination Layer
+* One strategy is to have "application coordination layer" whose objects represent use cases.
+    * They may also hold session state
+> Can mix and match different architectural patterns
+## Model-View Separation Principle
+* Model == domain layer
+* View is the User Interface (UI) layer
+    * Model objects shouldn't have knowledge of View objects
+    * Don't assign domain responsibility to View objects
+* Better separation of concerns with lower coupling
+    * When domain layer independent of UI layer, domain layer can b used with another UI layer
+* Facilitates multiple views of a given model
+    * Example: Application and web UIs for a given application
+## More Benefits of Layered Architecture
+* System easier to comprehend: each layer has specific purpose
+* Facilitates 'high-cohesion' within layers and 'low-coupling' between layers
+## Reference Architectures
+* Idealized way of discussing and comparing domain-specific architectures
+* They do not represent actual real systems
+## OSI Model for Distributed Systems
+* OSI stack is seven-layer model for open systems interconnection
+    * Lower layers: physical interconnection,
+    * Middle layers: data transfer
+    * Upper layers: semantically meaningful application information
+* Allows conformant systems to communicate with each other
+* Each layer should depend on the layer below
+* Performance problems with this layered approach
+    * Vast physical differences between networks
+* Well defined functional characteristics but not the non-functional
+* Developers implement their own higher-level facilities and skip layers in the model
+## Internet Stack (TCP/IP Model)
+* Internet stack is similar layered networking stack to OSI
+* Pre-dates OSI stack
+## Layering Considered Harmful (?)
+* Networking layering -> functions of each layer are carried out completely before protocol data unit is passed to the next layer
+    * Optimization of each layer has to be done separately
+    * Hides information that lower layers may need to optimize performance
+    * Layered model (TCP/IP & ISO OSI) causes conflict:
+        * Layer N may duplicate lower level functionality (hop-hop error recovery vs end-to-end error recovery)
+        * Layers may need the same information (time stamp)
+        * Layer N mau need layer N-2 Information (lower layer packet sizes)
+    * Increased layering -> increased complexity (via inter-layer dependencies)
+> It is always possible to agglutinate multiple separate problems into a single complex interdependent solution. In most cases this is a bad idea
+> Agglutinate - combine to express compound ideas.
+* Conclusion
+    * Horizontal separation may be more cost-effective and reliable than vertical
+## Basic Web 2.0 Reference Architecture Diagram
+* **Resource** tier 
+    * Capabilities or backend system (data or processing) that support services consumed over the internet
+* **Service** tier
+    * Packages resources as a service and controls what goes in and out
+    * Application servers deploying SOAP, EJB, PHP, Rails, ASP
+* **Connectivity** 
+    * Means to reach service
+    * Standards/protocols like XML over HTTP
+* **Client** tier
+
 # Patterns and Concurrency
+## Parallel Agent and Repository
+* Data-centred concurrency:
+
 # Conclusion
 
 # Resources
