@@ -1,4 +1,2 @@
 theme: jekyll-theme-minimal
-# Dependencies
-markdown:    kramdown
-highlighter: pygments
+markdown: kramdown
