@@ -37,6 +37,7 @@ while minimizing disruption to all team members
 Managing a codebase with lots of simultaneous contributors
 
 | Distributed| Centralized|
+
 | --- | --- |
 | Mercurial (hg),git | CVS, Subversion|
 | Work in local repository, sync changes later | Repository exists on a client server, work on clients |
