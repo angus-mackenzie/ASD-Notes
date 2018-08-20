@@ -32,7 +32,14 @@
     - [Basic Web 2.0 Reference Architecture Diagram](#basic-web-20-reference-architecture-diagram)
 - [Patterns and Concurrency](#patterns-and-concurrency)
     - [Parallel Agent and Repository](#parallel-agent-and-repository)
+        - [Client-Server and Peer-to-Peer Architecture](#client-server-and-peer-to-peer-architecture)
+        - [Pipeline or Pipe and Filter Pattern](#pipeline-or-pipe-and-filter-pattern)
+            - [Pipes and Filters in Parallel](#pipes-and-filters-in-parallel)
 - [Conclusion](#conclusion)
+    - [Realizing Non-functional Requirements](#realizing-non-functional-requirements)
+    - [Architecture Diagrams](#architecture-diagrams)
+    - [Purpose of Architecture: beforehand](#purpose-of-architecture-beforehand)
+    - [Use of Architectural Models after Development](#use-of-architectural-models-after-development)
 - [Resources](#resources)
 # Architecture Centred Approach
 * We place an emphasis on design
@@ -235,8 +242,41 @@ An *architectural pattern* is a set of architectural design decisions that are a
 # Patterns and Concurrency
 ## Parallel Agent and Repository
 * Data-centred concurrency:
+### Client-Server and Peer-to-Peer Architecture
+* Internet Mediated Client-Server
+    * Dominant architecture for internet
+    * Add redundancy (server-farms or cloud)
+    * Vulnerable to attack (DOS)
+* Two-Tier Peer-2-Peer Architecture
+    * Many devices perform server-functions
+    * Any device that that is acting as a client is able to find server (with the assistance of other servers)
+### Pipeline or Pipe and Filter Pattern
+* Suitable for applications that require a defined series of independent computations to be performed on ordered data
+    * Very useful if each computation can be done incrementally on the data
+        * Then computations can proceed in parallel
+* The pattern attempts to decompose the problem into a set of computations, or filters, with operations, called pipes to stream data from one process to another
+    * The filters interact only via pipes
+    * "pure" filters have.....
+#### Pipes and Filters in Parallel
+* The components of the pattern execute in parallel
+* All filters and pipes are simultaneously active
+    * they accept the data
+    * but only filters operate on them
+    * and send them to the next step
+* Pipes synchronize the activity between filters
+* [Diagram](#pipe-and-filter-pattern)
 
+![PFP]()
 # Conclusion
+## Realizing Non-functional Requirements
+Per
+## Architecture Diagrams
+* Simple Block Diagrams
+    * Simple, informal block diagrams showing
+## Purpose of Architecture: beforehand
+
+## Use of Architectural Models after Development
+
 
 # Resources
 Sommerville:
