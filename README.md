@@ -15,7 +15,7 @@ This is a collection of notes I have made for my third year computer science cou
 6. [Scrum](ASD05.md)
 7. [Prototypes](ASD06.md)
 8. [UML For Architecture](ASD07.md)
-9. [Architecture & Patterns](ASD08.md) <-- not completed
+9. [Architecture & Patterns](ASD08.md)
 
 The general topics covered during this period of the course were:
 1. O-O & UML
