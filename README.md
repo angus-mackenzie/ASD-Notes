@@ -18,6 +18,9 @@ This is a collection of notes I have made for my third year computer science cou
 8. [UML For Architecture](ASD07.md)
 9. [Architecture & Patterns](ASD08.md)
 
+**Please Note**
+I am currently struggling to get tables to render on Github pages. I recommend using the [Github](https://github.com/AngusTheMack/ASD-Notes/) version of these notes.
+
 The general topics covered during this period of the course were:
 1. O-O & UML
 2. Project Management
