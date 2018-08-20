@@ -5,6 +5,7 @@ This is a collection of notes I have made for my third year computer science cou
 * [Edwin Blake](https://people.cs.uct.ac.za/~edwin/)
 * [Melissa Densmore](http://ict4d.cs.uct.ac.za/user/10)
 * [JonJon Clark](https://www.linkedin.com/in/jonathan-clark-637344143/)
+* Gary Stewart
 
 ## Sections
 1. [Introduction](ASD00.md)
