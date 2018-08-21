@@ -107,7 +107,7 @@ The fundamental concepts or properties of a system in its environment embodied i
     * Integrating of these different views to form the complete architectural representation
 ## RUP "4+1" View of Architectures
 * "4+1" view model of Kruchten together with UML diagrams to use:
-    * Larman: Can also have Data View, Security View, etc
+    * : Can also have Data View, Security View, etc
 
 ![4+1](img/4+1.png)
 
@@ -159,8 +159,8 @@ The fundamental concepts or properties of a system in its environment embodied i
     * Subsystems (finer-grained)
         * Cohesive responsibility for a major aspect of the system
 *  Logical -> Independent of actual deployment decisions
-*  Seen notes provided on Vula:
-    *  Larman - Extractions from Chapter 13.pdf
+*  Seen notes:
+    *  [Larman - Extractions from Chapter 13.pdf](docs/larman-extracts.pdf)
 ## Package Diagrams for Logical Architecture
 * In UML logical partitioning is illustrated with package diagrams
 
