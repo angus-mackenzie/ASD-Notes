@@ -68,6 +68,7 @@
 * Input component reads data from a file or database, checks if validity and queues the valid data for processing
 * Process component takes a transaction from the queue (input), performs computations and creates a new record with the results of the computation
 * Output component reads these records, formats them accordingly and writes them to the database or sends them to a printer
+
 ![Input-process-output](img/input.png)
 # Transaction Processing Systems
 * Process user requests for information from a database or or requests to update the the database
@@ -75,10 +76,12 @@
     * Any coherent sequence of operations that satisfies a goal
     * For example - find the times of flight from London to Paris
 * Users make asynchronous requests for service which are then processed by a transaction manager
+
 ![Transaction Processing Systems](img/transaction.png)
 ## Transaction processing middleware
 * Transaction management middleware or teleprocessing monitors handle communications with different terminal types (e.g.: ATMs and counter terminals), serialises data and sends it for processing
 * Query processing takes place in the system database and results are sent back through the transaction manager to the user's terminal
+
 ![Middleware](img/middleware.png)
 ## Information Systems Architecture
 * Information systems have a generic architecture that can be organised as a **layered architecture**
@@ -87,6 +90,7 @@
     * User communications
     * Information retrieval
     * System database
+
 ![Layers](img/layers.png)
 ## Resource Allocation Systems
 * Systems that manage a fixed amount of some resource (football game tickets, books in a bookshop, etc) and allocate this to users
@@ -104,10 +108,12 @@
     * Query management
     * Resource delivery component
     * User interface
+
 ![Resource Allocation](img/resourceallocation.png)
 ## E-Commerce System Architecture
 * E-commerce systems are Internet-based resource management systems that accept electronic orders for goods or services
 * Usually organised using a multi-tier architecture with application layers associated with each tier
+
 ![Ecommerce](img/ecommerce.png)
 # Event Processing Systems
 * These systems respond to events in the system's environment
@@ -128,6 +134,7 @@
     * Ancillary data - manages other data such as styles & preferences
     * File system - manages file I/O
     * Display - updates the screen display
+
 ![Ancillary](img/ancillary.png)
 ## Information and Resource Management Systems
 # Language Processing Systems (Compilers)
@@ -137,7 +144,8 @@
 * Used when the easiest way to solve a problem is implement an algorithm
 * Als used for domain-specific languages
     * What is that?
-![Language Processing Systems]  (img/languageprocessingsystem.png)
+
+![Language Processing Systems](img/languageprocessingsystem.png)
 ## Language Processing Components
 * Lexical analyser (tokenizer, scanner) - produces tokens: the words in the language, e.g.: variable names, operators, etc,
 * Symbol table - stores the words
@@ -146,9 +154,11 @@
 * Semantic analyser - check aspects not related to syntactic form, e.g.: type correctness
 * Code generator - transform and optimise the syntax tree into instructions for the target machine
     * Can think of it as a python filter process
+
 ![Language Processing Components](img/languageprocessing.png)
 
 Can also think of it as a Repository model of a compiler, where the repository handles the syntax definition and symbol table, output definition etc - as follows:
+
 ![Repository](img/languageprocessingrepo.png)
 
 # Conclusion
