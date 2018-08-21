@@ -1,3 +1,26 @@
+
+# Architecture & Applications <!-- omit in toc -->
+- [Application Architectures](#application-architectures)
+    - [Application Perspective](#application-perspective)
+    - [Complex Applications](#complex-applications)
+    - [Generic Application Architectures](#generic-application-architectures)
+    - [Use of Application Architectures](#use-of-application-architectures)
+    - [Application Types](#application-types)
+- [Batch/Data Processing Systems](#batchdata-processing-systems)
+    - [Input-process-output](#input-process-output)
+- [Transaction Processing Systems](#transaction-processing-systems)
+    - [Transaction processing middleware](#transaction-processing-middleware)
+    - [Information Systems Architecture](#information-systems-architecture)
+    - [Resource Allocation Systems](#resource-allocation-systems)
+    - [Resource Allocation Architecture](#resource-allocation-architecture)
+    - [E-Commerce System Architecture](#e-commerce-system-architecture)
+- [Event Processing Systems](#event-processing-systems)
+    - [Editing Systems](#editing-systems)
+    - [Editing System Architecture](#editing-system-architecture)
+    - [Information and Resource Management Systems](#information-and-resource-management-systems)
+- [Language Processing Systems (Compilers)](#language-processing-systems-compilers)
+    - [Language Processing Components](#language-processing-components)
+- [Conclusion](#conclusion)
 # Application Architectures
 ## Application Perspective
 * So far had architectural perspectives on issues such as overall control, distribution and system structuring
@@ -89,7 +112,7 @@
 # Event Processing Systems
 * These systems respond to events in the system's environment
 * Their key characteristics is that event timing is unpredictable so the architecture has to be organised to handle this
-* Many common systems such as word procesors, games, etc. are event processing systems
+* Many common systems such as word processors, games, etc. are event processing systems
 ## Editing Systems
 * Common type of event processing system
 * Editing system characteristics
