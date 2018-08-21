@@ -159,7 +159,7 @@ The fundamental concepts or properties of a system in its environment embodied i
     * Subsystems (finer-grained)
         * Cohesive responsibility for a major aspect of the system
 *  Logical -> Independent of actual deployment decisions
-*  Seen notes:
+*  See notes:
     *  [Larman - Extractions from Chapter 13.pdf](docs/larman-extracts.pdf)
 ## Package Diagrams for Logical Architecture
 * In UML logical partitioning is illustrated with package diagrams
