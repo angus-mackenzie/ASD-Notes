@@ -48,7 +48,7 @@ There is no technique that fixes the inherent complexity of software design and 
 * Overleaf
 # Scope of a Project
 * The functions and features that are to be delivered to end-users
-* The data that are input and output
+* The data that is considered input and output
 * The content that is presented to users as a consequence of using the software
 * The performance, constraints, interfaces and reliability that bound the system
 ## Defining Scope
@@ -64,14 +64,14 @@ There is no technique that fixes the inherent complexity of software design and 
     * Do we have the resources we need to build this software?
 * Resources are:
     * People
-    * hardware and software tools
-    * reusable components.
+    * Hardware and software tools
+    * Reusable components.
 # Project Planning Goals - Aka scope
 * Goals are derived from the needs and expectations of stakeholders:
     * Project sponsor
-    * customer for deliverables
+    * Customer for deliverables
     * Users of the project outputs
-    * project manager and project team
+    * Project manager and project team
 * Find true needs that create real benefits
     * Prioritize them
 * Create measurable goals
@@ -87,7 +87,7 @@ There is no technique that fixes the inherent complexity of software design and 
     * Has a stakeholder who needs it
 * Say when it has to be delivered
 * Give quality standards
-    * document is according to specified format
+    * Document is according to specified format
 ## Project Planning Schedule
 * The effort required (in terms of time)
 * The people required (and other resources)
@@ -95,7 +95,7 @@ There is no technique that fixes the inherent complexity of software design and 
 * If the schedule is unrealistic you can justify some of the following:
     * Renegotiate deadline - delay
     * Additional resources - more expensive
-    * reduce scope - fewer deliverables (only thing that makes sense for capstone - carefully determine your scope)
+    * Reduce scope - fewer deliverables (only thing that makes sense for capstone - carefully determine your scope)
 ## Project Planning Supporting Plans
 Human Resource Plan
 * Name key individuals and organisations: describe roles and responsibilities
@@ -323,7 +323,7 @@ TODO
 * Visualize entire project
 
 Before Project
-![Gant1](img/gantt1.png
+![Gant1](img/gantt1.png)
 
 During project
 ![Gant2](img/gantt2.png)

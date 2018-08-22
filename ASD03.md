@@ -117,8 +117,9 @@ Official jargon for computer science
 4. The operating system upgrade has a known issue with the disk array the machine uses for backups.
 5. etc...
 
-Compromise if necessary
-Explore alternate yaks
+Avoiding Yak Shaving?
+* Compromise if necessary
+* Explore alternate yaks
 
 ## So we have
 * Undefined system
