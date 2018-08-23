@@ -1,5 +1,8 @@
 # Design Patterns
-
+## Class Design and Unified Process Terminology
+* Typical information in a Design Class Diagram includes:
+    * Classes, associations and attributes
+    * Interfaces (with operations and constants)
 ## Applying Composite Pattern to UI Widgets
 *  The Swing Component hierarchy is a Composite
     *  Leaf widgets (e.g.: Checkbox, Button, Label) specialize the component interface
