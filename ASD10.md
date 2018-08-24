@@ -3,6 +3,33 @@
 * Typical information in a Design Class Diagram includes:
     * Classes, associations and attributes
     * Interfaces (with operations and constants)
+    * Methods
+    * Attribute type information
+    * Navigability
+    * Dependencies
+* The Class Design depends upon the Domain Model and interaction diagram
+* The UP defines a Design Model which includes interaction and class diagrams
+## Domain Model versus Design Model
+* Domain Model is the analysis class diagram
+* Don't show methods
+
+![Domain Model](img/domainclass.png)
+
+* Design Model shows methods and visibility (arrowhead on association)
+* Register has reference to Sale; Sale des not have reference to Register
+
+![Design Model](img/designmodel.png)
+
+## Sample UP Artefact Relationships
+![Artefact](img/artefact.png)
+# Responsibility-Drive Design
+* RDD: software objects have responsibilities (an abstraction)
+    * *a Sale is responsible for creating SalesLineItems* (doing)
+    * 
+# GRASP
+# Use Case Realizations
+# GoF Patterns
+# Conclusions
 ## Applying Composite Pattern to UI Widgets
 *  The Swing Component hierarchy is a Composite
     *  Leaf widgets (e.g.: Checkbox, Button, Label) specialize the component interface
