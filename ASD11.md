@@ -1,16 +1,92 @@
-# Open Source Software Development
+# Open Source Software Development <!-- omit in toc -->
+
+These slides are a bit outdated, so I think it may be best to take everything with a pinch of salt.
+- [Open Source Development](#open-source-development)
+- [Free Software](#free-software)
+- [Open Source and Free Software](#open-source-and-free-software)
+    - [Case Studies](#case-studies)
+        - [Linux](#linux)
+        - [Vula/Sakai](#vulasakai)
+- [Open Source Software](#open-source-software)
+- [Interesting Facts](#interesting-facts)
+- [Open Source and Business](#open-source-and-business)
+- [Open Source Business Models](#open-source-business-models)
+- [Open Source Development Culture](#open-source-development-culture)
+- [Open Source Development Culture](#open-source-development-culture)
+- [Open Source Issues](#open-source-issues)
+- [Onion Model of OS Community Structure](#onion-model-of-os-community-structure)
+- [Ways of running FOSS projects](#ways-of-running-foss-projects)
+- [Before you start a FOSS project, first look](#before-you-start-a-foss-project-first-look)
+- [What a FOSS Project needs](#what-a-foss-project-needs)
+- [Making your Vision Public](#making-your-vision-public)
+- [Features, Requirements and Status](#features-requirements-and-status)
+- [Distribution](#distribution)
+- [Version Control](#version-control)
+- [Accurate Accounting of Deficiencies](#accurate-accounting-of-deficiencies)
+- [Bug Tracking](#bug-tracking)
+- [Issue Life Cycle](#issue-life-cycle)
+- [Documentation Minimal Criteria](#documentation-minimal-criteria)
+- [Licensing](#licensing)
+- [Open Source Impact on Society](#open-source-impact-on-society)
+- [Resources](#resources)
+- [Catch Phrases](#catch-phrases)
 # Open Source Development
 * An approach to software in which the source code of a software system is published
-    * Volunteers participate in the development
+    * Volunteers participate in the development process
+    * Typically the original developer(s) remain custodians
+* Differs from proprietary (closed) software, which is developed by a software company, and where the code is privately owned
+* Term "open source" was coined in 1998 by a group of prominent software developers, including Eric Raymond, starting Open Source Initiative
+* Preceded by "free software" movement, Free Software Foundation, who's main proponent is Richard Stallman
+# Free Software
+* From the GNU General Public License (GPL):
+> When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
+* Another term used to describe free software is *libre* highlighting the notion of freedom.
+# Open Source and Free Software
+* Open Source and Free Software essentially amount to the same thing
+* Collectively it is referred to as FOSS or FLOSS 
+    * Free (Libre) and Open Source Software
+> Open Source is a development methodology; free software is a social movement
+* Open Source Initiative attempted to market free software to make it more palatable based on solid pragmatic grounds, rather than ideological reasons
+## Case Studies
+### Linux
+* Linux is an open source operating system, rivaling Microsoft Windows environment
+* Created by Linus Torvalds in the early 1990s, while he was a student at the University of Helsinki
+* In mid and late 1990s, it was used primarily by computer hobbyists/geeks
+* Ported to run on a number of different platforms, from mainframes to PCs to handheld devices
+* After much work by open source community, it has become mainstream
+* Backed by major IT companies - IBM, HP
+    * support ongoing development
+* It is used increasingly by companies and governments
+    * Less expensive alternative to the dominant Microsoft Windows Environment
+    * No dependency on one company, e.g.: Microsoft, which produces proprietary (closed) software
+### Vula/Sakai
+* Vula at UCT is based on Sakai, a free and open source online collaboration and learning environment
+* Sakai initially developed by a group of American universities - MIT, Stanford, etc
+* Developed predominantly using Java platform
+* Currently used by 100s of institutions around the world
 # Open Source Software
 * Operating Systems
+    * Linux, FreeBSD
+* Office Suites
+    * Libre Office, KOffice
+* Web Servers
+    * Apache, Jetty
+* Web Frameworks/APIs
+    * Django, Bootstrap
+* Databases
+    * SQLite, MySQL, PostgreSQL
+* Programming Languages
+    * Python, PHP
+* Misc
+    * Blender
+    * Gimp
 # Interesting Facts
 * Apache, which is open source, is the most popular web server in the world
 * Much of the software used to run the internet, is open source
 * Most popular alternative to Microsoft Office, **LibreOffice/OpenOffice**, is open source
 * Mozilla Firefox and Google Chrome browsers are open source
 * SQLite, file-based open source database, deployed with Android and Apple devices, Mozilla Firefox
-* MySQL, open source database is used in critical application by Google
+* MySQL, open source database is used in critical applications by Google, Yahoo, NASA - I really don't know how accurate this is anymore. 
 # Open Source and Business
 * Software companies responds to Open Source differently:
     * Some use it extensively to build their business
@@ -70,6 +146,8 @@
 * Peripheral developers submit code as patches i.e. code does not enter code base until review from core team
 * Active users contribute documentation, localization, support users in discussion forums, or file bug reports
 * Passive users download and use the software without connecting to the community
+
+![Onion](img/onion.png)
 # Ways of running FOSS projects
 * Benevolent Dictators (BDFLs)
     * Linux and Linus Torvalds
@@ -171,9 +249,20 @@
 * Give on tutorial-style example for every common task
 * Label areas where the documentation is known to be incomplete
 * Typically a real world user expects to install and use the software with no or minimal review of documentation
-    * Searchable documentation should
+    * Searchable documentation should be available to users if they need it
+* Align yourself with your users' point of view
+* Availability of documentation
+    * On the internet
+    * Downloaded with the software
 
 # Licensing
+* Each Open Source project has a license associated with it
+* License indicates user rights and responsibilities
+* Most widely recognised license is the GNU General Public License (GPL), allows the user to:
+    * Freely copy and distributed copies of source code and software, only with the license
+    * Modify code, but those changes must be clear nad made available with same license
+    * Doesn't allow code to be used in proprietary programs
+* Other licenses like MIT license are more relaxed allowing code to be used in proprietary programs
 * MIT - can use in closed environment
 
 # Open Source Impact on Society
@@ -181,3 +270,30 @@
 * Challenges traditional notions of copyright and intellectual property, which restricts others from modifying "creative" work
 * Open Source software is used extensively in ICT for Development (ICT4D)
     * No or little cost, as compared to proprietary software
+* Creative Commons licensing scheme for creative works inspired by Open Source
+* Other areas of production also inspired by Open Source
+    * Open Educational Resource, precursor to MOOCs
+    * Open Source Hardware, stimulus to the Maker Movement
+# Resources
+* *Producing Open Source Software: How to Run a Successful Free Software Project* by Karl Fogel. O’Reilly. Licensed under the Creative Commons Attribution-ShareAlike License. producingoss.com/
+
+See also:
+* [FLOSS Vlog](twit.tv/shows/floss-weekly)
+* [Free Software Foundation](www.fsf.org)
+* [Open Source Initiative](www.opensource.org)
+* [Open Source Repository](www.sourceforge.net)
+* [Google Open Source](opensource.google.com)
+* [Creative Commons](www.creativecommons.org)
+
+# Catch Phrases
+1. To many eyes all bugs are shallow
+2. Cathedral and Bazaar
+The Cathedral model, in which source code is available with each software release, but code developed between releases is restricted to an exclusive group of software developers.
+The Bazaar model, in which the code is developed over the Internet in view of the public.
+3. Release early. Release often. And listen to your customers.
+4. Every good work of software starts by scratching a developer‘s personal itch.
+5. When you lose interest in a program, your last duty to it is to hand it to a competent successor.
+6. Treating your users as co-developers is your least-hassle route to rapid code improvement and effective debugging.
+7. Smart data structures and dumb code works a lot better than the other way around.
+8. If you treat your beta-testers as if they're your most valuable resource, they will respond by becoming your most valuable resource.
+9. Provided the development coordinator has a communications medium at least as good as the Internet, and knows how to lead without coercion, many heads are inevitably better than one.

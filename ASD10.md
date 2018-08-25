@@ -1,5 +1,46 @@
+# Design Patterns <!-- omit in toc -->
+- [Design Patterns](#design-patterns)
+    - [Class Design and Unified Process Terminology](#class-design-and-unified-process-terminology)
+    - [Domain Model versus Design Model](#domain-model-versus-design-model)
+    - [Sample UP Artefact Relationships](#sample-up-artefact-relationships)
+- [Responsibility-Drive Design](#responsibility-drive-design)
+    - [Responsibilities and Methods](#responsibilities-and-methods)
+    - [RDD and Collaboration](#rdd-and-collaboration)
+    - [Definition: Responsibilities](#definition-responsibilities)
+    - [Responsibilities and System Sequence Diagrams](#responsibilities-and-system-sequence-diagrams)
+- [GRASP](#grasp)
+    - [Patterns](#patterns)
+        - [Four elements of Pattern Templates](#four-elements-of-pattern-templates)
+    - [Nine Grasp Patterns (+ 2)](#nine-grasp-patterns--2)
+        - [Information Expert](#information-expert)
+        - [Creator](#creator)
+        - [Controller](#controller)
+        - [Low Coupling](#low-coupling)
+        - [High Cohesion](#high-cohesion)
+        - [Coupling and Cohesion](#coupling-and-cohesion)
+        - [Polymorphism](#polymorphism)
+        - [Pure Fabrication](#pure-fabrication)
+        - [Indirection](#indirection)
+        - [Protected Variation](#protected-variation)
+        - [Don't Talk to Strangers](#dont-talk-to-strangers)
+- [Use Case Realizations](#use-case-realizations)
+    - [Definition](#definition)
+    - [Designing for Visibility](#designing-for-visibility)
+- [GoF Patterns](#gof-patterns)
+    - [Singleton Pattern](#singleton-pattern)
+    - [Composite Pattern](#composite-pattern)
+        - [Anatomy of a preference dialog](#anatomy-of-a-preference-dialog)
+        - [UML Object diagram for UI Preference](#uml-object-diagram-for-ui-preference)
+    - [Applying Composite Pattern to UI Widgets](#applying-composite-pattern-to-ui-widgets)
+    - [Facade Pattern](#facade-pattern)
+    - [Observer Pattern](#observer-pattern)
+    - [Designing for Low Representational Gap](#designing-for-low-representational-gap)
+- [Conclusion](#conclusion)
+    - [Summary](#summary)
+- [Resources](#resources)
 # Design Patterns
 ## Class Design and Unified Process Terminology
+* UP = Unified Process
 * Typical information in a Design Class Diagram includes:
     * Classes, associations and attributes
     * Interfaces (with operations and constants)
@@ -24,8 +65,8 @@
 ![Artefact](img/artefact.png)
 # Responsibility-Drive Design
 * RDD: software objects have responsibilities (an abstraction)
-    * *a Sale is responsible for creating SalesLineItems* (doing)
-    * *a Sale is responsible for knowing its total* (knowing)
+    * a `Sale` is responsible for creating `SalesLineItems` (doing)
+    * a `Sale` is responsible for knowing its `total` (knowing)
 * Metaphor for thinking about OO design
 * Big responsibilities take lots of classes and methods
     * "provide access to relational database"
@@ -47,8 +88,8 @@
         * Knowing about things it can derive or calculate
 ## RDD and Collaboration
 * Responsibilities are implemented with methods that either act alone or collaborate with other methods and objects.
-    * The *Sale* class might define one or more methods to know its total; say, a method named getTotal
-    * The *Sale* may collaborate with other projects, such as sending a *getSubTotal* message to each *SalesLineItem* object asking for its subtotal
+    * The `Sale` class might define one or more methods to know its total; say, a method named `getTotal`
+    * The `Sale` may collaborate with other projects, such as sending a `getSubTotal` message to each `SalesLineItem` object asking for its subtotal
 ## Definition: Responsibilities
 * Responsibilities are an abstraction
     * The responsibility for persistence
@@ -65,7 +106,7 @@
 
 ![Sequence Diagram](img/sequence.png)
 # GRASP
-I don't quite *GRASP* this section.
+I don't quite *GRASP* this section :wink:
 
 * Design Objects with Responsibilities
     * A critical skill is designing or thinking in objects
@@ -78,13 +119,13 @@ I don't quite *GRASP* this section.
             * "Facade", "Information Expert"
         * They provide a *vocabulary* of design
 ## Patterns
-* Principles (expressed in patterns) guide choices where to assign responsibilities
-* A pattern is a named **description of a problem** and a **solution** that can be appied to new contexts;
+* Principles (expressed in patterns) guide choices about where to assign responsibilities
+* A pattern is a named **description of a problem** and a **solution** that can be applied to new contexts;
     * it provides advice on how to apply it in varying circumstances
 * For example:
-    * Pattern_name: Information Expert
-    * Problem: What is the most basic principle by which to assign responsibilities to objects?
-    * Solution: Assign a responsibility to the class that has the information needed to fulfil it
+    * **Pattern name**: Information Expert
+    * **Problem**: What is the most basic principle by which to assign responsibilities to objects?
+    * **Solution**: Assign a responsibility to the class that has the information needed to fulfil it
 ### Four elements of Pattern Templates
 * Name
     * Increases our vocabulary
@@ -99,7 +140,7 @@ I don't quite *GRASP* this section.
     * Each solution has trade-off and consequences
     * Solutions can cause or amplify other problems
         * Costs and benefits should be compared against
-## Nine Grasp Patterns
+## Nine Grasp Patterns (+ 2)
 1. Information Expert (expert)
 2. Creator
 3. Controller
@@ -137,8 +178,8 @@ Definition continued:
 |`ProductSpecification`|Knows product price|
 
 ### Creator
-* Problem: Who should be responsible for creating a new instance of some class?
-* Solution: Assign class C the responsibility to create an instance of class X if one or more of the following is true:
+* **Problem**: Who should be responsible for creating a new instance of some class?
+* **Solution**: Assign class C the responsibility to create an instance of class X if one or more of the following is true:
     * C aggregates X objects
     * C contains X objects
     * C records instances of X objects
@@ -157,8 +198,8 @@ Definition continued:
     * The overall "system", device or subsystem
         * A kind of facade class
     * Or, represents the use case scenario or session
-* Problem: Who should be responsible for handling an input system event?
-* Solution: Assign the responsibility for receiving or handling a system event message to a class representing one of the following choices:
+* **Problem**: Who should be responsible for handling an input system event?
+* **Solution**: Assign the responsibility for receiving or handling a system event message to a class representing one of the following choices:
     * Represents the overall system
     * Represents a use case scenario
     * A Controller is a non-user interface object that defines the method for the system operation
@@ -170,8 +211,8 @@ Definition continued:
     * Changes in related classes force local changes
     * Harder to understand in isolation; need to understand other classes
     * Harder to reuse because it requires additional presence of other classes
-* Problem: How to support low dependency, low change impact and increased reuse?
-* Solution: Assign a responsibility so that coupling remains low
+* **Problem**: How to support low dependency, low change impact and increased reuse?
+* **Solution**: Assign a responsibility so that coupling remains low
 
 
 **Example**
@@ -188,17 +229,124 @@ Definition continued:
 
 ![Low Coupling](img/lowcoupling2.png)
 
-* Some of the places where coupling
+* Some of the places where coupling occurs:
     * Attributes: X has an attribute that refers to a Y instance
     * Methods: e.g.: a parameter or a local variable of type Y is found in a method of X
     * Subclasses: X is a subclass of Y
     * Types: X implements interface Y 
 * There is no specific measurement for coupling, but in general, classes that are generic and simple to reuse have low coupling.
 * There will always be some coupling among objects, otherwise, there would be no collaboration
-* 
+
+### High Cohesion
+* Cohesion: it is a measure of how strongly related and focused the responsibilities of an element are.
+* A class with low cohesion does many unrelated activities or does too much work
+* Problems because of a design with low cohesion:
+    * Hard to understand
+    * Hard to reuse
+    * Hard to maintain
+    * Delicate, affected by change
+* **Problem**: How to keep complexity manageable?
+* **Solution**: Assign a responsibility so that cohesion remains high
+
+**Example**
+* Assume we need to create a Payment instance and associate it with Sale. What class should be responsible for this?
+* By Creator, Register is a candidate.
+* Register may become bloated if it is assigned more and more system operations.
+
+![High Cohesion](img/cohesion.png)
+
+* An alternative design delegates the Payment creation responsibility to the Sale, which supports higher cohesion in the Register
+* The design supports high cohesion and low coupling.
+
+![High Cohesion](img/cohesion2.png)
+  
+* Scenarios that illustrate varying degrees of functional cohesion
+* Very low cohesion: class responsible for many things in many different areas
+    * e.g.: a class responsible for interfacing with a database and remote-procedure-calls
+* Low cohesion: class responsible for complex task in a functional area
+    * e.g.: a class responsible for interacting with a relational database
+* High Cohesion: class has moderate responsibility in one functional area and it collaborates with other classes to fulfil a task
+    * E.g.: a class responsible for one section of interfacing with a database
+* Rule of thumb: a class with high cohesion has a relative low number of methods, with highly related functionality, and doesn't do much work. It collaborates and delegates.
+
+### Coupling and Cohesion
+* High Cohesion typically implies Low Coupling
+* Low Cohesion typically implies low coupling
+
+### Polymorphism
+* **Problem**: How to design for varying, similar cases?
+* **Solution**: Assign a polymorphic operation to the family of classes for which the cases vary
+* E.g.: draw() which can be called for various shapes
+    * Square, Circle, Triangle
+
+### Pure Fabrication
+* **Problem**: Where to assign a responsibility, when the usual options based on Expert lead to problems with coupling and cohesion, or are otherwise undesirable?
+* **Solution**: Make up an *artificial* class, whose name is not necessarily inspired by the domain vocabulary
+* E.g.: in Register-Sales-Payment Example
+    * ReceiptPrinter
+### Indirection
+* **Problem**: A common mechanism to reduce coupling?
+* **Solution**: Assign a responsibility to an intermediate object to decouple collaboration from 2 other objects
+### Protected Variation
+* "Information Hiding"
+* **Problem**: How to design objects so that changes in these objects do not have side effects on other objects
+* **Solution**: Put a wrapper or interface object around them. The wrapper gives a stable interface and is all that has to be altered when the changes happen
+### Don't Talk to Strangers
+* Special case of *Protected Variation*
+* In a method, only send messages to "familiars":
+1. This or self
+2. Parameters
+3. Own attributes (including elements of collections)
+4. Object created in the method (local)
+
+In other words don't go down a chain of links to indirectly known "strangers". This avoids coupling to distant objects.
+
+* **Problem**: how to pass messages and ensure their security?
+* **Solution**: don't pass messages in a way that may allow insecurity...(?)
 # Use Case Realizations
+This section wasn't covered in a large amount of depth
+## Definition
+* In the vocabulary of the Unified Process and use case modelling, when we design the objects to handle the system's operation for a scenario, we are designing a use case realization
+
+![Use Case](img/usecase.png)
+
+## Designing for Visibility
+* Fact: To send a message to B, A must have visibility to B. It doesn't happen by "magic"
+* Not a GRASP pattern but important!
+* Kinds of visibility
+    * Attribute (instance variable)
+    * Parameter
+    * Local Variable
+    * Global Variable
 # GoF Patterns
-# Conclusions
+Reference to the [book](https://en.wikipedia.org/wiki/Design_Patterns) *Design Patterns: Elements of Reusable Object-Oriented Software* written by Erich Gamma, John Vlissides, Ralph Johnson, and Richard Helm -who were commonly referred to as the *Gang of Four* or **GoF**
+## Singleton Pattern
+* Ensures a class only has one instance, and provide a global point of access to it
+    * Sometimes we want just a single instance of a class to exist in the system
+        * Want just one window manager, or one factory for a family of products
+        * Need to have that instance easily accessible and we want to ensure that additional instances of the class cannot be created
+    * Benefits
+        * Controlled access to sole instance
+> Ensure a class has one instance, and provide a global point of access to it
+
+`-` GoF
+
+![Singleton](img/singleton.png)
+
+Only one instance of a certain class *never* two. Structure for a unique object or sub-system
+
+## Composite Pattern
+* **Problem**: Application needs to manipulate hierarchical collection of "primitive" and "composite" objects uniformly
+* **Solution**: Define an abstract base class (`Component`) that specifies the behaviour that needs to be exercised uniformly across all primitive and composite objects. Subclass the Primitive and Composite classes off of the `Component` class. Each Composite object "couples" itself only to the abstract type `Component` as it manages its "children"
+
+### Anatomy of a preference dialog
+* Aggregates (Composites), called Panels, are used for grouping user interface objects that need to be resized and moved together.
+
+![Preferance](img/prefernce.png)
+
+### UML Object diagram for UI Preference
+![UML](img/umldiagram.png)
+
 ## Applying Composite Pattern to UI Widgets
 *  The Swing Component hierarchy is a Composite
     *  Leaf widgets (e.g.: Checkbox, Button, Label) specialize the component interface
@@ -217,18 +365,30 @@ Definition continued:
 ## Designing for Low Representational Gap
 * Normally we design for a low representational gap between real world and software
 * Typically designed objects typically correspond to real world objects
-* But (contra-indication):'
+* But (contra-indication):
     * Don't design for low representational gap regarding actors
     * E.g.: we don't make a software class Clerk do all the work in the software system
 * Exercise: why?
     * Actors do more than one specific class
     * It may be sensible to talk about one specific actor
-    * Seperating it out into multiple classes
-# Patterns
+    * Separating it out into multiple classes
+# Conclusion
 ## Summary
 * Principles (expressed in *patterns*) guide choices in where to assign responsibilities
-* A *pattern* is a named
+* A *pattern* is a named description of a problem and a solution that can be applied to new contexts;
+    * It provides advice on how to apply it in varying circumstances
 # Resources
 * GRASP (General Responsibility Assignment Software Patterns)
     * Larman
-* Gang of Four  
+        * 2nd Edition
+            * Chapter 16
+            * Chapter 17 & 22
+        * 3rd Edition
+            * Chapter 17 <- main interest
+            * Chapter 18 & 25
+* GoF (Gang-of-Four)
+    * Larman
+        * 2nd Edition
+            * Chapter 23,33 & 34
+        * 3rd Edition
+            * Chapter 26, 36 & 37  
