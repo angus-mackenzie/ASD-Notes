@@ -18,6 +18,8 @@ This is a collection of notes I have made for my third year computer science cou
 8. [UML For Architecture](ASD07.md)
 9. [Architecture & Patterns](ASD08.md)
 10. [Application Architectures](ASD09.md)
+11. [Design Patterns](ASD10.md)
+12. [Open Source Software Development](ASD11.md)
 
 **Please Note**
 I am currently struggling to get tables to render on Github pages. I recommend using the [Github](https://github.com/AngusTheMack/ASD-Notes/) version of these notes.
