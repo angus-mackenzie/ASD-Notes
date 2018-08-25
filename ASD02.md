@@ -4,7 +4,7 @@
 - [Scope of a Project](#scope-of-a-project)
     - [Defining Scope](#defining-scope)
 - [Determining Feasibility](#determining-feasibility)
-- [Project Planning Goals - Aka scope](#project-planning-goals---aka-scope)
+- [Project Planning Goals - AKA scope](#project-planning-goals---aka-scope)
     - [Project Planning Deliverables](#project-planning-deliverables)
     - [Project Planning Schedule](#project-planning-schedule)
     - [Project Planning Supporting Plans](#project-planning-supporting-plans)
@@ -65,8 +65,8 @@ There is no technique that fixes the inherent complexity of software design and 
 * Resources are:
     * People
     * Hardware and software tools
-    * Reusable components.
-# Project Planning Goals - Aka scope
+    * Reusable components
+# Project Planning Goals - AKA scope
 * Goals are derived from the needs and expectations of stakeholders:
     * Project sponsor
     * Customer for deliverables
@@ -79,11 +79,11 @@ There is no technique that fixes the inherent complexity of software design and 
     * M - Measurable, meaningful, motivational
     * A - Agreed upon, attainable, achievable, acceptable, action-oriented
     * R - Realistic, relevant, reasonable, rewarding, results-oriented
-    * T - time-boxed, time-based, time-bound-timely, tangible, trackable.
+    * T - Time-boxed, time-based, time-bound-timely, tangible, trackable.
 ## Project Planning Deliverables
 * Deliverables are a list of items that have to be delivered to meet the goals
     * Verifiable and specific
-    * Can be report, equipment acquisition or Executable code module etc
+    * Can be a report, equipment acquisition or an executable code module etc
     * Has a stakeholder who needs it
 * Say when it has to be delivered
 * Give quality standards
@@ -95,7 +95,7 @@ There is no technique that fixes the inherent complexity of software design and 
 * If the schedule is unrealistic you can justify some of the following:
     * Renegotiate deadline - delay
     * Additional resources - more expensive
-    * Reduce scope - fewer deliverables (only thing that makes sense for capstone - carefully determine your scope)
+    * Reduce scope - fewer deliverables
 ## Project Planning Supporting Plans
 Human Resource Plan
 * Name key individuals and organisations: describe roles and responsibilities
@@ -106,8 +106,8 @@ Communication and Management Plan
 * Who needs to be kept informed about the project
 * How they will receive the information?
     * Weekly review meeting
-    * progress reports
-    * revised schedule
+    * Progress reports
+    * Revised schedule
   
 Risk Management Plan
 * Identify as many risks as possible
@@ -119,11 +119,14 @@ Marketing Plan
 # The Range of Management Activities
 **P**eople
 * Managers, Project Managers, Team Leaders, Software Team, Customers, End-Users
+
 **P**roduct 
 * Scope and decomposition
+
 **P**rocess
-* SDLC: initiation -> Analysis -> Design -> Construct -> Test -> Implement 
-* UP: Inception -> Elaboration -> Construction -> Transition -> Production
+* Software Development Life Cycle (SDLC): initiation -> Analysis -> Design -> Construct -> Test -> Implement 
+* Unified Process (UP): Inception -> Elaboration -> Construction -> Transition -> Production
+
 **P**roject
 * Size estimation, scheduling, risk management, tracking
 
@@ -135,37 +138,86 @@ It seems obvious that a team needs people with different skills
     * Systems analysis: Stakeholder needs, Interaction Designer, Cost estimator
 * User interface designer, user stories
 * Architect: Application overview, performance
-    * Middleware —software layer between the operating system and the applications on a distributed computer network
-* Specialists as required: database, games engine, mobile development, …
-* Documentation: Amanuensis
+    * Middleware — software layer between the operating system and the applications on a distributed computer network
+* Specialists as required: database, games engine, mobile development, etc
+* Documentation: Amanuensis (One who takes dictation or copies manuscripts)
+* 
 
 ## Essential Roles in Small Software development teams
-1. Course developer - prep and coordination of training.
-2. Database designer - essential to the process, mainly due to the specific nature of its knowledge
-3. Implementer - programs sub-systems and components that support
-4. Integrator (lead programmer) - responsible for maintaining the implementer' awareness of the project context, for identifying the tasks to be undertaken and for appointing the person responsible for each one. Also responsible for the initial definition of the critical dates of the project and for developing a plan for the integration of the sub-systems, to allow the project manager to inform the client when each feature is expected to be available.
-5. Process Engineer - mainly concerned with the management of the dev process, its adaptation to org context and monitoring its implementation, in order to identify and implement process improvements.
-6. Project Manager - Assume a global overview of the project through a detailed interaction with the internal and external participants. Must create the conditions for the project to achieve success, by ensuring timeliness and fulfilment of all commitments. Requires: basic knowledge in management; knowledge about the client’s business domain; project management methodologies and negotiation skills.
-7. Project reviewer -  This role cannot be considered critical, however, due to responsibilities related to the verification and approval of several artefacts produced by other participants, and possible conflict of interests, this person cannot have another role within the project
-8. Software Architect -  Responsible for setting the technological foundation on which the project implementation should be based. The software architect is responsible for managing the technical risks.
-9. Systems Administrator -  Focused on ensuring the provision of the infrastructure needs (e.g., PCs for developers, servers, etc.)
-10. Systems Analyst - Scope management. Identify and document the requirements (functional or non-functional). Understand the client's business domain and to perceive the real motivations and relevance of the requirements.
-11. System tester - Entrusted with very different tasks, like review of documentation and testing behaviour. 
-12. Test Manager - Responsibility is to ensure the product quality by devising a plan for internal quality audits and implementation. Cannot have other roles, particularly with those roles related to the design and construction.
-13. UI designer - The scope of this role in a project varies according to the nature of the artefacts to be developed.
+1. Course Developer
+    * Prep and coordination of training
+2. Database Designer
+    *  Essential to the process
+        *  Mainly due to the specific nature of their knowledge
+3. Implementer
+    * Programs sub-systems
+    * Components that support the desired functionality
+4. Integrator (lead programmer)
+    * Responsible for maintaining the Implementer's awareness of the project context
+    * Identifying the tasks to be undertaken and for appointing the person responsible for each one
+    * Responsible for the initial definition of the critical dates of the project and for developing a plan for the integration of the sub-system
+    * To allow the project manager to inform the client when each feature is expected to be available
+5. Process Engineer
+    * Mainly concerned with the management of the development process
+    * Its adaptation to organisational context
+    * Monitoring its implementation to identify and implement process improvements
+6. Project Manager
+    * Assume a global overview of the project through a detailed interaction with the internal and external participants
+    * Must create the conditions for the project to achieve success, by ensuring timeliness and fulfilment of all commitments
+    * Requires
+        * Basic knowledge in management
+        * Knowledge about the client’s business domain
+        * Project management methodologies
+        * Negotiation skills.
+7. Project Reviewer
+    * This role cannot be considered critical.
+    * However, due to responsibilities related to the verification and approval of several artefacts produced by other participants, and possible conflict of interests, this person cannot have another role within the project
+8. Software Architect
+    * Responsible for setting the technological foundation on which the project implementation should be based
+    * Also responsible for managing the technical risks
+9.  Systems Administrator
+    * Focused on ensuring the provision of the infrastructure needs 
+        * E.g.: PC for developers, servers, etc
+10. Systems Analyst
+    * Scope management
+    * Identify and document the requirements (functional or non-functional) 
+    * Understand the client's business domain
+    * Perceive the real motivations and relevance of the requirements
+11. System Tester
+    * Entrusted with very different tasks
+        * like review of documentation and testing behaviour
+12. Test Manager
+    * Responsibility is to ensure the product quality by devising a plan for internal quality audits and implementation
+    * Cannot have other roles, particularly with those roles related to the design and construction
+13. UI Designer
+    *  The scope of this role in a project varies according to the nature of the artefacts to be developed
 ## Choosing People
 * Information from candidates about their background and experience
     * Best evidence to judge suitability
+* Information from interviewing candidates
+    * Mainly judge communications and social skills
+    * Subjective - not reliable
+    * Can ask candidate to perform specific exercises
+* References and Recommendations from people who have worked with them
+    * Effective when you can rely on the people making the recommendation
 ## Managing with different Personality Types
 * Backgrounds and personality styles of team members
 * Management styles of customers and developers
-* Realize tha other people are not like you
+* Realize that other people are not like you
+* Can use Jung + Myers-Briggs personality model
+* Different kinds of personalities need different kinds of motivation, recognition and rewards
 ## Management and Team Success
 * Most software engineering is a group activity
     * Non-trivial software projects cannot be done by one person
     * People motivated by success of the group and their own personal goals
 * Individual success depends on:
     * Ability and interest to work hard
+    * Experience and training with similar applications, development tools, programming languages
+* Team success depends on:
+    * Ability to communicate and express ideas in the team
+    * Group interaction is a key determinant of group performance
+* Management skills
+    * Limited flexibility in group composition: do the best with people available
 # Estimation and Metrics
 ## Milestones and Deliverables
 * Activity - Task that takes time
@@ -178,12 +230,12 @@ It seems obvious that a team needs people with different skills
         * Hand over system for testing
     * Requires a formal, measurable output
 * Deliverable
-    * A project result that is delivered to customer
+    * A project result that is delivered to a customer
 * Milestone vs Deliverable
     * Deliverable is a measurable and tangible outcome of the project. They are developed by project team members in alignment with the goals of the project.
-    * Milestones on the other hand are checkpoints throughout the life of the project. They identify when on or multiple groups of activities have been completed thus implying that a notable point has been reached in the project.
+    * Milestones on the other hand are checkpoints throughout the life of the project. They identify when one or multiple groups of activities have been completed thus implying that a notable point has been reached in the project.
 ## Why Software Metrics?
-* To plan and manage a software development project
+* To plan and manage a software development projects
     * Need to estimate the resources required for each of its constituent activities
         * Subjective perceptions of the activity
         * Based upon measurements of size and complexity
@@ -191,12 +243,12 @@ It seems obvious that a team needs people with different skills
             * Artefact that is produced
     * Software metric measures some aspect of software development
         * Project level - cost or duration
-        * application level - size or complexity
+        * Application level - size or complexity
 ## Software Metrics Characteristics
 * Process Metrics
     * Process metrics measure some aspect of the development process
         * Project cost to date
-        * amount of time spent so far on the project
+        * Amount of time spent so far on the project
         * (These change all the time)
 * Product Metrics
     * Product metrics measure some aspect of the software product.
