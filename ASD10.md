@@ -11,18 +11,18 @@
 - [GRASP](#grasp)
     - [Patterns](#patterns)
         - [Four elements of Pattern Templates](#four-elements-of-pattern-templates)
-    - [Nine Grasp Patterns (+ 2)](#nine-grasp-patterns--2)
+    - [Nine Grasp Patterns](#nine-grasp-patterns)
         - [Information Expert](#information-expert)
         - [Creator](#creator)
         - [Controller](#controller)
         - [Low Coupling](#low-coupling)
         - [High Cohesion](#high-cohesion)
-        - [Coupling and Cohesion](#coupling-and-cohesion)
+            - [Coupling and Cohesion](#coupling-and-cohesion)
         - [Polymorphism](#polymorphism)
         - [Pure Fabrication](#pure-fabrication)
         - [Indirection](#indirection)
         - [Protected Variation](#protected-variation)
-        - [Don't Talk to Strangers](#dont-talk-to-strangers)
+            - [Don't Talk to Strangers](#dont-talk-to-strangers)
 - [Use Case Realizations](#use-case-realizations)
     - [Definition](#definition)
     - [Designing for Visibility](#designing-for-visibility)
@@ -140,16 +140,17 @@ I don't quite *GRASP* this section :wink:
     * Each solution has trade-off and consequences
     * Solutions can cause or amplify other problems
         * Costs and benefits should be compared against
-## Nine Grasp Patterns (+ 2)
-1. Information Expert (expert)
-2. Creator
-3. Controller
-4. Low Coupling
-5. High Cohesion
-6. Polymorphism
-7. Pure fabrication
-8. Indirection
-9. Protected Variations (don't talk to strangers)
+## Nine Grasp Patterns
+1. [Information Expert (expert)](#information-expert)
+2. [Creator](#creator)
+3. [Controller](#controller)
+4. [Low Coupling](#low-coupling)
+5. [High Cohesion](#high-cohesion)
+6. [Polymorphism](#polymorphism)
+7. [Pure fabrication](#pure-fabrication)
+8. [Indirection](#indirection)
+9. [Protected Variations (don't talk to strangers)](#protected-variation)
+
 ### Information Expert
 AKA - Expert
 * What is most basic, general principle of responsibility assignment?
@@ -269,7 +270,7 @@ Definition continued:
     * E.g.: a class responsible for one section of interfacing with a database
 * Rule of thumb: a class with high cohesion has a relative low number of methods, with highly related functionality, and doesn't do much work. It collaborates and delegates.
 
-### Coupling and Cohesion
+#### Coupling and Cohesion
 * High Cohesion typically implies Low Coupling
 * Low Cohesion typically implies low coupling
 
@@ -291,7 +292,7 @@ Definition continued:
 * "Information Hiding"
 * **Problem**: How to design objects so that changes in these objects do not have side effects on other objects
 * **Solution**: Put a wrapper or interface object around them. The wrapper gives a stable interface and is all that has to be altered when the changes happen
-### Don't Talk to Strangers
+#### Don't Talk to Strangers
 * Special case of *Protected Variation*
 * In a method, only send messages to "familiars":
 1. This or self

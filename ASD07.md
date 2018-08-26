@@ -45,7 +45,7 @@
 * Slogan from Lean Software Development (another Agile method)
     * Has the principle of *See the whole* amongst others
     * != do the whole design early!
-* The remainder of the course is about seeing the whole when building  single system
+* The remainder of the course is about *seeing the whole* when building single system
 * This is architectural thinking
     * It is the translation from the **problem domain** to the **solution concepts**
         * Technology with purpose
@@ -57,7 +57,7 @@
 * Well-engineered software
     * Good software architecture
     * Good set of design decisions
-* NB - This is very different from the other meaning of architecture in CS - hardware and associated abstractions
+* NB - This is very different from the other meaning of architecture in CS (which is reference to hardware and associated abstractions)
 ## Definition
 * Basic idea: it is about the **big** picture; the large scale
     * Motivations
@@ -65,13 +65,15 @@
     * Organizations
     * Patterns
     * Responsibilities
-> An architecture is the set of significant decisions about the organization of a software system, the selection of the structural elements and their interfaces by which the system is composed, together with their behaviour as specified in the collaborations among those elements, the composition of these structural and behavioural elements into progressively larger subsystems, and the architectural style that guides this organization—these elements and their interfaces, their collaborations, and their composition - Booch, Rumbaugh and Jacobson, *The UML User Guide*, 1999
+> An architecture is the set of significant decisions about the organization of a software system, the selection of the structural elements and their interfaces by which the system is composed, together with their behaviour as specified in the collaborations among those elements, the composition of these structural and behavioural elements into progressively larger subsystems, and the architectural style that guides this organization—these elements and their interfaces, their collaborations, and their composition
+
+ `-` Booch, Rumbaugh and Jacobson, *The UML User Guide*, 1999
 
 > The software architecture of a program or computing system is the structure or structures of the system which comprise software components, the externally visible properties of those components, and the relationships among them. Architecture is concerned with the public of interfaces; private details of elements - details having to do solely with internal implementation - are not architectural.
 
 > By *externally visible* properties, we are referring to those assumptions other components can make of a component, such as its  provided services, performance characteristics, fault handling, shared resource usage, and so on. The intent of this definition is that a software architecture must abstract away some information from the system ( otherwise there is no point looking at the architecture, we are simply viewing the entire system) and yet provide enough information to be a basic analysis, decision making and hence - risk reduction.
 
-- Bass, Clements, and Kazman. *Software Architecture in Practice*, 2003.
+`-` Bass, Clements, and Kazman. *Software Architecture in Practice*, 2003.
 ## Architecture Description
 International Standard: ISO/IEC/IEEE 42010:2011 - or as I like to say **IS**O/IEC/I**EEE420**10:2011.
 * Recommended practice for architectural description or software-intensive systems
@@ -98,7 +100,7 @@ The fundamental concepts or properties of a system in its environment embodied i
     * Enterprise architecture emphasizes principles
 # UML Views
 ## Why so Many Views and Diagrams
-* Because so many different stakeholders are interested in the overall design == architecture.
+* Because so many different stakeholders are interested in the overall design == architecture
 * Viewpoints of the different stakeholders may lead to different views of the same system
     * These views have to be communicated and represented and then integrated
     * Together they form the complete architectural description of the software
@@ -123,7 +125,7 @@ The fundamental concepts or properties of a system in its environment embodied i
 ## Development View (Allocation View)
 * This view describes the static organization of the software in its development environment
 * It deals with modules, work allocation, costs and planning
-* It also involves monitoring of project progress, software reuse and security.
+* It also involves monitoring of project progress, software reuse and security
 * Component & Package Diagram:
 
 ![Development View](img/component.png)
@@ -183,8 +185,8 @@ We generally use the first notation
 
 ![Package Dependencies](img/umldependencies.png)
 
-* When changing a package that has a dependency, you may need to consider the parts dependent on it as they may cause erroneous behaviour depending on the changes.
-* So consider minimizing the dependencies on packages, as a change will lead to updating the package.
+* When changing a package that has a dependency, you may need to consider the parts dependent on it as they may cause erroneous behaviour depending on the changes
+* So consider minimizing the dependencies on packages, as a change will lead to updating the package
 
 ## Ordering Work
 * What can we start with?
@@ -234,7 +236,7 @@ Where DrawingContext is as follows:
 
 # Architecture Description
 ## Architecture Diagram
-* The Architecture Diagram provides a graphical view of the major components in the system, and the relationships between them.
+* The Architecture Diagram provides a graphical view of the major components in the system, and the relationships between them
 * Conceptual architecture diagram communicates with various stakeholders (e.g.: management, project managers for team/individual work assignments, developers and customers or users)
     * Provides a high-level view useful to non-technical audiences;
     * Summarizes the entire system for technical audiences
@@ -312,7 +314,7 @@ Where DrawingContext is as follows:
     * Form: ```<stimulus> <measurable response>```
     * Record non-functional architectural factors in a measurable form
 * Example:
-    * When the completed sale is sent to the remote tax calculator to add the taxes, the result is returned within 2 seconds "most" of the time, measured in a production environment under "average" load conditions.
+    * When the completed sale is sent to the remote tax calculator to add the taxes, the result is returned within 2 seconds "most" of the time, measured in a production environment under "average" load conditions
     * When a bug-report arrives from a test volunteer, reply with a phone call within 1 working day
 * no point in describing scenarios that will never be tested before shipping
 # Conclusion

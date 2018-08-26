@@ -91,7 +91,7 @@ Scrum Functionality of Project
 * The lower circle represents an iteration of development that occur one after another
     * Output of each iteration is an increment of product
 * The upper circle represents the daily inspection that occurs during the iteration
-    * Individual team members meet to inspect each others' activities and make appropriate adaptations.
+    * Individual team members meet to inspect each others' activities and make appropriate adaptations
 * Driving the iteration is a list of requirements
 * This cycle repeats until the project is complete
 
@@ -254,13 +254,13 @@ Who do we give them to, and how do we give them to people
 ### Backlog
 * If the team feels unable to complete all the committed Product Backlog
     * Can consult with the Product Owner on which items to remove
-        * If so many items require removal that the Sprint has lost its value, the ScrumMaster can terminate the Sprint, as previously sated.
+        * If so many items require removal that the Sprint has lost its value, the ScrumMaster can terminate the Sprint, as previously stated
 * If the Team determines that it can address more product Backlog
     * Can consult the Product Owner on which additional items to be added
 ### Non-viable
 * If the sprint proves not to be viable, the SM can terminate the Sprint and initiate a new S planning meeting
-    * The SM can make this change if requested by the Team or Product Owner.
-    * THe Sprint can prove to be not viable:
+    * The SM can make this change if requested by the Team or Product Owner
+    * The Sprint can prove to be not viable:
         * If the tech proves unworkable
         * If the business conditions change so that the Sprint will not be of value to the business
         * If the team is interfered with during the Sprint by anyone outside the team

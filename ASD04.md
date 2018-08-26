@@ -110,7 +110,7 @@ value the items on the left more.
 > If you can dodge a wrench you can dodge a requirement
 # Pareto's Law - 80/20 Rule
 * Typically 80% of your results may actually come from only 20% of your efforts!
-    * Try to apply the 80/20 rule, and focus on the important 20% of effort that gets the majority of the results.
+    * Try to apply the 80/20 rule, and focus on the important 20% of effort that gets the majority of the results
 * The difficult question is can you see initially which 20% is the important 20%?
     * The 20% that will deliver 80% of the results
     * In very many cases, the answer is NO
@@ -127,7 +127,7 @@ value the items on the left more.
     * Users may actually use only 20% or less of the product
     * Many projects start with a bloated scope
         * No-one is sure at the outset which 20% they will use
-    * It is impossible to think of everything, things change, and things are understood differently.
+    * It is impossible to think of everything, things change, and things are understood differently
 * Agile development assumes that requirements emerge and evolve
     * However much analysis and design you do, you cannot really know what you want until you see and use the software
     * In the time spent analysing and reviewing requirements and designing a solution, external conditions could change
@@ -157,14 +157,14 @@ value the items on the left more.
 * Most agile teams represent each requirement as a user story
     * Similar to Use Cases but lightweight and simpler
     * A simple statement about what a user wants to do with a feature
-* Should focus on the who, what and why of a feature, **know how**
+* Should focus on the who, what and why of a feature, **not how**
     * on a job site, two high-level User Stories might be:
         * As a job seeker, I want to search for a job, so I can advance my career
         * As a recruiter, I want to post a job vacancy, so I can find a new team member
 * The general form can be
     * As a [user role], I want to [goal], so I can [reason]
 * At the start of a project, capture an initial list of User Stories up-front
-    * useful for estimating and planning
+    * Useful for estimating and planning
 * Defer capturing the details until the story is prioritised and due to be developed
 * Users often tell stories
     * About the failings of their current system
@@ -191,11 +191,11 @@ value the items on the left more.
     * You can see a deliverable to judge it in quality and completeness
     * A task you cannot
 ## Incremental Design
-* As opposed to Fred Brooks *No Silver Bullet* Agile does not follow a top-down design method.
-    * Top-down design says: time in design is worth it to save cost of re-working the design many times.
-* Agile design is always the same size as the system.
+* As opposed to Fred Brooks *No Silver Bullet* Agile does not follow a top-down design method
+    * Top-down design says: time in design is worth it to save cost of re-working the design many times
+* Agile design is always the same size as the system
     * "You can't possibly anticipate the problems and alternatives that will arise once you start coding"
-* If a new feature comes along that requires major changes then that is the trade-off for the flexibility it allows.
+* If a new feature comes along that requires major changes then that is the trade-off for the flexibility it allows
     * Perhaps this feature wa not even known at the beginning anyway!
     * Or it might have gone away if we knew of it at the start!
 
@@ -246,7 +246,7 @@ value the items on the left more.
 
 
 **Prototypes**
-* Prototype solutions to risky problems helps to increase the chance of having a working product.
+* Prototype solutions to risky problems helps to increase the chance of having a working product
 * Prototypes: an inexpensive way to try out ideas so that as many issues as possible are understood before the real implementation
 * Two main classes of prototypes
     * The true prototype
@@ -265,7 +265,7 @@ value the items on the left more.
 **Nightly Builds**
 * Software should be completely rebuilt from scratch daily
     * The result of the build will be an installable product image
-* The build should include as many automated tests as possible to catch integration problems early.
+* The build should include as many automated tests as possible to catch integration problems early
     * If the build or tests fail, fix the problems first thing
     * Don't let anyone integrate any additional work until after the build succeeds again
     * There is a risk of multiple bad changes accumulating that will jeopardize the quality of the product
@@ -291,11 +291,11 @@ value the items on the left more.
 | On-site customer       | A representative of the end-user of the system (the customer) should be available full time for the use of the XP team. In an extreme programming process, the customer is a member of the development team and is responsible for bringing system requirements to the team for implementation |
 
 ## System Metaphor in Extreme Programming
-* System metaphor is a mental model that everyone shares about the system and it shapes the architecture of the system.
+* System metaphor is a mental model that everyone shares about the system and it shapes the architecture of the system
     * Frequently misunderstood and neglected part of XP
     * Difficult to find such a metaphor
-* Metaphor is something you start using when your mother asks what you are working on and you try to explain her the details.
-* Use your common sense or find the person on your team who is good at explaining technical things to customers in a way that is easy to understand.
+* Metaphor is something you start using when your mother asks what you are working on and you try to explain her the details
+* Use your common sense or find the person on your team who is good at explaining technical things to customers in a way that is easy to understand
 
 ## XP Planning Game 
 ### Stages
@@ -336,7 +336,7 @@ value the items on the left more.
 * Informal review process: each line of code is looked at by at least two people
 * Productivity is similar to that of two people working independently
 * Common ownership of code
-    * Individuals are not help responsible for problems with the code.
+    * Individuals are not help responsible for problems with the code
 * Collective responsibility for the system
     * Team has collective responsibility for resolving problems
 * Spreads knowledge across the team
@@ -365,7 +365,7 @@ value the items on the left more.
     * Test-first development
     * Incremental test development from scenarios
     * User involvement in test development and validation
-    * Automated test harnesses are used to run all component test each time that a new release is built.
+    * Automated test harnesses are used to run all component test each time that a new release is built
 ## Test-first development
 * Writing tests before code clarifies the requirements to be implemented
 * Tests are programs rather than data
@@ -453,8 +453,8 @@ value the items on the left more.
 # Refactoring
 ## XP and Change
 * Conventional wisdom in software engineering is to design for change. It is worth spending time and effort anticipating changes as this reduces costs later in the life cycle.
-* XP, however, maintains that this is not worthwhile as changes cannot be reliably anticipated.
-* Rather, it proposes constant code improvement (refactoring) to make changes easier when they have to be implemented.
+* XP, however, maintains that this is not worthwhile as changes cannot be reliably anticipated
+* Rather, it proposes constant code improvement (refactoring) to make changes easier when they have to be implemented
 ## What is refactoring
 * Refactoring is defined as
     *   a change made to the internal structure of software to make it easier to understand and cheaper to modify without changing its observable behaviour
@@ -475,7 +475,7 @@ value the items on the left more.
 ## Examples of Refactoring
 * Re-organization of a class hierarchy to remove duplicate code
 * Tidying up an renaming attributes and methods to make them easier to understand
-* The replacement of inline code with calls to methods that have been included in a program librarys
+* The replacement of inline code with calls to methods that have been included in a program libraries
 
 Initial Classes - Video Rental
 
@@ -494,7 +494,7 @@ Refactored Classses Video Rental
 * An important aspect of improving design is to eliminate duplicate code
     * Ensure the code says everything once and only once
     * More code <=> harder to modify correctly <=> mode code to understand
-    * Change this bit of code here, but the system doesn't do what is expected because you didn't change that bit over there that does much the same thing in a slightly different context.
+    * Change this bit of code here, but the system doesn't do what is expected because you didn't change that bit over there that does much the same thing in a slightly different context
 * Changes are easier to make because the code is well-structured and clear
 ### Makes Software Easier to Understand
 * Improve the understandability and readability of the software
@@ -533,14 +533,14 @@ Refactored Classses Video Rental
     * These refactorings help to organise inheritance hierarchies
 ## Refactoring to Patterns
 * Refactoring to Patterns is the marriage of refactoring with patterns
-    * Patterns $\equiv$ classic solution to recurring design problems
+    * Patterns == classic solution to recurring design problems
 * Use patterns to improve an existing design
     * Better than using patterns early in a new design
 * This is compatible with XP's desire to avoid too much upfront design
 # Conclusion
 * The traditional view is that refactoring is a waste of resources
 ## Collaboration with Users
-* Agile development relies on close cooperation and collaboration between all team members and stakeholders.
+* Agile development relies on close cooperation and collaboration between all team members and stakeholders
     * Keep requirements and documentation lightweight
     * Acknowledge that change is a normal and acceptable reality in software development
     * Required to clarify requirements just-in-time
@@ -617,7 +617,7 @@ Refactored Classses Video Rental
     * The only thing that is certain in life is change
     * Requirements are allowed to evolve, but the timescale is fixed
         * To include a neq requirement, or to change a requirement, the user must remove a comparable amount of work
-    * Assumes there are enough non-mandatory features included in the original time frames.
+    * Assumes there are enough non-mandatory features included in the original time frames
 ### Agile Requirements are Barely Sufficient
 * Contrast this to the traditional situation
     * User still has new and changed requirements

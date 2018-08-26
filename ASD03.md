@@ -38,12 +38,12 @@
     - [Benefits of Iterative Development](#benefits-of-iterative-development)
 # Problems
 ## Observations
-* Most common problem in software systems is not the construction, but the estimation.
-* Software projects fail to meet cost and schedule, because those targets are wrong.
+* Most common problem in software systems is not the construction, but the estimation
+* Software projects fail to meet cost and schedule, because those targets are wrong
     * Costing software is difficult
 * Know little about accurate estimations so targets are unreasonable
     * Made by people least able to make them
-        * e.g.: marketers, managers and customers.
+        * e.g.: marketers, managers and customers
 * Communication is hard when ideas are abstract or conceptual
 
 ## Software Engineering Triangle
@@ -57,21 +57,21 @@
 Just say no (to large projects)
 * Secret to project success: enforce limits on size and complexity
     * Size and complexity trump all other success factors
-* Break large projects down into a sequence of smaller ones, prioritized on direct business value.
-    * Use stable, full-time, cross-functional teams that follow a disciplined agile approach.
-* Quick solution is to just say no to large projects.
-    * More sensibly: adopt a small project strategy.
-        * Deliver software at lower cost and with fewer defects.
-* Projects too often get too big to succeed.
+* Break large projects down into a sequence of smaller ones, prioritized on direct business value
+    * Use stable, full-time, cross-functional teams that follow a disciplined agile approach
+* Quick solution is to just say no to large projects
+    * More sensibly: adopt a small project strategy
+        * Deliver software at lower cost and with fewer defects
+* Projects too often get too big to succeed
     * Constantly being called on to do more for less
     * But the real key to success is doing less for less
-        * Splitting large projects into a sequence of small ones.
+        * Splitting large projects into a sequence of small ones
 ## Wasted Effort
 More than 45% of features are never used, while another 19% are used rarely
 * Almost 2/3 of the features are never or rarely used
 * Stop Developing these features and double productivity
 ## You Ain't Gonna Need It (YAGNI)
-* Cry to prevent speculative development and Gold Plating (aka Bells and Whistles)
+* Cry to prevent speculative development and Gold Plating (AKA Bells and Whistles)
 > I am sure I'm going to need some additional functionality later, so ill write it now
 * Better is to build only what you need now
 * Speculative development adds complexity to code prematurely
@@ -86,15 +86,15 @@ Ultimately Unprofitable project: features become a drag
 
 However, **The cost curve under most software processes is exponential**
 * Fred Brooks attributes the exponential rise in costs to the cost of communication
-    * Customer and developer must understand each other perfectly.
+    * Customer and developer must understand each other perfectly
 * New Projects have success because the cost curve is still flat
 * Cost start increasing
-    * Quickly overcome any additional value added from new features.
+    * Quickly overcome any additional value added from new features
 
 ![Cost Curve](img/unprofitableprojectcostcurve.png)
 
 ## The Crunch
-* Crunch is the side effect of other problems and the cause of burnout.
+* Crunch is the side effect of other problems and the cause of burnout
 
 ## Software Entropy, Rot & Geriatrics
 * Entropy is a measure of disorder in a physical system
@@ -102,7 +102,7 @@ However, **The cost curve under most software processes is exponential**
     * Tends to increase over time
     * Speculative development adds complexity at the start
     * Bug fixes and enhancement increase complexity and degrade structure
-        * Most software applications grow at annual rates of 5% - 10%.
+        * Most software applications grow at annual rates of 5% - 10%
 * Entropy makes it hard to 
     * Make changes and fixes
     * Understand the code
@@ -110,11 +110,11 @@ However, **The cost curve under most software processes is exponential**
     * YAGNI at the start and
     * Refactoring as you go along
 ## Yak Shaving
-Official jargon for computer science
+Official jargon for Computer Science
 1. You want to generate documentation based on your git logs
 2. You try to add a git hook only to discover the library you have is incompatible and therefore won't work with your web server
 3. You start to update your web server, but realize that the version you need isn't supported by the patch level of your OS, so you start to update your OS
-4. The operating system upgrade has a known issue with the disk array the machine uses for backups.
+4. The operating system upgrade has a known issue with the disk array the machine uses for backups
 5. etc...
 
 Avoiding Yak Shaving?
@@ -127,7 +127,7 @@ Avoiding Yak Shaving?
 * Fixed time
 * high quality
 
-*Goal* deliver software product to meet the clients needs on time and within budget
+*Goal*: deliver software product to meet the clients needs on time and within budget
 
 Can we develop quality software under these circumstances?
 
@@ -152,16 +152,18 @@ Can we develop quality software under these circumstances?
 Analysis -> Requirement specification -> Design -> Implementation -> Testing and Integration -> Operation and Maintenance
 
 * Linear, sequential
+
+Example: 
 * Teams gather requirements
 * Develop the product
-* Test it to see if they implemented the specification correctly.
-* After release they gain insight into what the customer actually desired.
+* Test it to see if they implemented the specification correctly
+* After release they gain insight into what the customer actually desired
 
-Version 2
+So now they create Version 2
 * The target has changed
 * Not all is lost
 * Given more money you can try again
-* There is a good chance the team learned quite a bit about what their customers actually desired.
+* There is a good chance the team learned quite a bit about what their customers actually desired
     * Next rocket has a better chance of landing closer to the actual customer needs
 
 ## Waterfall Concepts
@@ -173,7 +175,7 @@ Version 2
         * Often design elaborate systems for problems that do not really exist
 ## Change and the Waterfall Method
 * The cost of change increases exponentially with time
-    * Conservative design decisions motivates by fear of change
+    * Conservative design decisions motivated by fear of change
     * A change late in the process costs 1000 times as much as a change early into the process
         * Five minutes to write a spec
         * Two days to program the feature
@@ -220,25 +222,31 @@ Is it feasible first to define the whole problem, then design the entire solutio
 * Build and show a new version to users every 2 to 4 weeks
 * Requires
     * Team members close together and close to customer
-    * Team members agree on good ideas over a  period of hours, not months.
+    * Team members agree on good ideas over a  period of hours, not months
     * Team become experts through intense hands-on problem solving and testing
 * Ends up with real systems meeting the user's needs, not their "perceived" needs
 * Favoured by small start up companies
     * Greatly reduce the risk of a project failing
-        * Only one shot at the target, steer your way to success using information instead of launching blindly into the unknown.
+        * Only one shot at the target, steer your way to success using information instead of launching blindly into the unknown
 * Long term, iterative development delivers more value sooner, with lower overall risk
 * Project is intensely focused
-    * In completing only high priority features, many alternative concepts never get explored.
+    * In completing only high priority features, many alternative concepts never get explored
         * Good ideas can be lost
 ## Examples of Iterative SE
 * Agile Software Development ("Agile Manifesto")
-    * Mini software projects; face-to-face communication
+    * Mini software projects
+    * Face-to-face communication
 * Rapid Application Development (RAD - James Martin)
-    * Voice of customer; rigid schedule
+    * Voice of customer
+    * Rigid schedule
 * Extreme Programming (XP - Kent Beck)
-    * Design on the fly; unit testing of all code, pair programming; refactoring
+    * Design on the fly
+    * Unit testing of all code
+    * Pair programming
+    * Refactoring
 * Scrum (Takeuchi, Nonaka and, later, Schwaber)
-    * Facilitated teams scrum down in short iterations (sprints); empirical process
+    * Facilitated teams scrum down in short iterations (sprints)
+    * Empirical process
 
 # Unified Process
 ## Iterative Development and the Unified Process
@@ -258,7 +266,7 @@ Is it feasible first to define the whole problem, then design the entire solutio
     * Multiple iterations with feedback and adaptation
 * System grows incrementally over time, iteration by iteration
     * May not be eligible for production deployment until after many iterations
-* Output of an iteration is not an experimental prototype but a production subset of the final system.
+* Output of an iteration is not an experimental prototype but a production subset of the final system
 * Each iteration tackles new requirements and incrementally extends the system
 * An iteration may occasionally revisit existing software and improve it
 
@@ -277,14 +285,21 @@ Is it feasible first to define the whole problem, then design the entire solutio
 ## Unified Process phases
 * Inception - Define the scope of project
     * Feasibility
-* Elaboration - Plan project, specify features, baseline architecture
+* Elaboration - Plan project
+    * Specify features
+    * Baseline architecture
 * Construction - build the product
-    * Refine vision, implement core, resolution of high risks, identify major requirements
+    * Refine vision
+    * Implement core
+    * Resolution of high risks
+    * Identify major requirements
     * Several iterations (3 in book)
 * Transition - Transfer the product into end user community
-    * Deployment, Release
-    * 
+    * Deployment
+    * Release
+
 > IECT
+
 More notes on [Iterative Development and Unified Process](docs/IterativeDevelopmentAndTheUnifiedProcess.pdf). 
 
 ## Artefacts
@@ -292,7 +307,12 @@ More notes on [Iterative Development and Unified Process](docs/IterativeDevelopm
 * Everything is optional
 * Best kept electronically on website
 * Following can start in inception
-    * Use-case model, vision, supplementary specification, glossary, s/w development plan, development case
+    * Use-case model
+    * Vision
+    * Supplementary specification
+    * Glossary
+    * Software development plan
+    * Development case
 
 # Comparison and Conclusion
 ## Process Comparison
@@ -300,18 +320,18 @@ More notes on [Iterative Development and Unified Process](docs/IterativeDevelopm
 
 ![Process Comparison](img/processComparison2.png)
 
-Fixed functionality, but flexible time and resources for Traditional
+Traditional has Fixed functionality, but flexible time and resources
 
-Flexible functionality, but fixed time and resources for Iterative
+Iterative has Flexible functionality, but fixed time and resources
 ## Process Models
-* A framework of tasks applied during software engineering:
-    * Linear (Waterfall) - based on conventional engineering
-    * Prototyping: Build a system to clarify requirements
-    * Rapid Application Development (RAD) - well defined 60-90 day projects
-    * Incremental : deliver increasing functionality at each iteration
-    * Spiral (Boehm): Similar set of tasks applied for each turn of the spiral
-    * Component based: aimed at producing and reusing O-O components
-    * Agile: Embrace change and adapt to it and keep things simple
+A framework of tasks applied during software engineering:
+* Linear (Waterfall) - based on conventional engineering
+* Prototyping: Build a system to clarify requirements
+* Rapid Application Development (RAD) - well defined 60-90 day projects
+* Incremental : deliver increasing functionality at each iteration
+* Spiral (Boehm): Similar set of tasks applied for each turn of the spiral
+* Component based: aimed at producing and reusing O-O components
+* Agile: Embrace change and adapt to it and keep things simple
 
 ## Reduce Risk
 * Iterative methods attempt to reduce risk by bringing versions out early
@@ -332,7 +352,12 @@ Alternative to the SE Constraint Triangle?
 ![Method Included](img/methodTraingle.png)
 
 ## Benefits of Iterative Development
-* Early reduction of risk: technical, requirements, objectives, usability, etc
+* Early reduction of risk
+    * Technical
+    * Requirements
+    * Objectives
+    * Usability
+    * etc
 * Early visible progress
 * Early feedback
     * User engagement, and adaptation
@@ -342,6 +367,6 @@ Alternative to the SE Constraint Triangle?
     * Architecture can be assessed and improved early
 * Handle evolving requirements
     * Users provide feedback to operational systems
-    * responding to feedback is an incremental change
+    * Responding to feedback is an incremental change
 * Allow for changes: system can adapt to problems
 * Learn and apply lessons within the development process

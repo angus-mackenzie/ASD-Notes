@@ -73,10 +73,10 @@
         * connections
     * Very interested in the non-functional requirements
         * also called quality requirements
-        * e.g.: security, persistence, usability, etc
-        * ensure that these can be met
-        * or if cannot be met, suggest trade-offs
-        * e.g.: trends vs costs vs time vs usability vs security
+            * e.g.: security, persistence, usability, etc
+            * ensure that these can be met
+            * or if cannot be met, suggest trade-offs
+                * e.g.: trends vs costs vs time vs usability vs security
 ## Architecture is the Important Stuff
 1. Expert developers understanding of the system design
 2. The set of design decisions that must be made early on
