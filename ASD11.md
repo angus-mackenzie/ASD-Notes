@@ -40,7 +40,7 @@ These slides are a bit outdated, so I think it may be best to take everything wi
 # Free Software
 * From the GNU General Public License (GPL):
 > When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
-* Another term used to describe free software is *libre* highlighting the notion of freedom.
+* Another term used to describe free software is *libre* highlighting the notion of freedom
 # Open Source and Free Software
 * Open Source and Free Software essentially amount to the same thing
 * Collectively it is referred to as FOSS or FLOSS 
@@ -86,7 +86,7 @@ These slides are a bit outdated, so I think it may be best to take everything wi
 * Most popular alternative to Microsoft Office, **LibreOffice/OpenOffice**, is open source
 * Mozilla Firefox and Google Chrome browsers are open source
 * SQLite, file-based open source database, deployed with Android and Apple devices, Mozilla Firefox
-* MySQL, open source database is used in critical applications by Google, Yahoo, NASA - I really don't know how accurate this is anymore. 
+* MySQL, open source database is used in critical applications by Google, Yahoo, NASA (I really don't know how accurate this is anymore)
 # Open Source and Business
 * Software companies responds to Open Source differently:
     * Some use it extensively to build their business
