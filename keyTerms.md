@@ -10,5 +10,8 @@ Milestone - Checkpoints throughout the life of a project. Identify when one or m
 Deliverable - Measurable and tangible outcome of the project. Developed by project team members in alignment with the goals of the project.
 
 ## Abbreviations
-SDLC - Software Development Life Cycle
-UP - Unified Process
+| Contraction | Definition |
+|---|---|
+|SDLC|Software Development Life Cycle|
+|UP|Unified Process|
+|PERT|Program Evaluation and Review Technique|

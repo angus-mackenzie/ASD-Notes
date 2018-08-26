@@ -253,14 +253,14 @@ It seems obvious that a team needs people with different skills
 * Product Metrics
     * Product metrics measure some aspect of the software product.
         * Analysis model
-            * number of classes in an analysis class diagram
-        * test plans
-        * program code
+            * Number of classes in an analysis class diagram
+        * Test plans
+        * Program code
 * Result Metrics
     * Measure outcomes
         * Current cost of a project 
     * Also known as control metrics
-        * used to determine how management control should be exercised
+        * Used to determine how management control should be exercised
             * Measurement of the current level of progress in the project is used to decide whether action is necessary to bring the project back onto schedule.
 * Predictor Metrics
     * Quantify estimates for project resource requirements
@@ -289,7 +289,7 @@ It seems obvious that a team needs people with different skills
 * Class size
     * Number of attributes
     * Number of operations
-    * size of operations
+    * Size of operations
 # Scheduling
 ## Project Scheduling
 * Split the work in a project into separate tasks
@@ -305,7 +305,7 @@ It seems obvious that a team needs people with different skills
 ![Project Schedule Process](img/projectscheduleprocess.png)
 
 ## Critical Path or Network Analysis
-* Related to PERT Charts
+* Related to PERT Charts - Program Evaluation and Review Technique
 * Minimum overall duration of the project according to the estimates depends on the critical path(s)
 * Any delay of a task on the critical path delays the whole project.
 ## What is Network Analysis?
@@ -356,12 +356,12 @@ The following steps are better illustrated in the [this](docs/networkanalysis.pd
 Here is an example:
 ![Network Analysis](img/networkanalysisexample.png)
 
-TODO
-* Finish Example
+The solution to which is [here](docs/solution.pdf)
+
 # Gantt Charts
 * Horizontal Bar Chats
     * Horizontal axis represents project time span
-    * vertical axis represents project tasks
+    * Vertical axis represents project tasks
 * Capture
     * Task completion
     * Simple dependencies
@@ -391,8 +391,6 @@ During project
     * Plan for monitoring, mitigation, management
     * Revisit continually during project
 ## Boehm's Top Ten Risk Items +2
-* Being blindsided by the competition
-* Outside interruptions
   1. Personnel shortfalls - failure to recruit or retain key staff
   2. unrealistic schedules and budgets
   3. Developing the wrong functions
@@ -403,34 +401,45 @@ During project
   8. Shortfalls in externally-furnished components
   9. Real-time performance shortfalls
   10. Straining computer science capabilities
+
+Then the `+2` are:
+* Being blindsided by the competition
+* Outside interruptions
 ## Risk Matrix
 * Sort risk by a combination of:
     * Probability (high, medium, low)
-    * Impact - catastrophic (project failure), critical (massive delay), marginal, negligible
+    * Impact
+        * Catastrophic (project failure)
+        * Critical (massive delay)
+        * Marginal
+        * Negligible
+
 ![Risk Matrix](img/riskmatrix.png)
 ## 3M's
 * Mitigation
     * How can we void or reduce the risk?
-        * Avoid the riskL change requirements
+        * Avoid the risk: change requirements
         * Transferring the risk: e.g.: buy insurance
-    * Or assume the risk and accept and control it
+    * Or, assume the risk, accept and control it
 * Monitoring
     * What factors can we track that will enable us to determine if the risk is becoming more or less likely?
 * Management
-* What contingency plans do we have if the risk becomes a reality
+    * What contingency plans do we have if the risk becomes a reality?
 
 [Example of risk](docs/examplesofrisks.pdf)
 
 # Questions
 1. Which of the following statements best describes how one goes about identifying the critical path:
-    * a) Find those milestones where the earliest start time is equal to the latest start time <--- Answer
+    * a) Find those milestones where the earliest start time is equal to the latest start time
     * b) Find those milestones where the earliest start time is less than the latest start time
     * c) Find those milestones where the earliest start time is greater than the latest start time
     * d) Find those milestones with some scheduling flexibility
     * e) None of the above
+* a is answer
 2. What does the term GANTT stand for
-    * nothing
+* Nothing
 3. Which of the following statements best explains what is meant by slack time in Critical Path Analysis?
+* Didn't take it down sadly
 # Conclusion
 ## Planning vs. Management
 * Planning
