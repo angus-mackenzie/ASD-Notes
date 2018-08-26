@@ -455,7 +455,6 @@ Then the `+2` are:
     * Reassess risks
 # Resources
 * Bennett, McRobb & Farmer, Object-Oriented Systems Analysis and Design: Using UML, McGraw-Hill. Chapter 22: Managing Object-Oriented Projects.
-    * Available [here](highered.mcgrawhill.com/sites/0077125363/student_view0/online_chapters.html)
 * Sommerville, Software Engineering, Pearson
     * Chapter 22: Project management: Risk management, Managing people, Teamwork 
     * Chapter 23: Project planning, Software pricing, Plan-driven development, Project scheduling, Agile planning, Estimation techniques
