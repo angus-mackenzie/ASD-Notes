@@ -26,10 +26,12 @@ I am currently struggling to get tables to render on Github pages. I recommend u
 
 ## Notes
 Here are some basic summarizations I am still working on:
+
  [Summary](Summary.md)
+
  [Key Terms](keyTerms.md)
  ## PDFs
-[@Jethro](https://github.com/mlljet002) Added the [PDFs](/PDFs) folder if you want to print the documents -> Although there seems to be an issue with some table rendering.
+[@Jethro](https://github.com/mlljet002) Added the [PDFs](/PDFs) folder if you want to print/read the documents.
 
 
 The general topics covered during this period of the course were:
