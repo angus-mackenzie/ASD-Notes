@@ -26,4 +26,19 @@ This is a summary of the content of ASD, I recommend reading through the other n
         * Narrative: narrative description of software based on what stakeholders say
         * Use cases: stories describing user interaction with software, from user POV
     * Determine feasibility
-        * Can you satisfy
+        * Given the scope, determine the resources required
+    * Project Planning Goals
+        * AKA Scope
+        * Create measurable goals
+            * S - Specific
+            * M - Measurable
+            * A - Agreed upon
+            * R - Realistic
+            * T - Time boxed
+    * Deliverables
+    * Schedule
+* Supporting Plans
+    * HR Plan
+    * Communication & Management Plan
+    * Risk Management Plan
+    * Marketing Plan

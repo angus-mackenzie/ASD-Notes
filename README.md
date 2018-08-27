@@ -24,6 +24,14 @@ This is a collection of notes I have made for my third year computer science cou
 **Please Note**
 I am currently struggling to get tables to render on Github pages. I recommend using the [Github](https://github.com/AngusTheMack/ASD-Notes/) version of these notes.
 
+## Notes
+Here are some basic summarizations I am still working on:
+ [Summary](Summary.md)
+ [Key Terms](keyTerms.md)
+ ## PDFs
+[@Jethro](https://github.com/mlljet002) Added the [PDFs](/PDFs) folder if you want to print the documents -> Although there seems to be an issue with some table rendering.
+
+
 The general topics covered during this period of the course were:
 1. O-O & UML
 2. Project Management
