@@ -9,10 +9,10 @@
 - [UML Views](#uml-views)
     - [Why so Many Views and Diagrams](#why-so-many-views-and-diagrams)
     - [RUP "4+1" View of Architectures](#rup-%2241%22-view-of-architectures)
-    - [Logical View (Module View)](#logical-view-module-view)
-    - [Development View (Allocation View)](#development-view-allocation-view)
-    - [Process View (Component-and-Connector View)](#process-view-component-and-connector-view)
-    - [Physical View (Deployment View)](#physical-view-deployment-view)
+        - [Logical View (Module View)](#logical-view-module-view)
+        - [Development View (Allocation View)](#development-view-allocation-view)
+        - [Process View (Component-and-Connector View)](#process-view-component-and-connector-view)
+        - [Physical View (Deployment View)](#physical-view-deployment-view)
 - [UML Packages](#uml-packages)
     - [Logical Architecture](#logical-architecture)
     - [Package Diagrams for Logical Architecture](#package-diagrams-for-logical-architecture)
@@ -113,7 +113,7 @@ The fundamental concepts or properties of a system in its environment embodied i
 
 ![4+1](img/4+1.png)
 
-## Logical View (Module View)
+### Logical View (Module View)
 * The logical view is concerned about the output(s) of the system and how it will affect the end users
 * The logical view splits the system into a set of abstractions, or modules
 * The decomposition serves two purposes:
@@ -122,14 +122,14 @@ The fundamental concepts or properties of a system in its environment embodied i
 * Communication diagram:
 
 ![Communication Diagram](img/communication.png)
-## Development View (Allocation View)
+### Development View (Allocation View)
 * This view describes the static organization of the software in its development environment
 * It deals with modules, work allocation, costs and planning
 * It also involves monitoring of project progress, software reuse and security
 * Component & Package Diagram:
 
 ![Development View](img/component.png)
-## Process View (Component-and-Connector View)
+### Process View (Component-and-Connector View)
 * This view deals with concurrency and distribution, system integrity, and fault tolerance
 * It explains which components interact, and how they do so
 * The dynamic connections between different components at runtime
@@ -137,7 +137,7 @@ The fundamental concepts or properties of a system in its environment embodied i
 
 ![Process View](img/processview.png)
 
-## Physical View (Deployment View)
+### Physical View (Deployment View)
 * This view describes how the software maps onto the hardware
 * It shows networking and distribution
 * It considers system requirements like reliability and performance
