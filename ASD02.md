@@ -141,8 +141,6 @@ It seems obvious that a team needs people with different skills
     * Middleware — software layer between the operating system and the applications on a distributed computer network
 * Specialists as required: database, games engine, mobile development, etc
 * Documentation: Amanuensis (One who takes dictation or copies manuscripts)
-* 
-
 ## Essential Roles in Small Software development teams
 1. Course Developer
     * Prep and coordination of training
