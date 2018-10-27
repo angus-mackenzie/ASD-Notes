@@ -47,7 +47,7 @@ There is no technique that fixes the inherent complexity of software design and 
 * Asana
 * Overleaf
 # Scope of a Project
-* The functions and features that are to be delivered to end-users
+* The functions and features that are to be delivered for end-users
 * The data that is considered input and output
 * The content that is presented to users as a consequence of using the software
 * The performance, constraints, interfaces and reliability that bound the system

@@ -32,17 +32,3 @@ Here are some basic summarizations I am still working on:
  [Key Terms](keyTerms.md)
  ## PDFs
 [@Jethro](https://github.com/mlljet002) Added the [PDFs](/PDFs) folder if you want to print/read the documents.
-
-
-The general topics covered during this period of the course were:
-1. O-O & UML
-2. Project Management
-3. Software Development Methodologies
-4. Agile Software Development
-5. Software Development with SCRUM
-6. Case Study: SCRUM in Game Development
-7. UML, Patterns and Architecture
-8. Software Architecture
-9. Design Patterns
-10. Open Source
-11. Validation/Verification
