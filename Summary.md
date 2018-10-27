@@ -115,7 +115,35 @@ This is a summary of the content of ASD, I recommend reading through the other n
         * Yes
         * Useful for prediction
         * Size metrics used for resource requirements
-
-Scheduling
-* 
-    * 
+## Scheduling
+* Split the work in a project into separate tasks
+* Network Analysis
+    * Label tasks in order and indicate dependencies
+    * Fill in earliest start, earliest finish
+    * Fill in latest start, latest finish
+    * Fill in total float
+    * Fill in free float
+* Gantt Charts
+## Risks
+* 3M's
+    * Mitigation
+    * Monitoring
+    * Management
+* Risk Matrix
+    * Probability
+    * Impact
+## Planning vs Management
+* Planning
+    * Pre/Post
+    * Network analysis, resourcing
+* Management
+    * During
+    * Controlling resources and timescales
+# PM Methods
+## Triangle
+* Time
+* Scope
+* Cost
+## YAGNI - You Ain't Gonna Need It
+## Software Entropy
+* Entropys is a measure of disorder in a physical system
