@@ -35,12 +35,25 @@ This is a summary of the content of ASD, I recommend reading through the other n
             * A - Agreed upon
             * R - Realistic
             * T - Time boxed
-    * Deliverables
+    * Deliverables - list of items to be delivered to meet goals
     * Schedule
+        * Effort required (in terms of time)
+        * If schedule is unrealistic you can do the following:
+            * Renegotiate deadline
+            * Additional resources
+            * reduce scope
     * Supporting Plans
         * HR Plan
+            * Name key individuals and organisations: describe roles and responsibilities 
         * Communication & Management Plan
+            * Who needs to be informed about the project
+            * How will they receive the information
+                * Weekly review meeting
+                * Progress reports
+                * Revised schedule
         * Risk Management Plan
+            * Identify as many risks as possible
+            * Be prepared if something bad happens
         * Marketing Plan
 
 * Management Activities
@@ -55,6 +68,9 @@ This is a summary of the content of ASD, I recommend reading through the other n
             * Inception -> Elaboration -> Construction -> Transition -> Production
     * Project
         * Size estimation, scheduling, risk management, tracking
+
+> The 4 P's
+
 * People
     * Roles and Responsibilities
         * Project Management
