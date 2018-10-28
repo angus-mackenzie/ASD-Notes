@@ -368,3 +368,11 @@ Agile is a set of values and principles
 * Burndown chart
 
 ![General Scrum Flow](img/generalScrumFlow.png)
+
+# Prototypes
+* Horizontal Prototype - wide range of functions, very little detail on each
+* Vertical Prototype - small range of functions, a lot of detail
+* Throw Away Prototype - Address high-risk issues, only enough effort to help address specific issues - for trying alternative ideas
+* Evolutionary Prototypes - intended to be early version of the actual software
+
+![Evolutionary](img/evolutionaryPrototypes.png)
