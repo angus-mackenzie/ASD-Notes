@@ -163,3 +163,8 @@ This is a summary of the content of ASD, I recommend reading through the other n
 ## YAGNI - You Ain't Gonna Need It
 ## Software Entropy
 * Entropys is a measure of disorder in a physical system
+
+
+# Agile SE
+Development Cycle
+* Analyse, Develop, Test -> ADT
