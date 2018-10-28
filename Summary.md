@@ -81,19 +81,19 @@ This is a summary of the content of ASD, I recommend reading through the other n
         * Specialists
         * Documentation
     * Essential Roles
-        * Course Developer
-        * Database Designer
-        * Implementer
-        * Integrator
-        * Process Engineer
-        * Project Manager
-        * Project Reviewer
-        * Software Architect
-        * Systems Administrator
-        * Systems Analyst
-        * System Tester
-        * Test Manager
-        * UI Designer
+        1. Course Developer
+        2. Database Designer
+        3. Implementer
+        4. Integrator
+        5. Process Engineer
+        6. Project Manager
+        7. Project Reviewer
+        8. Software Architect
+        9. Systems Administrator
+        10. Systems Analyst
+        11. System Tester
+        12. Test Manager
+        13. UI Designer
     * Management and Team Success
         * Software Engineering is a group activity
         * Individual success depends:
@@ -131,6 +131,8 @@ This is a summary of the content of ASD, I recommend reading through the other n
         * Yes
         * Useful for prediction
         * Size metrics used for resource requirements
+    * Why do we use them?
+        * To plan and manage software development projects
 ## Scheduling
 * Split the work in a project into separate tasks
 * Network Analysis
@@ -148,6 +150,18 @@ This is a summary of the content of ASD, I recommend reading through the other n
 * Risk Matrix
     * Probability
     * Impact
+* Boehm's Top Ten Risks
+    1. Personnel shortfalls
+    2. Unrealistic schedules and budgets
+    3. Developing the wrong functions
+    4. Developing the wrong user interfaces
+    5. Gold-plating
+    6. Continuing stream of requirements changes
+    7. Shortfalls in externally-performed tasks
+    8. Shortfalls in externally-furnished components
+    9. Real-time performance shortfalls
+    10. Straining computer science capabilities
+
 ## Planning vs Management
 * Planning
     * Pre/Post
@@ -157,9 +171,43 @@ This is a summary of the content of ASD, I recommend reading through the other n
     * Controlling resources and timescales
 # PM Methods
 ## Triangle
-* Time
-* Scope
-* Cost
+
+![Triangle](img/softwaretriangle.png)
+
 ## YAGNI - You Ain't Gonna Need It
+* Build only what you need now
 ## Software Entropy
 * Entropys is a measure of disorder in a physical system
+* Software based entropy is the measure of code complexity
+    * Tends to increase over time
+## Yak Shaving
+## Traditional SE MEthods
+### Waterfall
+* Analysis
+* Requirement Specification
+* Design
+* Implementation
+* Testing and Integration
+* Operation and Maintenance
+
+These all happen linearly
+## Modern Alternatives
+* More lightweight
+* Iterative
+* Agile Software Development
+* Rapid Application Development
+* Extreme Programming
+* Scrum
+# Agile Development
+Agile is a set of values and principles
+## Principles of Agile Methods
+| Principle            | Description                                                     |
+| --- | --- |
+| Customer Involvement | Customers should be closely involved throughout the development process. Their role is to provide and prioritize new system requirements and to evaluate the iterations of the system |
+| Incremental Delivery | The software is developed in increments with the customer specifying the requirements to be included in each increment.                                                               |
+| People not process   | The skills of the development team should be recognized and exploited. Team members should be left to develop their own ways of working without prescriptive processes.               |
+| Embrace Change       | Expect the system requirements to change and so design the system to accommodate these changes                                                                                        |
+| Maintain Simplicity  | Focus on simplicity in both the software being developed and in the development process. Wherever possible, actively work to eliminate complexity from the system.                    |
+
+## Pareto's Law
+* Typically 70% of your results come from 20% of your efforts

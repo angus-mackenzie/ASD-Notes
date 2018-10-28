@@ -427,17 +427,23 @@ Then the `+2` are:
 [Example of risk](docs/examplesofrisks.pdf)
 
 # Questions
-1. Which of the following statements best describes how one goes about identifying the critical path:
-    * a) Find those milestones where the earliest start time is equal to the latest start time
-    * b) Find those milestones where the earliest start time is less than the latest start time
-    * c) Find those milestones where the earliest start time is greater than the latest start time
-    * d) Find those milestones with some scheduling flexibility
-    * e) None of the above
-* a is answer
-2. What does the term GANTT stand for
-* Nothing
-3. Which of the following statements best explains what is meant by slack time in Critical Path Analysis?
-* Didn't take it down sadly
+**Which of the following statements best describes how one goes about identifying the critical path:**
+* a) Find those milestones where the earliest start time is equal to the latest start time
+* b) Find those milestones where the earliest start time is less than the latest start time
+* c) Find those milestones where the earliest start time is greater than the latest start time
+* d) Find those milestones with some scheduling flexibility
+* e) None of the above
+<details>
+<summary>View Answer</summary>
+a is answer
+</details>
+
+**What does the term GANTT stand for?**
+<details>
+<summary> View Answer </summary>
+Nothing
+</details>
+
 # Conclusion
 ## Planning vs. Management
 * Planning
