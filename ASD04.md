@@ -12,7 +12,7 @@
     - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
     - [User Stories](#user-stories)
     - [Recording User Stories](#recording-user-stories)
-    - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient-1)
+    - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
     - [Incremental Design](#incremental-design)
 - [Agile Development Cycle](#agile-development-cycle)
     - [How Frequent is Frequent enough?](#how-frequent-is-frequent-enough)
@@ -50,7 +50,7 @@
         - [Helps you program faster](#helps-you-program-faster)
     - [Refactoring Categories](#refactoring-categories)
     - [Refactoring to Patterns](#refactoring-to-patterns)
-- [Conclusion](#conclusion-1)
+- [Conclusion](#conclusion)
     - [Collaboration with Users](#collaboration-with-users)
     - [Agile method applicability](#agile-method-applicability)
     - [Problems with agile methods](#problems-with-agile-methods)
@@ -59,11 +59,11 @@
     - [Agile specification and development](#agile-specification-and-development)
     - [Architecture Change and Refactoring](#architecture-change-and-refactoring)
     - [Summary - Points to consider](#summary---points-to-consider)
-        - [Principles of Agile Methods](#principles-of-agile-methods-1)
+        - [Principles of Agile Methods](#principles-of-agile-methods)
         - [Active User Involvement](#active-user-involvement)
-        - [Fixed Timescale](#fixed-timescale-1)
-        - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient-2)
-        - [Agile Development Cycle](#agile-development-cycle-1)
+        - [Fixed Timescale](#fixed-timescale)
+        - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
+        - [Agile Development Cycle](#agile-development-cycle)
             - [Frequent Delivery](#frequent-delivery)
             - [Regular Release Cycle](#regular-release-cycle)
             - [eXtreme Programming (XP)](#extreme-programming-xp)
@@ -493,7 +493,7 @@ Refactored Classses Video Rental
     * You refactor code that works but is not ideally structured
 * An important aspect of improving design is to eliminate duplicate code
     * Ensure the code says everything once and only once
-    * More code <=> harder to modify correctly <=> mode code to understand
+    * More code <=> harder to modify correctly <=> more code to understand
     * Change this bit of code here, but the system doesn't do what is expected because you didn't change that bit over there that does much the same thing in a slightly different context
 * Changes are easier to make because the code is well-structured and clear
 ### Makes Software Easier to Understand
@@ -502,7 +502,7 @@ Refactored Classses Video Rental
     * Good programmers write code understandable by human beings
 * After code is written it has to be maintained
     * Someone will try to read the code and make changes
-    * It matters if it takes a programmer a week to make a change that would have taken an hour if she had understood your code
+    * It matters if it takes a programmer a week to make a change that would have taken an hour if they had understood your code
 * When you are trying to get the program to work, you are not thinking about that future developer
     * It takes a change in rhythm to make changes that make code easier to understand
     * Refactoring leads to higher levels of understanding that would otherwise be missed during development
@@ -550,7 +550,7 @@ Refactored Classses Video Rental
 * Product development where a software company is developing (medium-sized) product for sale
 * Custom system development within an organisation, where there is a clear commitment from the customer to become involved in the development process and where there are not a lot of external rules and regulations that affect the software
 ## Problems with agile methods
-* It can be different to keep the interest oc customers who are involved in the process
+* It can be different to keep the interest of customers who are involved in the process
 * Team members may be unsuited to the intense involvement that characterizes agile methods
 * Prioritising changes can be difficult where there are multiple stakeholders
 * Maintaining simplicity requires extra work
@@ -577,7 +577,7 @@ Refactored Classses Video Rental
 ![Specficiation and Dev](img/specanddev2.png)
 
 ## Architecture Change and Refactoring
-* Changes that require architecture refactoring is very expensive
+* Changes that require architecture refactoring are very expensive
 * It is hard to do
 * It has consequences for the code and implies code refactoring
 ## Summary - Points to consider
@@ -616,7 +616,7 @@ Refactored Classses Video Rental
 * Agile development embraces and expects change
     * The only thing that is certain in life is change
     * Requirements are allowed to evolve, but the timescale is fixed
-        * To include a neq requirement, or to change a requirement, the user must remove a comparable amount of work
+        * To include a new requirement, or to change a requirement, the user must remove a comparable amount of work
     * Assumes there are enough non-mandatory features included in the original time frames
 ### Agile Requirements are Barely Sufficient
 * Contrast this to the traditional situation
@@ -642,7 +642,7 @@ Refactored Classses Video Rental
 * Estimates might be good or bad but they should be consistent
     * Estimate features at a granularity of less than 1 day and track your performance
     * You'll begin to understand your delivery rate
-    * You'll be surprised at how predictable you cab be
+    * You'll be surprised at how predictable you can be
 * Managing expectations is about predictability
     * If people know what to expect, they're generally happy
     * If they don't they're not happy
@@ -658,7 +658,7 @@ Refactored Classses Video Rental
     * Client prioritises stories
 4. Simple design - as simple as the current level of functionality allows. No extraneous complexity allowed
     * When the code becomes too unwieldy its time for refactoring 
-    * Design only extend to the next iterations new features
+    * Design only extends to the next iterations new features
 5. Small Releases: XP development teams release tested, working code, very frequently
     * Each iteration - 2 weeks - the client gets new code
     * Client evaluates it and dictates the next delivery

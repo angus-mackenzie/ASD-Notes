@@ -45,12 +45,11 @@
 * Very little to do with rugby
 * Simple to implement
 * Designed to increase productivity
-* Mature: from 1995 (feck, then I am mature)
+* Mature: from 1995 (then, I am mature 👴)
 * Scalable
-    * Can be used oon projects of any size
+    * Can be used on projects of any size
 * Scrum is a **project management process**
-* It is a lightweight development process to
-    * Manage and control software and product development
+* It is a lightweight development process to manage and control software and product development
 * Embraces iterative and incremental practices
 * Not "artefact-driven"
     * No large requirements documents, analysis specifications, design documents
@@ -59,7 +58,7 @@
 * Concentrating on achieving results
 ## Warning
 * No silver bullet
-    * That is, it ain't a technique that compensates for lack of training or experience
+    * It is not a technique that compensates for lack of training or experience
 * Scrum is not a panacea for all known development ills
     * A hot topic in the software and games industry
 > Panacea - solution to everything
@@ -94,12 +93,11 @@ Scrum Functionality of Project
     * Individual team members meet to inspect each others' activities and make appropriate adaptations
 * Driving the iteration is a list of requirements
 * This cycle repeats until the project is complete
-
 * Product features are broken down into individual tasks by programmer team
 * Worked on for an iteration of (two weeks to) a month
 * Account for their tasks and to each other in a daily meeting
 * End of the iteration a product review occurs of all work done in that iteration
-* Project directors and publishers determine how to prioritize the next iteration bsed on the work done in the latest
+* Project directors and publishers determine how to prioritize the next iteration based on the work done in the latest
 * The heart of Scrum lies in the iteration
 * The team
     * Takes a look at the requirements
@@ -113,8 +111,8 @@ Scrum Functionality of Project
 2. Team
 3. ScrumMaster
 * All involved are Players or Spectators
-    * Players - committed, accountable, responsible
-    * Spectators - interested, consults, informed (management)
+    * Players       -   committed, accountable, responsible
+    * Spectators    -   interested, consults, informed (management)
 ### Product Owner
 * Represent the interests of everyone with a stake in the project and its resulting system
     * Achieves initial and ongoing funding
@@ -258,14 +256,14 @@ Who do we give them to, and how do we give them to people
 * If the Team determines that it can address more product Backlog
     * Can consult the Product Owner on which additional items to be added
 ### Non-viable
-* If the sprint proves not to be viable, the SM can terminate the Sprint and initiate a new S planning meeting
+* If the sprint proves not to be viable, the SM can terminate the Sprint and initiate a new Sprint planning meeting
     * The SM can make this change if requested by the Team or Product Owner
     * The Sprint can prove to be not viable:
         * If the tech proves unworkable
         * If the business conditions change so that the Sprint will not be of value to the business
         * If the team is interfered with during the Sprint by anyone outside the team
 ### Team Responsibility During a Sprint
-* The team members have two administrative responsibilities during the SPrint
+* The team members have two administrative responsibilities during the Sprint
     * Attend the daily Scrum meeting
     * Keep the Sprint Backlog up-to-date and available in a public folder, server - visible to all
         * New tasks must be added to the Sprint Backlog as they are conceived, and the running, day-to-day estimated hours remaining for each task must be kept up-tp-date
@@ -284,7 +282,7 @@ Who do we give them to, and how do we give them to people
 * At the end of the Sprint review, the SM announces the place and date of the next Sprint review to the Product Owner and all stakeholders
 ### Retrospective
 * Sprint retrospective meeting is time-boxed to 3 hours
-* attended only by the Team, SM and Product Owner (optional)
+* Attended only by the Team, SM and Product Owner (optional)
 * Start the meeting by having all team members answer two questions:
 > What went well during the last Sprint?
 > What could be improved in the next Sprint?
@@ -359,12 +357,12 @@ Alternatively, it can be too fast - which would look as follows:
     * Scrum teams need to have a "we're all in this together" attitude
         * This can be undermined if a team has specialized job descriptions or roles
     * It is simplistic to think that everyone can be a DBA and everyone can write server-side J2EE or .Net code
-* A successful Scrum team does not need to be comprised entirely of generalist
+* A successful Scrum team does not need to be comprised entirely of generalists
     * However, each specialist must accept general responsibility for the system as a whole
 ## Scrum is for SM
 * The daily Scrum feels like a status update from the team members to the SM
     * It feels as though it exists solely for the SM
-    * Sm takes notes about who committed to what work and why some other task wasn't completed
+    * SM takes notes about who committed to what work and why some other task wasn't completed
     * These daily meetings feel like status meetings
 * Two main purposes of the daily scrum
     * To provide a coordination mechanism for everyone on the project
