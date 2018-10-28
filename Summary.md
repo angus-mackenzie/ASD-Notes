@@ -211,3 +211,5 @@ Agile is a set of values and principles
 
 ## Pareto's Law
 * Typically 70% of your results come from 20% of your efforts
+## Development Cycle
+* Analyse, Develop, Test -> ADT

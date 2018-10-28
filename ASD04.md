@@ -12,7 +12,7 @@
     - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
     - [User Stories](#user-stories)
     - [Recording User Stories](#recording-user-stories)
-    - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
+    - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient-1)
     - [Incremental Design](#incremental-design)
 - [Agile Development Cycle](#agile-development-cycle)
     - [How Frequent is Frequent enough?](#how-frequent-is-frequent-enough)
@@ -50,7 +50,7 @@
         - [Helps you program faster](#helps-you-program-faster)
     - [Refactoring Categories](#refactoring-categories)
     - [Refactoring to Patterns](#refactoring-to-patterns)
-- [Conclusion](#conclusion)
+- [Conclusion](#conclusion-1)
     - [Collaboration with Users](#collaboration-with-users)
     - [Agile method applicability](#agile-method-applicability)
     - [Problems with agile methods](#problems-with-agile-methods)
@@ -59,11 +59,11 @@
     - [Agile specification and development](#agile-specification-and-development)
     - [Architecture Change and Refactoring](#architecture-change-and-refactoring)
     - [Summary - Points to consider](#summary---points-to-consider)
-        - [Principles of Agile Methods](#principles-of-agile-methods)
+        - [Principles of Agile Methods](#principles-of-agile-methods-1)
         - [Active User Involvement](#active-user-involvement)
-        - [Fixed Timescale](#fixed-timescale)
-        - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
-        - [Agile Development Cycle](#agile-development-cycle)
+        - [Fixed Timescale](#fixed-timescale-1)
+        - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient-2)
+        - [Agile Development Cycle](#agile-development-cycle-1)
             - [Frequent Delivery](#frequent-delivery)
             - [Regular Release Cycle](#regular-release-cycle)
             - [eXtreme Programming (XP)](#extreme-programming-xp)
@@ -141,8 +141,8 @@ value the items on the left more.
     * Delivered in the earliest iterations
 * As a result
     * Business has a fixed budget
-    * Based on affordable resources and
-    * Can make plans based on a certain launch date
+    * Based on affordable resources
+    * Thus, can make plans based on a certain launch date
 # Bare Requirements
 ## Agile Requirements are Barely Sufficient
 * Capture requirements at a high level and on a piecemeal basis
@@ -181,7 +181,7 @@ value the items on the left more.
             * A sketch or diagram of the feature
             * Notes about how it should function
     * Confirmation (on the back of the card)
-        * Test cases to help identify scenarios that users, developer and/pr analysts may not have thought of
+        * Test cases to help identify scenarios that users, developer and/or analysts may not have thought of
 * Writing User Stories on a card ensures requirements are broken into small manageable pieces of functionality
 
 ## Agile Requirements are Barely Sufficient
@@ -196,7 +196,7 @@ value the items on the left more.
 * Agile design is always the same size as the system
     * "You can't possibly anticipate the problems and alternatives that will arise once you start coding"
 * If a new feature comes along that requires major changes then that is the trade-off for the flexibility it allows
-    * Perhaps this feature wa not even known at the beginning anyway!
+    * Perhaps this feature was not even known at the beginning anyway!
     * Or it might have gone away if we knew of it at the start!
 
 # Agile Development Cycle
