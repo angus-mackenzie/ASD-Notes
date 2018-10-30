@@ -390,6 +390,7 @@ Agile is a set of values and principles
     * Not guaranteed with traditional testing
 * Does not replace traditional testing: just effective unit testing
 * Side effective of TDD: the resulting tests are working examples for invoking the code -> provides a working spec for the code
+* TFD + Refactoring
 
 # Scrum
 ## Roles
@@ -536,7 +537,7 @@ Model-View Controller
 ||Description|
 |---|---|
 |Problem|Commonly used in data processing applications (both batch and transaction based) where inputs are processed in separate stages to generate related outputs|
-|Solution|The processing of the data in a system is organized so that each processing component (filter) is discrete and carries out one type of data transformation. This data flows (as in a pipe) from one component tot another for processing|
+|Solution|The processing of the data in a system is organized so that each processing component (filter) is discrete and carries out one type of data transformation. This data flows (as in a pipe) from one component to another for processing|
 |Pro|Easy to understand and supports transformation reuse. Workflow style matches the structure of many business processes. Evolution by adding transformation is straightforward. Can be implemented as either a sequential or concurrent system|
 |Con|The format for data transfer has to be agreed upon between communicating transformations. Each transformation must parse its input and unparse its output to the agreed form. This increases system overhead and may mean that it is impossible to reuse functional transformations that use incompatible data structures|
 ## Reference Architectures

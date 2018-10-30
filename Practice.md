@@ -271,3 +271,72 @@ Client Server
 <summary>4.6</summary>
 Classes/objects should closely correspond to real world objects
 </details>
+
+# Supplementary Examination, January 2017
+*Section 1 - Advanced Software Design*</p>
+**Question 1**</p>
+1. What problem is being solved by the Pipe and Filter design pattern and how? (6)
+2. The key aim of many patterns is to minimize coupling, while maximizing cohesion. Explain what cohesion and coupling are. (4)
+
+<details>
+<summary>1.1</summary>
+The problem that the Pipe and Filter design is solving is that data processing applications have inputs which are processed in separate stages to generate related outputs. The pipe and filter method allows the processing of the data in a system to be organized so that each processing component (filter) is discrete and carries out one type of data transformation. This data flows (as in a pipe) from one component to another for processing.
+
+</details>
+
+<details>
+<summary>1.2</summary>
+
+* Cohesion is the degree to which communication takes place within the module
+* Coupling is the degree to which communication takes place between the modules
+</details>
+
+**Question 2**</p>
+1. How does test-driven development work and what does it achieve? (6)
+2. How do iterative processes accommodate risk better than the waterfall approach? (6)
+
+<details>
+<summary>2.1</summary>
+Test driven development is test first development with refactoring. You write test code before any functional code. One test and a small bit of code at a time. Once your code works, refactor it to ensure that it is high quality. This means, that the code is thoroughly unit tested, and the resulting tests provide a working specification for the code.
+</details>
+
+<details>
+<summary>2.2</summary>
+It reduces risks because it ensures that the team is developing small pieces of the system over a short timeframe. At the end of each development cycle, the software should be demonstrated to the users to obtain feedback on its functionality and suitability.
+
+An iterative approach will continuously reduce project risk from the outset. The reason why, is that it forces the team to address the most important aspects of functionality and to resolve high risk issues at an early stage.
+
+Whereas, with Waterfall the project will only receive feedback in the prototyping stage - after a considerable amount of time (and cost) has gone into the project, and it will be a lot harder to change the product.
+
+![Risk](img/riskcomparison.png)
+</details>
+
+**Question 3**</p>
+1. Rational Unified Process suggests a "4+1" view of architectures. List and briefly describe all elements of this view. (10)
+
+<details>
+<summary>3.1</summary>
+
+Logical View: The logical view is concerned about the output(s) of the system and how it will affect the end users. The logical view splits the system into a set of abstractions, or modules. Can be displayed with a communication diagram
+
+Developmental View: This view describes the static organization of the software in its development environment. Can be displayed with a package diagram
+
+Process View:This view deals with concurrency and distribution, system integrity, and fault tolerance. Shows the dynamic interactions of the system and how things interact at run time. Can be displayed with a activity diagram
+
+Physical View:This view describes how the software maps onto the hardware. Can be displayed with a deployment diagram
+</details>
+
+**Question 4**</p>
+1. Understanding and fostering culture is an important component of sustaining open source
+projects. Name some techniques and principles that should be considered in open source
+projects. (4)
+<details>
+<summary>4.1</summary>
+
+* A community volunteers, so do need to get the culture and motivating forces right
+> People should feel that their connection to a project, and influence over it, is directly proportional to their contributions
+* A shared culture and etiquette for participation exists
+* Be aware of the issues and politics
+* Build trust and social capital and slowly establish merit by offering solutions and for various issues
+* Bossy, critical people won't be welcome
+</details>
