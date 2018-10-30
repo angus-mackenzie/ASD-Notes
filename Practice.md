@@ -339,4 +339,20 @@ projects. (4)
 * Be aware of the issues and politics
 * Build trust and social capital and slowly establish merit by offering solutions and for various issues
 * Bossy, critical people won't be welcome
+
+All open source projects should have
+* A website for one way information
+* A mailing list for active communication and to be a medium of record
+* Version control to allow devs to manage changes and allow anyone to watch the code base
+* Realtime chat for quick and easy communication and Q/A
+* Bug tracking to allow devs to coordinate and keep track of bugs
+
+Some principles to follow are
+* Making the vision public
+* Gathering the requirements (computing environment)
+* Have an up to date development status
+* Have a convenient and standard way to download and install 
+* Account for deficiencies since they will be found anyways
+
+All of these allow users to decide for themselves if the software works for them.
 </details>
