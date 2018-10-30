@@ -12,7 +12,6 @@
     - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
     - [User Stories](#user-stories)
     - [Recording User Stories](#recording-user-stories)
-    - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
     - [Incremental Design](#incremental-design)
 - [Agile Development Cycle](#agile-development-cycle)
     - [How Frequent is Frequent enough?](#how-frequent-is-frequent-enough)
@@ -37,7 +36,7 @@
     - [Test Driven Development](#test-driven-development)
         - [The Rules](#the-rules)
         - [Unit Tests](#unit-tests)
-        - [Conclusion](#conclusion)
+        - [TDD Conclusion](#tdd-conclusion)
 - [Refactoring](#refactoring)
     - [XP and Change](#xp-and-change)
     - [What is refactoring](#what-is-refactoring)
@@ -59,11 +58,11 @@
     - [Agile specification and development](#agile-specification-and-development)
     - [Architecture Change and Refactoring](#architecture-change-and-refactoring)
     - [Summary - Points to consider](#summary---points-to-consider)
-        - [Principles of Agile Methods](#principles-of-agile-methods)
+        - [Remember Principles of Agile Methods](#remember-principles-of-agile-methods)
         - [Active User Involvement](#active-user-involvement)
-        - [Fixed Timescale](#fixed-timescale)
-        - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
-        - [Agile Development Cycle](#agile-development-cycle)
+        - [Remember Fixed Timescale](#remember-fixed-timescale)
+        - [Remember That Agile Requirements are Barely Sufficient](#remember-that-agile-requirements-are-barely-sufficient)
+        - [ADT - The Cycle](#adt---the-cycle)
             - [Frequent Delivery](#frequent-delivery)
             - [Regular Release Cycle](#regular-release-cycle)
             - [eXtreme Programming (XP)](#extreme-programming-xp)
@@ -183,8 +182,6 @@ value the items on the left more.
     * Confirmation (on the back of the card)
         * Test cases to help identify scenarios that users, developer and/or analysts may not have thought of
 * Writing User Stories on a card ensures requirements are broken into small manageable pieces of functionality
-
-## Agile Requirements are Barely Sufficient
 * Cards can be supported by documentation, but keep it to the bare minimum to allow a feature to be developed, and always in very small units.
 * Requirements should be broken into tasks of no more than 16 hours or preferably 8 hours, so progress can be measured daily
 * All items are deliverables not activities or tasks
@@ -442,13 +439,12 @@ value the items on the left more.
     * Use real data when they need to 
         * Copied of production data
     * Represent one step towards your overall goal
-
 * Most programmers don't read the written documentation for a system
     * Instead they prefer to work with the code
 * When trying to understand a class or operation most programmers will look for sample code that invokes it
 * Unit tests provide a working specification of the functional code
 * Unit tests become a significant portion of the technical documentation
-### Conclusion
+### TDD Conclusion
 * Test-driven development is a development technique where ou must first write a test that fails before you write new functional code
 # Refactoring
 ## XP and Change
@@ -581,7 +577,7 @@ Refactored Classses Video Rental
 * It is hard to do
 * It has consequences for the code and implies code refactoring
 ## Summary - Points to consider
-### Principles of Agile Methods
+### Remember Principles of Agile Methods
 1. Active user involvement is imperative
 2. The team must be empowered to make decisions
 3. Requirements evolve but the timescale is fixed
@@ -608,7 +604,7 @@ Refactored Classses Video Rental
 * Timely decisions can be made about features, priorities, issues, and when the product is ready
 * Responsibility is shared; the team is responsible together for the delivery of the product
 * When the going gets tough, the whole team - business and technical - work together!
-### Fixed Timescale
+### Remember Fixed Timescale
 * No-one knows what the right solution is at the outset
     * Its practically impossible to build the right solution initially
 * Traditional project fight change, with change control processes
@@ -618,14 +614,14 @@ Refactored Classses Video Rental
     * Requirements are allowed to evolve, but the timescale is fixed
         * To include a new requirement, or to change a requirement, the user must remove a comparable amount of work
     * Assumes there are enough non-mandatory features included in the original time frames
-### Agile Requirements are Barely Sufficient
+### Remember That Agile Requirements are Barely Sufficient
 * Contrast this to the traditional situation
     * User still has new and changed requirements
         * Expects the new and existing features to be delivered in the original time frames
 * Teams that don't control changes can end up with scope creep
     * One of the most common reasons for projects to fail
 * Agile teams accept change and even expect it
-### Agile Development Cycle
+### ADT - The Cycle
 #### Frequent Delivery 
 * Agile development is about frequent delivery of products
     * Gone are 12 month projects
