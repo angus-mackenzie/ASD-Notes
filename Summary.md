@@ -1,9 +1,64 @@
-# Summary 
+# Summary <!-- omit in toc -->
 This is a summary of the content of ASD, I recommend reading through the other notes on this repository alongside this.
+
+- [Introduction](#introduction)
+    - [Software Engineering (SE)](#software-engineering-se)
+        - [Elements of SE](#elements-of-se)
+        - [Process of SE](#process-of-se)
+- [Project Management](#project-management)
+    - [Planning](#planning)
+    - [Scheduling](#scheduling)
+    - [Risks](#risks)
+    - [Planning vs Management](#planning-vs-management)
+- [PM Methods](#pm-methods)
+    - [Triangle](#triangle)
+    - [YAGNI - You Ain't Gonna Need It](#yagni---you-aint-gonna-need-it)
+    - [Software Entropy](#software-entropy)
+    - [Yak Shaving](#yak-shaving)
+    - [Traditional SE MEthods](#traditional-se-methods)
+        - [Waterfall](#waterfall)
+    - [Modern Alternatives](#modern-alternatives)
+- [Agile Development](#agile-development)
+    - [Principles of Agile Methods](#principles-of-agile-methods)
+    - [Guidelines of Agile Methods](#guidelines-of-agile-methods)
+        - [Pareto's Law](#paretos-law)
+        - [Active User Involvement](#active-user-involvement)
+    - [Fixed Timescale](#fixed-timescale)
+    - [Agile Requirements are Barely Sufficient](#agile-requirements-are-barely-sufficient)
+    - [Agile Development Cycle](#agile-development-cycle)
+        - [Frequent Delivery](#frequent-delivery)
+        - [Regular Release Cycle](#regular-release-cycle)
+    - [eXtreme Programming (XP)](#extreme-programming-xp)
+        - [Principles of XP](#principles-of-xp)
+        - [System Metaphor](#system-metaphor)
+    - [TDD](#tdd)
+- [Scrum](#scrum)
+    - [Roles](#roles)
+    - [Sprints](#sprints)
+        - [Sprint Meeting](#sprint-meeting)
+        - [Daily Scrum](#daily-scrum)
+        - [Retrospective](#retrospective)
+        - [Artefacts](#artefacts)
+- [Prototypes](#prototypes)
+- [UML & Architecture](#uml--architecture)
+- [Architecture & Patterns](#architecture--patterns)
+    - [MVC](#mvc)
+    - [Layered](#layered)
+    - [Repository](#repository)
+    - [Client-Server Pattern](#client-server-pattern)
+    - [Pipe And Filter](#pipe-and-filter)
+    - [Reference Architectures](#reference-architectures)
+    - [Summary](#summary)
+- [Application Architectures](#application-architectures)
+- [Design Patterns](#design-patterns)
+    - [9 Grasp Patterns](#9-grasp-patterns)
+- [Open Source Software Development](#open-source-software-development)
+    - [Examples](#examples)
 
 # Introduction
 ## Software Engineering (SE)
-> establishment and use of effective engineering principles to create software that is reliable and works efficiently on real machines
+> Establishment and use of effective engineering principles to create software that is reliable and works efficiently on real machines
+
 > Application of a systematic, disciplined, quantifiable approach to the creation, operation and maintenance of software
 
 ### Elements of SE
@@ -376,3 +431,244 @@ Agile is a set of values and principles
 * Evolutionary Prototypes - intended to be early version of the actual software
 
 ![Evolutionary](img/evolutionaryPrototypes.png)
+
+# UML & Architecture
+Architectural thinking is the translation from the problem domain to the solution concept
+* Software architecture - the set of principal design decisions about the system
+
+> An architecture is the set of significant decisions about the organization of a software system, the selection of the structural elements and their interfaces by which the system is composed, together with their behaviour as specified in the collaborations among those elements, the composition of these structural and behavioural elements into progressively larger subsystems, and the architectural style that guides this organization—these elements and their interfaces, their collaborations, and their composition
+
+`- Booch, Rumbaugh and Jacobson, The UML User Guide, 1999`
+
+* Follow the ISO/IEC/IEEE 42010:2011 standard when drawing up architectural descriptions.
+* RUP "4+1" Views - Rational Unified Process View of Architecture
+    * Logical View
+        * Outputs of the system
+        * ![Logical](img/communication.png)
+    * Development/Allocation View
+        * Components of the system
+        * ![Component](img/component.png)
+    * Process/Component-and-Connector view
+        * Concurrency, distribution, integrity and tolerance
+        * ![Process](img/processview.png)
+    * Physical/Deployment View
+        * How software maps onto hardware, networking distribution etc
+        * ![Deployment](img/deploymentview.png)
+
+![RUP 4 + 1](img/4+1.png)
+
+* Architecture Diagram provides a graphical view of the major components of the system and the relationships between them
+* An Architecture Description has the following information:
+    * Version
+    * Date of issue
+    * Issuing organisation
+    * Change history
+    * Summary
+    * Scope
+    * Context
+    * Glossary
+    * Results from evaluations
+    * References
+    * Stakeholders
+        * Users of the system
+        * Operators of the system
+        * Developers of the system
+    * Viewpoints
+        * FVP - Financial Viewpoint
+            * ROI and justifies investment
+        * OVP - Operational Viewpoint
+            * Required budget
+        * SVP - System Viewpoint
+            * Overall data flow
+* The basic architectural design principles are:
+    * Low Coupling
+    * High Cohesion
+    * Separation of concerns and localization of impact
+# Architecture & Patterns
+Architecture can be seen as:
+1. Expert developer understanding of the system design
+2. The set of design decisions that must be made early on
+
+* Patterns
+    * Software Design Patterns attempt to guide new design with insight into typical problems
+    * A pattern is a solution to a problem in context
+    * Aim of patterns is to enhance reusability of OO code
+
+* An Architectural pattern is a set of architectural design decisions that are applicable to a recurring design problem, and parameterized to account for different software development context in which that problem appears
+    * Architecture model - artefact documenting some or all of the architectural design decisions about a system
+    * Architecture visualization - a way of depicting some or all oof the architectural design decisions about a system to a stakeholder
+    * Architecture view - a subset of related architectural design decisions
+
+## MVC
+Model-View Controller
+
+|  | Description |
+|---|---|
+|Problem|Used when there are multiple ways to view and interact with data. Also used when the future requirements for interaction and presentation of data are unknown |
+|Solution|Separates presentation and interaction from the system data. The system is structure into three logical components that interact with each other. The Model component manages the system data and associated operations on the data. The View component defines and manages how the data is presented to the user. The Controller component manages user interactions (e.g.: key presses, mouse clicks, etc) and passes these interactions to the View and the Model|
+|Pro|Allows the data to change independently of its representation and vice versa. Supports presentation of the same data in different ways with changes mode in on representation shown in all of them |
+|Con| Can involve additional code and code complexity when the data model and interactions are simple |
+
+## Layered
+
+|  | Description |
+|---|---|
+|Problem | Used when building new facilities on top of existing systems; when the development is spread across several teams with each team responsibility for a layer of functionality; when there is a requirement for multi-level security.|
+|Solution|Organises the system into layers with related functionality associated with each layer. A layer provides services to the layer above it so the lowest-level layers represent core services that are likely to be used throughout the system|
+|Pro| Allows replacement of entire layers so long as the interface is maintained. Redundant facilities (e.g.: authentication) can be provided in each layer to increase the dependability of the system|
+|Con|In practice, providing a clean separation between layers is often difficult and a high-level layer may have to interact directly with a lower-level layer rather than through the layer immediately below it. Performance can be a problem because of multiple levels of interpretation of a service request as it is processed at each layer|
+
+## Repository
+||Description|
+|---|---|
+|Problem| You should use this pattern when you have a system in which large volumes of information are generated that has to be stored for a long time. You may also use it in data-drive systems where the inclusion of data in the repository triggers an action or tool|
+|Solution|All data in a system is managed in a central repository that is accessible to all system components. Components do not interact directly, only through the repository.|
+|Pro|Components can be independent - they do not need to know of the existence of other components. Changes made by one component can be propagated to all components. All data can be managed consistently as it is all in one place.|
+|Con|The repository is a single point of failure so problems in the repository affect the whole system. May be inefficiencies in organizing all communication through the repository. Distributing the repository across several computers may be difficult.|
+## Client-Server Pattern
+||Description|
+|---|---|
+|Problem|Used when data in a shared database has to be accessed from a range of locations. Because servers can be replicated, may also be used when the load on a system is variable.|
+|Solution|In a client-server architecture, the functionality of the system is organized into services with each service delivered from a separate server. Clients are users of these services and access servicers to make use of them.|
+|Pro|The principal advantage of this model is that server can be distributed across a network and servers can be added or upgraded with minimal disruption. General functionality can be available to all clients and does not need to be implemented by all|
+|Con|Each service is a single point of failure so it is susceptible to denial of service (DOS) attacks or server failure. Performance may be unpredictable because it depends on the network as well as the system. May be management problems if servers are owned by different organizations|
+## Pipe And Filter
+||Description|
+|---|---|
+|Problem|Commonly used in data processing applications (both batch and transaction based) where inputs are processed in separate stages to generate related outputs|
+|Solution|The processing of the data in a system is organized so that each processing component (filter) is discrete and carries out one type of data transformation. This data flows (as in a pipe) from one component tot another for processing|
+|Pro|Easy to understand and supports transformation reuse. Workflow style matches the structure of many business processes. Evolution by adding transformation is straightforward. Can be implemented as either a sequential or concurrent system|
+|Con|The format for data transfer has to be agreed upon between communicating transformations. Each transformation must parse its input and unparse its output to the agreed form. This increases system overhead and may mean that it is impossible to reuse functional transformations that use incompatible data structures|
+## Reference Architectures
+* OSI Model - Layered
+* TCP/IP - Layered
+## Summary
+The key aim of all of these patterns is to minimize coupling while maximising cohesion. 
+* Cohesion is the degree to which communication takes place within the module
+* Coupling is the degree to which communication takes place between the modules
+# Application Architectures
+Application Types
+* Data Processing Applications
+    * Data driven applications process data in branches without explicit user intervention during the processing
+    * Billing Systems, payroll systems
+    * Generally follow a `input->process->output` structure
+* Transaction processing applications
+    * Data centred application that process user requests and update information in a system database
+    * E-commerce systems
+    * Allow information in databases to be remotely accessed and modified by multiple users
+* Event Processing systems
+    * Applications where system actions depend on interpreting events from the system's environment
+    * Games, word processors, real-time systems
+    * System responds to events in the system's environment
+    * Event timing is unpredictable so architecture has to be organised to handle it
+* Language processing systems
+    * Applications where the users intentions are specified in a formal language that is processed and interpreted by the system
+    * Compilers
+    Translate text from one language to another and may interpret the specified instructions
+
+# Design Patterns
+* Responsibility-Driven Design (RDD)
+    * Software objects have responsibilities
+        * a Sale is responsible for creating a SalesLineItem (doing)
+        * a Sale is responsible for knowing its total (knowing)
+    * Identifying classes and objects, and their methods, and how they interact
+* General Responsibility Assignment Software Pattern - GRASP
+    * Patterns are named problem-solution pairs to common problems
+* Patterns are:
+    * Principles that guide choices about where to assign responsibilities
+  
+## 9 Grasp Patterns
+1. Information Expert
+    * Expert
+    * Assign responsibility to the information expert, the class that has the information necessary to fulfil the responsibility\
+2. Creator
+    * Who should be responsible for creating a new instance of some class?
+    * Solution: Assign class C the responsibility to create instances of class X if one or more of the following is true:
+        * C aggregates X objects
+        * C contains X objects
+        * C records instances of X objects
+        * C closely uses X
+        * C has the initializing data that will be passed to X when it is created
+3. Controller
+    * What object in the domain receives the requests for work form the UI layer
+    * Solution: Choose a class whose name suggests an overall device or subsystem
+4. Low Coupling
+    * How to support low dependency, low change impact and increased reuse?
+    * Assign responsibility so that coupling remains low
+5. High Cohesion
+    * How to keep complexity manageable?
+    * Assign responsibility so that cohesion remains high
+6. Polymorphism
+    * How to design for varying, similar cases?
+    * Assign a polymorphic operation to the family of classes for which the cases vary
+7. Pure Fabrication
+    * Where to assign a responsibility, when the usual options based on expert lead to problems with coupling and cohesion, or are otherwise undesirable
+    * Make an artificial class, whose name is not necessarily inspired by the domain vocabulary
+8. Indirection
+    * What is a common mechanism to reduce coupling?
+    * Assign a responsibility to an intermediate object to decouple collaboration from 2 other objects
+9. Protected Variation
+    * How to design objects so that changes in these objects do not have side effects on other objects
+    * Put a wrapper or interface object around them. The awrapper gives a stable interface and is all that has to be altered when the changes happen
+    * **Dont talk to strangers**
+        * Special case of Protected Variation
+        * Only send messages to familiars
+* GoF patterns
+    * Singleton Pattern
+        * Ensures a class only has one instance and provides a global point of access to it
+    * Composite Pattern
+        * Applications need to manipulate hierarchical collection of primitive and composite objects uniformly
+        * Define an abstract base class that specifies the behaviour that needs to be exercised uniformly across all primitive and composite objects. Subclass the Primitive and Composite classes off of the base class. Each composite objects *couples* itself only to the abstract type as it manages its children
+    * Facade Pattern
+        * Define a single point of contact to the system
+    * Observer Pattern
+        * Generalization of MVC pattern
+            * Want to display data in more than one form at the same time and have all of the displays reflect any changes in that data
+* Designing for Low Representational Gap
+    * Normally we design for a low representational gap between real world and software. i.e.: we design software to be as close to real life as possible (in an abstract sense)
+    * Thus, designed objects correspond to real world objects
+    * However, this might not be the best as actors do more work than a specific class, and it may be sensible to talk about one actor but divide that work into multiple separate classes
+# Open Source Software Development
+* OSS, FOSS, FLOSS
+> Free (Libre) and Open Source Software
+
+> Open Source is a development methodology; free software is a social movement
+
+* Business Models
+    * Dual Licensing - free entry, and paid version
+    * Service contracts for support and updates
+    * Paid for training and learning materials
+    * Developing customised extensions
+* Issues
+    * Most fail
+    * Structural issues
+        * Unrealistic or vague specifications
+        * Insufficient design
+        * Barrier to entry
+* Onion Model
+
+![Onion](img/onion.png)
+* Ways of running FOSS
+    * Benevolent Dictators 
+        * Linus Torvalds - Linux
+        * Guido van Rossum - Python
+    * Consensus
+        * Apache
+    * Business Drive
+        * MySQL
+* What FOSS needs
+    * Website
+    * Mailing list
+    * Chat
+    * VCS
+    * Bug Tracking
+* Features, Requirements Status
+    * Features - what does it do?
+    * Requirements - whats needed to run it?
+    * Status - goals
+## Examples
+* Linux
+* Vula
+* Libre Office
+* Django
+* etc

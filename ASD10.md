@@ -3,7 +3,7 @@
     - [Class Design and Unified Process Terminology](#class-design-and-unified-process-terminology)
     - [Domain Model versus Design Model](#domain-model-versus-design-model)
     - [Sample UP Artefact Relationships](#sample-up-artefact-relationships)
-- [Responsibility-Drive Design](#responsibility-drive-design)
+- [Responsibility-Driven Design](#responsibility-driven-design)
     - [Responsibilities and Methods](#responsibilities-and-methods)
     - [RDD and Collaboration](#rdd-and-collaboration)
     - [Definition: Responsibilities](#definition-responsibilities)
@@ -63,7 +63,7 @@
 
 ## Sample UP Artefact Relationships
 ![Artefact](img/artefact.png)
-# Responsibility-Drive Design
+# Responsibility-Driven Design
 * RDD: software objects have responsibilities (an abstraction)
     * a `Sale` is responsible for creating `SalesLineItems` (doing)
     * a `Sale` is responsible for knowing its `total` (knowing)

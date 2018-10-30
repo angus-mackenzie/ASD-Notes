@@ -39,8 +39,8 @@ This document has some question, answer pairs and was used to gain further insig
 <details>
 <summary>2.1</summary>
 
-* Incremental Planning - requirements are recorded on story cards and the stories to be included in a release are determined by th etime available and their relative prioroity. The developers break these stories into development 'Tasks' 
-* Small Releases - The minimal useful set of functionality that provides business value is developed first. Releases of the system are frequ
+* Incremental Planning - requirements are recorded on story cards and the stories to be included in a release are determined by the time available and their relative priority. The developers break these stories into development 'Tasks' 
+* Small Releases - the minimal useful set of functionality that provides business value is developed first. Releases of the system are frequent and incrementally add functionality to the previous release.
 * Simple Design - enough design is carried out to meet the current requirements and no more.
 * Test-first Development - an automated unit test framework is used to write tests for a new piece of functionality before that functionality itself is implemented.
 * Refactoring - all developers are expected to refactor the code continuously as soon as possible code improvements are found. This keeps the code simple and maintainable.
