@@ -129,3 +129,145 @@ Their key characteristic is that event timing is unpredictable so the architectu
 <summary>4.3</summary>
 Data processing systems are data-driven and operate in batch mode and generally have an input-process-output structure. Records are inputted to the system, information is processed and outputs are generated
 </details>
+
+# Test 1 2018
+*Section 1 - Project Management*</p>
+**Question 1**</p>
+1. You are a project manager (PM). An activity on the critical path is behind schedule. You hve no additional resource available. What do you do? (3)
+2. You are the PM and have successfully determined your scope. In addition to your project plan, you have several supporting plans. One of them being a risk management plan. Name another appropriate supporting plan and the purpose of it? (3)
+
+<details>
+<summary>1.1</summary>
+
+Two major options:
+* Move the project deadline to accommodate the delay
+* Reduce the scope of the project
+
+Both of these have to be discussed with the client
+</details>
+
+<details>
+<summary>2.2</summary>
+
+Human Resource plan.
+* Name key individuals and organisations: describe roles and responsibilities
+* Describe the number and type of people needed
+
+Communication and Management plan
+* Necessary for keeping requisite people informed about the project.
+* Clarify how they will receive this information
+    * Frequency
+    * Medium
+
+Marketing plan
+* Go to market strategy
+    * Target market, releasing content freely or as paid DLC, promotion, etc
+
+</details>
+
+**Question 2**</p>
+1. One of the few artefacts required in Scrum is the *Burndown Chart*. What is it and what does it provide? (3)
+2. What is test driven development? Highlight how it differs from more traditional software development methods. (5)
+3. Name a traditional software development method (1)
+
+<details>
+<summary>2.1</summary>
+
+A burndown chart tracks the progress of a sprint. It is a graphical plot of work left to do in a sprint against time. It can be used to identify the rate that work is being completed - which is known as velocity. It can give indications that work is too slow, or that things are quicker than expected
+</details>
+
+<details>
+<summary>2.2</summary>
+Test Driven Development (TDD) can be described as test first development + refactoring. TDD turns traditional development around and instead of writing functional code first and then testing your code, you first write your test code before your functional code. In addition, the development occurs in very small steps: one test and a small bit of code at a time. Once the code passes the test it is refactored to ensure it remains of high quality.
+
+The radical point is that new code is only written when an automated test fails.
+</details>
+
+<details>
+<summary>2.3</summary>
+Waterfall method
+</details>
+
+*Section 2 - Architecture*</p>
+**Question 3**</p>
+1. What is meant by software architecture? (2)
+2. Indicate whether the following statements are True or False
+    1. In agile development, architectures should be developed incrementally (1)
+    2. When designing complex applications, a single architectural model is mostly used (1)
+3. Briefly describe pipe and filter and draw a diagram to illustrate it (7)
+
+<details>
+<summary>3.1</summary>
+Multiple answers, but here are three:
+
+The software architecture of a program or computing system is the structure
+or structures of the system, which comprise software components, the externally visible
+properties of those components, and the relationships among them.
+
+Or IEEE: The fundamental concepts or properties of a system in its environment
+embodied in its elements, relationships, and in the principles of its design and evolution.
+
+Or outline: software architecture ≡ “the set of principal design decisions about the
+system”. It is about the BIG picture; the large scale: motivations, constraints,
+organization, patterns, responsibilities, connections of a system (or a system of systems)
+</details>
+
+<details>
+<summary>3.2.1</summary>
+False
+</details>
+
+<details>
+<summary>3.2.2</summary>
+False
+</details>
+
+<details>
+<summary>3.3</summary>
+A system is decomposed into a set of functional transformations that consume inputs and
+produce outputs. Data flows from one function to another (the pipeline) and is
+transformed as it passes through the sequence.
+
+![Pipe](img/pipeandfilter3.png)
+</details>
+
+**Question 4**</p>
+1. Which kind of UML diagram is most commonly used for logical layered architectures? (1)
+2. Name two layered reference architectures use in networking (2)
+3. Which programming language constructs are used to implement the concept of type? (2)
+4. Explain what is meant by *high cohesion*
+5. What is a very commonly used run-time organization pattern for distributed systems, particularly over the internet?
+6. Briefly explain the concept of *low representational gap* when designing classes and objects
+
+<details>
+<summary>4.1</summary>
+Package Diagram
+</details>
+
+<details>
+<summary>4.2</summary>
+OSI & TCP/IP
+</details>
+
+<details>
+<summary>4.3</summary>
+Abstract Classes & Interface
+</details>
+
+<details>
+<summary>4.4</summary>
+Cohesion is a measure of how strongly related and focused the responsibilities of an
+element are. A class with low cohesion does many unrelated activities or does too much
+work. A class with high cohesion has a relatively low number of methods with highly
+related functionality and doesn’t do much work.
+</details>
+
+<details>
+<summary>4.5</summary>
+Client Server
+</details>
+
+<details>
+<summary>4.6</summary>
+Classes/objects should closely correspond to real world objects
+</details>
