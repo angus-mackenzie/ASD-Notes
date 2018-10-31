@@ -1,10 +1,6 @@
 # Key Terms
 Here are some basic definitions and abbreviations that are useful for studying.
-
-
 ## Definitions
-
-
 **Software Engineering** - The Application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software.
 
 **Milestone** - Checkpoints throughout the life of a project. Identify when one or multiple groups of activities have been completed thus implying that a notable point has been reached in the project.
@@ -39,12 +35,12 @@ Here are some basic definitions and abbreviations that are useful for studying.
 
 **Domain Specific Software Architecture (DSSA)** - idea that for any given business, there will be existing architectures relevant to that business's domain which can be used to build an architecture tailored for that business
 
-
 **Vertical architecture** - layered, each layer uses previous layer, each layer has its own function
 
 **Horizontal architecture** - multi-tiered, can have aspects of application layer across all layers/tiers
 
 ## Abbreviations
+
 | Contraction | Definition |
 |---|---|
 |SDLC|Software Development Life Cycle|

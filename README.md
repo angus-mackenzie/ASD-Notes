@@ -21,7 +21,7 @@ This is a collection of notes I have made for my third year computer science cou
 11. [Open Source Software Development](ASD11.md)
 
 ## Notes
-Here are some basic summarizations I am still working on:
+Here are some basic summarizations:
 * [Summary](Summary.md)
 * [Key Terms](keyTerms.md)
 
@@ -30,3 +30,6 @@ Some [questions and answers](Practice.md) 📚
 
 ## PDFs
 [@Jethro](https://github.com/mlljet002) Added the [PDFs](/PDFs) folder if you want to print/read the documents.
+
+## Contributing
+Please feel free to help out, checkout the [contributing guidelines](contributing.md) before you do 👓

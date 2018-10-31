@@ -1,5 +1,5 @@
 # Summary <!-- omit in toc -->
-This is a summary of the content of ASD, I recommend reading through the other notes on this repository alongside this.
+This is a summary of the content of ASD, I recommend reading through the other notes on this repository alongside this. Mainly because there are some omissions.
 
 - [Introduction](#introduction)
     - [Software Engineering (SE)](#software-engineering-se)

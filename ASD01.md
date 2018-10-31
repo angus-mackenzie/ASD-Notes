@@ -1,1 +1,2 @@
-Still need to complete this
+# Background Information
+These notes have not been be compiled yet📅
