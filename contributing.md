@@ -1,9 +1,6 @@
 # Contributing
 These are notes compiled for a third year Computer Science course. Hence, they are not a total representation of ASD - but rather a representation of the course's contents. That being said - if you feel I have left anything out, could have explained something better, made an error somewhere, or anything at all- please feel free to contribute to this repository. 
 
-# Contributing
-These are notes compiled for a third year Computer Science course. Hence, they are not a total representation of ASD - but rather a representation of the course's contents. That being said - if you feel I have left anything out, could have explained something better, made an error somewhere, or anything at all- please feel free to contribute to this repository. 
-
 ## How To
 Format your Markdown however you like, as long as it is readable and gets the point across 🏄 
 
